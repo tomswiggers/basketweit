@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'bazar';
-    src: url('bazar-webfont.eot');
-    src: url('bazar-webfont.eot?#iefix') format('embedded-opentype'),
-         url('bazar-webfont.woff2') format('woff2'),
-         url('bazar-webfont.woff') format('woff'),
-         url('bazar-webfont.ttf') format('truetype'),
-         url('bazar-webfont.svg#bazarmedium') format('svg');
+    src: url('font/bazar-webfont.eot');
+    src: url('font/bazar-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/bazar-webfont.woff2') format('woff2'),
+         url('font/bazar-webfont.woff') format('woff'),
+         url('font/bazar-webfont.ttf') format('truetype'),
+         url('font/bazar-webfont.svg#bazarmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 

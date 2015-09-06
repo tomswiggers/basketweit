@@ -1,0 +1,37 @@
+name: Basketweit
+type: profile
+description: 'Installation profile for the basketweit website'
+core: 8.x
+# Required modules
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - help
+  - image
+  - menu_link_content
+  - menu_ui
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
+
+themes:
+  - seven
+  - bkw

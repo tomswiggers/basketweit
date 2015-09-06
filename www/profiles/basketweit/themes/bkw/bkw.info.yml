@@ -1,0 +1,26 @@
+name: Basketweit
+type: theme
+base theme: classy
+description: 'Basketweit theme'
+package: Core
+version: 8.1
+core: 8.x
+libraries:
+  - dd/purecdn
+  - dd/pure
+stylesheets-remove:
+  - core/assets/vendor/jquery.ui/themes/base/dialog.css
+  - @classy/css/layout.css
+quickedit_stylesheets:
+  - css/components/quickedit.css
+regions:
+  content: Content
+  messages: Messages
+  help: Help
+  primary_menu: 'Primary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+  breadcrumb: Breadcrumb
+regions_hidden:
+  - sidebar_first

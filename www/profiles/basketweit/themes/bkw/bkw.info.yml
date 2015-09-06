@@ -6,8 +6,8 @@ package: Core
 version: 8.1
 core: 8.x
 libraries:
-  - dd/purecdn
-  - dd/pure
+  - bkw/purecdn
+  - bkw/pure
 stylesheets-remove:
   - core/assets/vendor/jquery.ui/themes/base/dialog.css
   - @classy/css/layout.css

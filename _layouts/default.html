@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basket Weit</title>
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    {% include header.html %}
+    <section>
+        <article>
+            <ul>
+                <li>
+                    <ul class="games_ul">
+                        <li class="games_li">Gespeelde Wedstrijd</li>
+                        <li class="games_li">Basket Weit - 't Putteke</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="games_ul">
+                        <li class="games_li">Volgende Wedstrijd</li>
+                        <li class="games_li">Basket Weit - BBC Tielenhei</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </section>
+    {{ content }}
+    {% include sponsors.html %}
+    {% include footer.html %}
+</body>
+</html>

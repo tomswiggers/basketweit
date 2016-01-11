@@ -1,0 +1,121 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'bazarmedium';
+  src: url("../fonts/bazar-webfont.eot");
+  src: url("../fonts/bazar-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bazar-webfont.woff2") format("woff2"), url("../fonts/bazar-webfont.woff") format("woff"), url("../fonts/bazar-webfont.ttf") format("truetype"), url("../fonts/bazar-webfont.svg#bazarmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'bebas_neuebold';
+  src: url("../fonts/bebasneue_bold-webfont.eot");
+  src: url("../fonts/bebasneue_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_bold-webfont.woff2") format("woff2"), url("../fonts/bebasneue_bold-webfont.woff") format("woff"), url("../fonts/bebasneue_bold-webfont.ttf") format("truetype"), url("../fonts/bebasneue_bold-webfont.svg#bebas_neuebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'walkway_semiboldregular';
+  src: url("../fonts/walkway_semibold-webfont.eot");
+  src: url("../fonts/walkway_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/walkway_semibold-webfont.woff2") format("woff2"), url("../fonts/walkway_semibold-webfont.woff") format("woff"), url("../fonts/walkway_semibold-webfont.ttf") format("truetype"), url("../fonts/walkway_semibold-webfont.svg#walkway_semiboldregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.logo {
+  width: 104px;
+  height: 75px;
+  padding-left: 15px;
+  padding-top: 10px;
+  float: left;
+  position: fixed;
+  z-index: 99; }
+
+nav {
+  width: 100%;
+  height: 95px;
+  background-color: #0273BF;
+  border-bottom: 4px solid #104772;
+  position: fixed;
+  z-index: 0; }
+
+nav ul {
+  font-family: bebas_neuebold;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 38px;
+  float: right; }
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 40px; }
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; }
+
+nav ul li a:hover {
+  color: #104772;
+  border-bottom: 10px solid #104772;
+  padding-bottom: 21px; }
+
+.header {
+  width: 100%;
+  margin-left: 0 auto;
+  margin-right: 0 auto; }
+
+article ul li {
+  font-family: bazarmedium;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline;
+  text-align: center;
+  margin-right: 75px; }
+
+h1 {
+  font-family: bazarmedium;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0273BF;
+  padding-left: 150px; }
+
+.content {
+  margin-bottom: 35px; }
+
+article p {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: walkway_semiboldregular;
+  font-size: 12px;
+  line-height: 16px; }
+
+.sponsors {
+  width: 100%;
+  height: 160px;
+  background-color: #0273BF; }
+
+.sponsors h1 {
+  color: #ffffff;
+  padding-top: 15px; }
+
+footer {
+  background-color: #104772;
+  width: 100%;
+  height: 30px;
+  margin-top: -12px; }
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+  font-family: walkway_semiboldregular;
+  font-size: 12px;
+  padding-top: 10px; }
+
+footer a {
+  color: #ffffff;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

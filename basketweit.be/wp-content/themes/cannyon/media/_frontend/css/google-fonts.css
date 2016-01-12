@@ -1,0 +1,71 @@
+body div.mythemes-header-antet a.mythemes-blog-title{
+    font-family: "Oleo Script Swash Caps", cursive;
+}
+
+body h1,body h2,body h3,body h4,body h5,body h6,
+body .mythemes-page-header h1,body .mythemes-page-header nav,
+body article div.meta,
+body .mythemes-post-social span.mythemes-post-views strong,
+body .mythemes-gallery figure.mythemes-item figcaption h2,
+body div.mythemes-header a.header-description,
+body article div#jp-relatedposts div.jp-relatedposts-items-visual h4.jp-relatedposts-post-title,
+body article div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a,
+
+/* WIDGETS */
+body .mythemes-sidebar div.widget select,
+body div.widget_post_tags div.tagcloud a,body div.widget_tag_cloud div.tagcloud a,
+body aside.mythemes-header-items div.header-item div.widget h3,body aside.mythemes-header-items div.header-item div.widget_text h3{
+    font-family: Lato, Helvetica, Arial, sans-serif, serif;
+}
+
+body .mythemes-page-header div.mythemes-posts-found span,
+body article a.more-link,
+body div.pagination nav span,body div.pagination nav a,
+body div.comment-respond form.comment-form button.submit-comment,
+body footer .mythemes-copyright a.mythemes,
+
+body .btn,
+body .button,
+body .mythemes-button,
+body button,
+body input[type="submit"],
+body input[type="button"],
+body div#comments  p.form-submit input[type="submit"],
+body div.widget_newsletter form button[type="submit"],
+body .hentry input[type="button"],
+body .hentry input[type="submit"],
+body .hentry button,
+
+body div.mythemes-header div.header-button-wrapper a.btn.header-button,
+body div.mythemes-topper nav.header-menu ul.mythemes-menu-list li a,
+
+/* WIDGETS */
+body div.widget_calendar table th,
+body footer aside div.widget_calendar table th{
+    font-family: Montserrat, sans-serif, Arial, serif;
+}
+
+@media ( min-width: 1025px ) {
+	body div.mythemes-topper nav.header-menu ul.mythemes-menu-list ul li,
+  	body div.mythemes-topper nav.header-menu ul.mythemes-menu-list ul li a{
+    	font-family: Montserrat, sans-serif, Arial, serif;
+  	}
+}
+body, html,
+body .hentry,body .hentry p,body article p,
+body .mythemes-post-social span.mythemes-post-views span,
+body div.comment-respond h3.comment-reply-title small a,
+body .mythemes-gallery figure.mythemes-item div.mythemes-thumbnail figcaption p,
+body footer .mythemes-copyright p,
+body div.mythemes-header-antet a.mythemes-blog-description,
+body article div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-context,
+
+/* WIDGETS */
+body div.widget h4.widget-title,
+body footer aside div.widget_text div.textwidget, footer aside div.widget p,
+body footer aside div.widget > h5,
+body div.jetpack_subscription_widget div#subscribe-text,
+body div.jetpack_subscription_widget div.success p,
+body div.widget_contact_info div.confit-hours{
+    font-family: "Open Sans", sans-serif, Arial, serif;
+}

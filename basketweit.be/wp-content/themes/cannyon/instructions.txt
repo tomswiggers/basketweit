@@ -1,0 +1,166 @@
+Welcome Message !
+___________________________________________________
+
+Thank you for choosing myThem.es and use one of our WordPress Themes your choice is greatly appreciated!
+
+If you have any questions ask!
+
+And please help us to increase the theme quality ( report bugs ).
+
+Also please help us to increase the theme rank!
+
+
+
+Default content from Sidebars: Front Page, Footer, Blog, Single.
+___________________________________________________
+
+
+GENERAL ABOUT DEFAULT CONTENT
+
+...................................................
+
+The default content exists only in sidebars !
+
+The default content is hardcoded in theme files. But you can:
+
+1. Disable all default content and fill with your content.
+
+2. Replace only on section or more section with your content.
+
+You can hide all default content if you go to ADMIN DASHBOARD › APPEARANCE › CUSTOMIZE › ADDITIONAL and disable option "Display default content".
+To replace Header - Front Page default content ( from 3 sidebars )
+
+go to: Admin Dashboard › Appearance › Widgets
+
+here you have multiple sidebars ( can be collapsed ) and also you have next sidebars:
+
+...
+
+...
+
+Header - First Front Page Sidebar
+
+Header - Second Front Page Sidebar
+
+Header - Third Front Page Sidebar
+
+...
+
+...
+
+IMPORTANT: if the option "Display default content" is enabled and the Header Sidebars is empty then will be displayed the default content ( hardcoded ) from this sidebar.
+
+So, just is need to get and put a text widget to a header sidebar and fill the Text widget with you Title and with your Content.
+
+IMPORTANT: The widgets are placed in the left and the sidebars are placed in the right ( Appearance › Widgets ).
+
+
+FRONT PAGE
+...................................................
+
+In the home page below the HEADER image there are 3 components that are entitle:
+
+1. MANY COMPONENTS
+2. BLOCK MODEL
+3. RESPONSIVE LAYOUT
+
+Here we have three sidebars with default content. These are "Header Front Page Sidebars". If you go to Admin Dashboard › Appearance › Widgets you can see sidebars:
+
+1. Header - First Front Page sidebar
+2. Header - Second Front Page sidebar
+3. Header - Third Front Page sidebar
+
+You can replace the default content with your custom content. Just is need to put a "Text" widget to each "Header Front Page Sidebar" and fill it with your content.
+
+
+FOOTER
+...................................................
+
+In the footer before the copyright section there are 3 components that are entitle:
+
+1. Cannyon
+2. ADDRESS
+3. CONTACT
+4. WORKING HOURS
+
+Here we have three sidebars with default content. These are "Header Front Page Sidebars". If you go to Admin Dashboard › Appearance › Widgets you can see sidebars:
+
+1. Footer - First Sidebar ( is used the sample Text widget )
+2. Footer - Second Sidebar ( is used the sample Text widget )
+3. Footer - Third Sidebar ( is used the sample Text widget )
+4. Footer - Fourth Sidebar ( is used the sample Text widget )
+
+
+BLOG ( MAIN SIDEBAR )
+...................................................
+
+By default is used content from next widgets: "Search", "Tags Cloud" and "Categories".
+
+
+SINGLE POST ( SINGLE SIDEBAR )
+...................................................
+
+By default is used content from next widgets: "Post Meta [myThem.es]", "Post Categories [myThem.es]" and "Post Tags [myThem.es]".
+
+
+REPLACE CONTENT VS DISABLE DEFAULT CONTENT
+...................................................
+
+If you disable the default content then it will disable all default content from your web site ( sidebars with default content listed above ):
+
+
+- Front Page Heade Sidebars
+- Footer Sidebars
+- Main Blog Sidebar
+- Single Sidebar
+- ...
+
+Also you can replace the default content with your content. This will allow you to make one or more changes. You will not need to replace all default content.
+
+To replace the default content you need to add a widget with your content in the sidebar with default content ( listed above). The default content will automatically change with your content (only for this sidebar).
+
+
+
+Custom CSS and Customizations
+___________________________________________________
+
+This theme comes with special option. This option allow add custom css to customize your web site to your needs.
+
+To use it go to Admin Dashboard
+
+Appearance > Customize > Others - option "Custom css".
+
+You can use it for multiple case, just is need to add you css in this field.
+
+
+
+Customize the Theme
+___________________________________________________
+
+This theme comes with a set of options what allow you to customize content, header, layouts, social items and others.
+
+You can see theme options if you go to Admin Dashboard
+
+Appearance › Customize
+
+Here you can see:
+
+
+01. Site Identity
+02. Colors
+03. Background Image
+04. Header Image
+05. Header Elements
+06. Breadcrumbs
+07. Additional
+08. Layout
+09. Social
+10. Others
+10. Menus
+11. Widgets
+12. Static Front Page
+
+
+All you have to do is play with them and view live changes.
+
+Try and you will discover how easy it is to customize your own style.

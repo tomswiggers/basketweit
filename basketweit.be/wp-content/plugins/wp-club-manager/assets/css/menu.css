@@ -1,0 +1,77 @@
+.wpcm-club-medium-button {
+	display: block;
+	width: 60px;
+	height: 60px;
+	padding: 10px 10px 10px 9px;
+	border-radius: 3px;
+	border: 1px solid #bbbbbb;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	float: left;
+	margin: 5px;
+}
+	.wpcm-club-medium-button:hover {
+		border-color: #666;
+	}
+	.wpcm-club-medium-button img {
+		display: block;
+		margin: 0 auto;
+	}
+	.wpcm-club-medium-button span {
+		display: block;
+		margin-top: 2px;
+	}
+
+.wpcm-club-big-button {
+	display: block;
+	width: 120px;
+	height: 120px;
+	padding: 20px;
+	border-radius: 3px;
+	border: 1px solid #bbbbbb;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+	.wpcm-club-big-button:hover {
+		border-color: #666;
+	}
+	.wpcm-club-big-button img {
+		display: block;
+		margin: 0 auto;
+	}
+	.wpcm-club-big-button span {
+		display: block;
+		margin-top: 10px;
+	}
+
+/* TinyMCE buttons */
+i.mce-ico {
+	font: 400 20px/1 dashicons;
+}
+i.mce-i-wpcm_standings_button:before {
+	content: '\f239';
+}
+i.mce-i-wpcm_map_button:before {
+	content: '\f231';
+}
+i.mce-i-wpcm_matches_button:before {
+	content: '\f313';
+}
+i.mce-i-wpcm_players_button:before {
+	content: '\f307';
+}
+i.mce-i-wpcm_staff_button:before {
+	content: '\f338';
+}
+
+.wpclubmanager-extensions li.extension {
+	border: 1px solid #dcdcdc;
+	float: left;
+	display: inline-block;
+	height: 290px;
+	margin: 0 20px 20px 0;
+	padding: 15px;
+	width: 280px;
+}

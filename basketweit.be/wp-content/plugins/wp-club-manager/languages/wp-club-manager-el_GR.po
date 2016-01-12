@@ -1,0 +1,5124 @@
+#
+# Translators:
+# Filippos Sdralias <filippos.sdr@gmail.com>, 2015
+# Σμηλιάνης Σπυρίδων <spirossm@hyperwebhost.net>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Club Manager\n"
+"POT-Creation-Date: 2015-12-06 21:48-0000\n"
+"PO-Revision-Date: 2015-12-06 22:06-0000\n"
+"Last-Translator: \n"
+"Language-Team: Greek (Greece) (http://www.transifex.com/clubpress/wp-club-"
+"manager-1/language/el_GR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_c;"
+"_nc:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../wpclubmanager.php:74 ../wpclubmanager.php:83
+#: ../includes/admin/class-wpcm-admin-notices.php:89
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: ../includes/class-wpcm-ajax.php:62
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:334
+#: ../templates/content-single-club.php:71
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: ../includes/class-wpcm-ajax.php:67
+msgid "Latitude"
+msgstr "Γεωγραφικό πλάτος"
+
+#: ../includes/class-wpcm-ajax.php:72
+msgid "Longtitude"
+msgstr "Γεωγραφικό Μήκος"
+
+#: ../includes/class-wpcm-ajax.php:77
+msgid "Width"
+msgstr "Πλάτος"
+
+#: ../includes/class-wpcm-ajax.php:82 ../includes/class-wpcm-ajax.php:313
+#: ../includes/admin/importers/class-wpcm-player-importer.php:31
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:89
+#: ../includes/admin/settings/class-wpcm-settings-players.php:65
+#: ../includes/widgets/class-wpcm-widget-players.php:134
+#: ../templates/shortcodes/players.php:39
+#: ../templates/single-player/meta.php:64
+msgid "Height"
+msgstr "Ύψος"
+
+#: ../includes/class-wpcm-ajax.php:87
+msgid "Zoom"
+msgstr "Μεγέθυνση"
+
+#: ../includes/class-wpcm-ajax.php:92
+msgid "Display Marker"
+msgstr "Εμφάνιση δείκτη"
+
+#: ../includes/class-wpcm-ajax.php:97 ../includes/class-wpcm-ajax.php:274
+#: ../includes/class-wpcm-ajax.php:463 ../includes/class-wpcm-ajax.php:642
+#: ../includes/class-wpcm-ajax.php:811
+#, php-format
+msgid "Insert %s"
+msgstr "Εισαγωγή %s"
+
+#: ../includes/class-wpcm-ajax.php:97
+msgid "Map"
+msgstr "Χάρτης"
+
+#: ../includes/class-wpcm-ajax.php:116
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:31
+msgid "View all results"
+msgstr "Δείτε όλα τα αποτελέσματα"
+
+#: ../includes/class-wpcm-ajax.php:118 ../includes/class-wpcm-ajax.php:274
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:23
+msgid "Fixtures & Results"
+msgstr "Πρόγραμμα αγώνων & Αποτελέσματα"
+
+#: ../includes/class-wpcm-ajax.php:125
+msgid "January"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:126
+msgid "February"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:127
+msgid "March"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:128
+msgid "April"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:129
+msgid "May"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:130
+msgid "June"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:131
+msgid "July"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:132
+msgid "August"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:133
+msgid "September"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:134
+msgid "October"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:135
+msgid "November"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:136
+msgid "December"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:143
+msgid "Type"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:147
+msgid "Classic"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:148
+msgid "List"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:160 ../includes/class-wpcm-ajax.php:326
+#: ../includes/class-wpcm-ajax.php:508 ../includes/class-wpcm-ajax.php:687
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:33
+#: ../includes/widgets/class-wpcm-widget-players.php:151
+#: ../includes/widgets/class-wpcm-widget-results.php:33
+#: ../includes/widgets/class-wpcm-widget-sponsors.php:33
+#: ../includes/widgets/class-wpcm-widget-standings.php:33
+msgid "Title"
+msgstr "Τίτλος"
+
+#: ../includes/class-wpcm-ajax.php:165 ../includes/class-wpcm-ajax.php:697
+#: ../includes/class-wpcm-post-types.php:44
+#: ../includes/class-wpcm-post-types.php:52
+#: ../includes/admin/importers/class-wpcm-match-importer.php:30
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:97
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:123
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:64
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:130
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:47
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:85
+#: ../includes/widgets/class-wpcm-widget-results.php:47
+#: ../includes/widgets/class-wpcm-widget-results.php:90
+#: ../includes/widgets/class-wpcm-widget-standings.php:47
+msgid "Competition"
+msgstr "Κατηγορίες"
+
+#: ../includes/class-wpcm-ajax.php:169 ../includes/class-wpcm-ajax.php:186
+#: ../includes/class-wpcm-ajax.php:203 ../includes/class-wpcm-ajax.php:219
+#: ../includes/class-wpcm-ajax.php:232 ../includes/class-wpcm-ajax.php:340
+#: ../includes/class-wpcm-ajax.php:357 ../includes/class-wpcm-ajax.php:374
+#: ../includes/class-wpcm-ajax.php:522 ../includes/class-wpcm-ajax.php:539
+#: ../includes/class-wpcm-ajax.php:556 ../includes/class-wpcm-ajax.php:701
+#: ../includes/class-wpcm-ajax.php:718
+#: ../includes/abstracts/abstract-wpcm-widget.php:173
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:96
+#: ../includes/widgets/class-wpcm-widget-players.php:166
+#: ../includes/widgets/class-wpcm-widget-players.php:182
+#: ../includes/widgets/class-wpcm-widget-players.php:198
+msgid "All"
+msgstr "Όλες"
+
+#: ../includes/class-wpcm-ajax.php:182 ../includes/class-wpcm-ajax.php:311
+#: ../includes/class-wpcm-ajax.php:336 ../includes/class-wpcm-ajax.php:499
+#: ../includes/class-wpcm-ajax.php:518 ../includes/class-wpcm-ajax.php:714
+#: ../includes/class-wpcm-post-types.php:110
+#: ../includes/class-wpcm-post-types.php:118
+#: ../includes/admin/importers/class-wpcm-match-importer.php:31
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:98
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:124
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:130
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:79
+#: ../includes/admin/settings/class-wpcm-settings-players.php:81
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:57
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:53
+#: ../includes/widgets/class-wpcm-widget-players.php:137
+#: ../includes/widgets/class-wpcm-widget-players.php:163
+#: ../includes/widgets/class-wpcm-widget-results.php:53
+#: ../includes/widgets/class-wpcm-widget-standings.php:53
+#: ../templates/content-single-staff.php:84
+#: ../templates/shortcodes/players.php:42 ../templates/shortcodes/staff.php:37
+#: ../templates/single-player/meta.php:103
+msgid "Season"
+msgstr "Σεζόν"
+
+#: ../includes/class-wpcm-ajax.php:199 ../includes/class-wpcm-ajax.php:310
+#: ../includes/class-wpcm-ajax.php:353 ../includes/class-wpcm-ajax.php:498
+#: ../includes/class-wpcm-ajax.php:535
+#: ../includes/class-wpcm-post-types.php:132
+#: ../includes/class-wpcm-post-types.php:140
+#: ../includes/admin/importers/class-wpcm-match-importer.php:32
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:125
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:129
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:126
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:93
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:82
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:102
+#: ../includes/admin/settings/class-wpcm-settings-players.php:89
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:65
+#: ../includes/admin/views/html-bulk-edit-match.php:20
+#: ../includes/admin/views/html-quick-edit-match.php:20
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:59
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:90
+#: ../includes/widgets/class-wpcm-widget-players.php:136
+#: ../includes/widgets/class-wpcm-widget-players.php:179
+#: ../includes/widgets/class-wpcm-widget-results.php:59
+#: ../includes/widgets/class-wpcm-widget-results.php:95
+#: ../templates/content-single-staff.php:109
+#: ../templates/shortcodes/players.php:41 ../templates/shortcodes/staff.php:36
+#: ../templates/single-player/meta.php:128
+msgid "Team"
+msgstr "Ομάδα"
+
+#: ../includes/class-wpcm-ajax.php:216
+msgid "Month"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:228
+#: ../includes/class-wpcm-post-types.php:154
+#: ../includes/class-wpcm-post-types.php:162
+#: ../includes/admin/importers/class-wpcm-club-importer.php:29
+#: ../includes/admin/importers/class-wpcm-match-importer.php:33
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:107
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:125
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:65
+#: ../includes/widgets/class-wpcm-widget-results.php:65
+msgid "Venue"
+msgstr "Τόπος διεξαγωγής"
+
+#: ../includes/class-wpcm-ajax.php:245 ../includes/class-wpcm-ajax.php:777
+msgid "Show Thumbnail"
+msgstr "Εμφάνιση μικρογραφίας"
+
+#: ../includes/class-wpcm-ajax.php:250
+msgid "Link to Club Page"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:255 ../includes/class-wpcm-ajax.php:418
+#: ../includes/class-wpcm-ajax.php:597 ../includes/class-wpcm-ajax.php:758
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:100
+#: ../includes/widgets/class-wpcm-widget-players.php:268
+#: ../includes/widgets/class-wpcm-widget-results.php:105
+#: ../includes/widgets/class-wpcm-widget-standings.php:93
+msgid "Link text"
+msgstr "Σύνδεση κειμένου"
+
+#: ../includes/class-wpcm-ajax.php:260 ../includes/class-wpcm-ajax.php:423
+#: ../includes/class-wpcm-ajax.php:602 ../includes/class-wpcm-ajax.php:763
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:104
+#: ../includes/widgets/class-wpcm-widget-players.php:274
+#: ../includes/widgets/class-wpcm-widget-results.php:109
+#: ../includes/widgets/class-wpcm-widget-standings.php:97
+msgid "Link page"
+msgstr "Σελίδα σύνδεσης"
+
+#: ../includes/class-wpcm-ajax.php:264 ../includes/class-wpcm-ajax.php:427
+#: ../includes/class-wpcm-ajax.php:606 ../includes/class-wpcm-ajax.php:767
+#: ../includes/wpcm-match-functions.php:116
+#: ../includes/abstracts/abstract-wpcm-widget.php:191
+#: ../includes/abstracts/abstract-wpcm-widget.php:206
+#: ../includes/admin/class-wpcm-admin-settings.php:494
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:67
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:82
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:110
+#: ../includes/widgets/class-wpcm-widget-players.php:277
+#: ../templates/shortcodes/players.php:173
+#: ../templates/shortcodes/staff.php:141
+#: ../templates/single-player/meta.php:218
+msgid "None"
+msgstr "Κανένας"
+
+#: ../includes/class-wpcm-ajax.php:292
+#: ../includes/widgets/class-wpcm-widget-players.php:114
+#: ../templates/shortcodes/players.php:19
+msgid "View all players"
+msgstr "Προβολή όλων των παικτών"
+
+#: ../includes/class-wpcm-ajax.php:295 ../includes/class-wpcm-ajax.php:463
+#: ../includes/class-wpcm-post-types.php:222
+#: ../includes/class-wpcm-post-types.php:234
+#: ../includes/admin/class-wpcm-admin-permalink-settings.php:28
+#: ../includes/admin/settings/class-wpcm-settings-players.php:22
+#: ../includes/widgets/class-wpcm-widget-players.php:117
+#: ../templates/shortcodes/players.php:22
+msgid "Players"
+msgstr "Παίκτες"
+
+#: ../includes/class-wpcm-ajax.php:301
+#: ../includes/widgets/class-wpcm-widget-players.php:125
+msgid "Appearances"
+msgstr "Συμμετοχές"
+
+#: ../includes/class-wpcm-ajax.php:301
+#: ../includes/widgets/class-wpcm-widget-players.php:125
+#: ../templates/shortcodes/players.php:46
+msgid "Sub Appearances"
+msgstr ""
+
+#: ../includes/class-wpcm-ajax.php:304 ../includes/class-wpcm-ajax.php:491
+msgid "Thumbnail"
+msgstr "Μικρογραφία"
+
+#: ../includes/class-wpcm-ajax.php:305 ../includes/class-wpcm-ajax.php:492
+#: ../includes/widgets/class-wpcm-widget-players.php:129
+msgid "Flag"
+msgstr "Σημαία"
+
+#: ../includes/class-wpcm-ajax.php:306 ../includes/class-wpcm-ajax.php:390
+#: ../includes/admin/importers/class-wpcm-player-importer.php:25
+#: ../includes/admin/settings/class-wpcm-settings-players.php:41
+#: ../includes/widgets/class-wpcm-widget-players.php:130
+#: ../includes/widgets/class-wpcm-widget-players.php:213
+msgid "Number"
+msgstr "Αριθμός"
+
+#: ../includes/class-wpcm-ajax.php:307 ../includes/class-wpcm-ajax.php:493
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:181
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:220
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:239
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:333
+#: ../includes/admin/importers/class-wpcm-club-importer.php:25
+#: ../includes/admin/importers/class-wpcm-player-importer.php:26
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:25
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:127
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:124
+#: ../includes/admin/views/html-admin-page-status.php:261
+#: ../includes/widgets/class-wpcm-widget-players.php:131
+#: ../templates/shortcodes/players.php:35 ../templates/shortcodes/staff.php:30
+#: ../templates/single-match/lineup.php:39
+#: ../templates/single-match/lineup.php:101
+msgid "Name"
+msgstr "Όνομα"
+
+#: ../includes/class-wpcm-ajax.php:308 ../includes/class-wpcm-ajax.php:370
+#: ../includes/class-wpcm-post-types.php:88
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:128
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:54
+#: ../includes/admin/settings/class-wpcm-settings-players.php:97
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:95
+#: ../includes/widgets/class-wpcm-widget-players.php:132
+#: ../includes/widgets/class-wpcm-widget-players.php:195
+#: ../templates/shortcodes/players.php:37
+#: ../templates/single-player/meta.php:153
+msgid "Position"
+msgstr "Θέση"
+
+#: ../includes/class-wpcm-ajax.php:309 ../includes/class-wpcm-ajax.php:497
+#: ../includes/admin/settings/class-wpcm-settings-players.php:57
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:49
+#: ../includes/widgets/class-wpcm-widget-players.php:133
+#: ../templates/content-single-staff.php:61
+#: ../templates/shortcodes/players.php:38 ../templates/shortcodes/staff.php:35
+#: ../templates/single-player/meta.php:50
+msgid "Age"
+msgstr "Ηλικία"
+
+#: ../includes/class-wpcm-ajax.php:312
+#: ../includes/admin/importers/class-wpcm-player-importer.php:30
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:29
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:71
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-staff-details.php:70
+#: ../includes/admin/settings/class-wpcm-settings-players.php:49
+#: ../includes/widgets/class-wpcm-widget-players.php:138
+#: ../templates/shortcodes/players.php:43
+msgid "Date of Birth"
+msgstr "Ημερομηνία Γέννησης"
+
+#: ../includes/class-wpcm-ajax.php:314
+#: ../includes/admin/importers/class-wpcm-player-importer.php:32
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:91
+#: ../includes/admin/settings/class-wpcm-settings-players.php:73
+#: ../includes/widgets/class-wpcm-widget-players.php:135
+#: ../templates/shortcodes/players.php:40
+#: ../templates/single-player/meta.php:79
+msgid "Weight"
+msgstr "Βάρος"
+
+#: ../includes/class-wpcm-ajax.php:315
+#: ../includes/widgets/class-wpcm-widget-players.php:139
+#: ../templates/shortcodes/players.php:44
+msgid "Hometown"
+msgstr "Τόπος καταγωγής"
+
+#: ../includes/class-wpcm-ajax.php:316 ../includes/class-wpcm-ajax.php:500
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:105
+#: ../includes/widgets/class-wpcm-widget-players.php:140
+#: ../templates/content-single-staff.php:193
+#: ../templates/shortcodes/players.php:45 ../templates/shortcodes/staff.php:38
+#: ../templates/single-player/meta.php:183
+msgid "Joined"
+msgstr "Εντάχθηκε"
+
+#: ../includes/class-wpcm-ajax.php:331 ../includes/class-wpcm-ajax.php:513
+#: ../includes/class-wpcm-ajax.php:692
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:41
+#: ../includes/widgets/class-wpcm-widget-players.php:157
+#: ../includes/widgets/class-wpcm-widget-results.php:41
+#: ../includes/widgets/class-wpcm-widget-standings.php:41
+msgid "Limit"
+msgstr "Όριο"
+
+#: ../includes/class-wpcm-ajax.php:332 ../includes/class-wpcm-ajax.php:514
+#: ../includes/class-wpcm-ajax.php:693
+msgid "0 = no limit"
+msgstr "0 = χωρίς όριο"
+
+#: ../includes/class-wpcm-ajax.php:387 ../includes/class-wpcm-ajax.php:569
+#: ../includes/class-wpcm-ajax.php:731
+#: ../includes/widgets/class-wpcm-widget-players.php:211
+msgid "Order by"
+msgstr "Ταξινόμηση κατά"
+
+#: ../includes/class-wpcm-ajax.php:391 ../includes/class-wpcm-ajax.php:573
+#: ../includes/widgets/class-wpcm-widget-players.php:214
+msgid "Page order"
+msgstr "Για την σελίδα"
+
+#: ../includes/class-wpcm-ajax.php:392 ../includes/class-wpcm-ajax.php:572
+msgid "Alphabetical"
+msgstr "Αλφαβητικά"
+
+#: ../includes/class-wpcm-ajax.php:401 ../includes/class-wpcm-ajax.php:580
+#: ../includes/class-wpcm-ajax.php:743
+#: ../includes/widgets/class-wpcm-widget-players.php:225
+#: ../includes/widgets/class-wpcm-widget-standings.php:63
+msgid "Order"
+msgstr "Ταξινόμηση"
+
+#: ../includes/class-wpcm-ajax.php:405 ../includes/class-wpcm-ajax.php:584
+#: ../includes/class-wpcm-ajax.php:746
+#: ../includes/widgets/class-wpcm-widget-players.php:228
+msgid "Lowest to highest"
+msgstr "Το χαμηλότερο στο υψηλότερο"
+
+#: ../includes/class-wpcm-ajax.php:406 ../includes/class-wpcm-ajax.php:585
+#: ../includes/class-wpcm-ajax.php:747
+#: ../includes/widgets/class-wpcm-widget-players.php:229
+msgid "Highest to lowest"
+msgstr "Το υψηλότερο στο χαμηλότερο"
+
+#: ../includes/class-wpcm-ajax.php:437 ../includes/class-wpcm-ajax.php:616
+msgid "Display options"
+msgstr "Επιλογές εμφάνισης"
+
+#: ../includes/class-wpcm-ajax.php:483 ../templates/shortcodes/staff.php:21
+msgid "View all staff"
+msgstr "Προβολή όλου του προσωπικού"
+
+#: ../includes/class-wpcm-ajax.php:486 ../includes/class-wpcm-ajax.php:642
+#: ../includes/class-wpcm-install.php:179
+#: ../includes/class-wpcm-post-types.php:258
+#: ../includes/class-wpcm-post-types.php:259
+#: ../includes/class-wpcm-post-types.php:270
+#: ../includes/admin/class-wpcm-admin-permalink-settings.php:29
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:22
+#: ../templates/shortcodes/staff.php:20
+msgid "Staff"
+msgstr "Προσωπικό"
+
+#: ../includes/class-wpcm-ajax.php:494
+#: ../includes/class-wpcm-post-types.php:66
+#: ../templates/content-single-staff.php:134
+#: ../templates/shortcodes/staff.php:32
+msgid "Job"
+msgstr "Εργασία"
+
+#: ../includes/class-wpcm-ajax.php:495
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:31
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:81
+#: ../templates/content-single-staff.php:150
+#: ../templates/shortcodes/staff.php:33
+msgid "Email"
+msgstr "Ηλεκτρονικό ταχυδρομείο"
+
+#: ../includes/class-wpcm-ajax.php:496
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:32
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:89
+#: ../templates/content-single-staff.php:165
+#: ../templates/shortcodes/staff.php:34
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: ../includes/class-wpcm-ajax.php:552
+#: ../includes/class-wpcm-post-types.php:65
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:26
+msgid "Jobs"
+msgstr "Θέση εργασίας"
+
+#: ../includes/class-wpcm-ajax.php:574 ../includes/class-wpcm-ajax.php:737
+msgid "Random"
+msgstr "Τυχαία"
+
+#: ../includes/class-wpcm-ajax.php:660
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:99
+#: ../includes/widgets/class-wpcm-widget-results.php:104
+#: ../includes/widgets/class-wpcm-widget-standings.php:92
+#: ../templates/shortcodes/standings.php:19
+msgid "View all standings"
+msgstr "Προβολή όλων των βαθμολογιών"
+
+#: ../includes/class-wpcm-ajax.php:663 ../includes/class-wpcm-ajax.php:811
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:22
+#: ../includes/widgets/class-wpcm-widget-standings.php:32
+#: ../templates/shortcodes/standings.php:22
+msgid "Standings"
+msgstr "Βαθμολογίες"
+
+#: ../includes/class-wpcm-ajax.php:784
+msgid "Link to Clubs"
+msgstr "Σύνδεσμος του συλλόγου"
+
+#: ../includes/class-wpcm-ajax.php:791
+msgid "Display columns"
+msgstr "Στήλες εμφάνισης"
+
+#: ../includes/class-wpcm-countries.php:32
+msgid "Afghanistan"
+msgstr "Αφγανιστάν"
+
+#: ../includes/class-wpcm-countries.php:33
+msgid "&#197;land Islands"
+msgstr "Νησιά Άλαντ"
+
+#: ../includes/class-wpcm-countries.php:34
+msgid "Albania"
+msgstr "Αλβανία"
+
+#: ../includes/class-wpcm-countries.php:35
+msgid "Algeria"
+msgstr "Αλγερία"
+
+#: ../includes/class-wpcm-countries.php:36
+msgid "American Samoa"
+msgstr "Αμερικανική Σαμόα"
+
+#: ../includes/class-wpcm-countries.php:37
+msgid "Andorra"
+msgstr "Ανδόρα"
+
+#: ../includes/class-wpcm-countries.php:38
+msgid "Angola"
+msgstr "Ανγκόλα"
+
+#: ../includes/class-wpcm-countries.php:39
+msgid "Anguilla"
+msgstr "Ανγκουίλα"
+
+#: ../includes/class-wpcm-countries.php:40
+msgid "Antarctica"
+msgstr "Ανταρκτική"
+
+#: ../includes/class-wpcm-countries.php:41
+msgid "Antigua and Barbuda"
+msgstr "Αντίγκουα και Μπαρμπούντα"
+
+#: ../includes/class-wpcm-countries.php:42
+msgid "Argentina"
+msgstr "Αργεντινή"
+
+#: ../includes/class-wpcm-countries.php:43
+msgid "Armenia"
+msgstr "Αρμενία"
+
+#: ../includes/class-wpcm-countries.php:44
+msgid "Aruba"
+msgstr "Αρούμπα"
+
+#: ../includes/class-wpcm-countries.php:45
+msgid "Australia"
+msgstr "Αυστραλία"
+
+#: ../includes/class-wpcm-countries.php:46
+msgid "Austria"
+msgstr "Αυστρία"
+
+#: ../includes/class-wpcm-countries.php:47
+msgid "Azerbaijan"
+msgstr "Αζερμπαϊτζάν"
+
+#: ../includes/class-wpcm-countries.php:48
+msgid "Bahamas"
+msgstr "Μπαχάμες"
+
+#: ../includes/class-wpcm-countries.php:49
+msgid "Bahrain"
+msgstr "Μπαχρέιν"
+
+#: ../includes/class-wpcm-countries.php:50
+msgid "Bangladesh"
+msgstr "Μπαγκλαντές"
+
+#: ../includes/class-wpcm-countries.php:51
+msgid "Barbados"
+msgstr "Μπαρμπάντος"
+
+#: ../includes/class-wpcm-countries.php:52
+msgid "Belarus"
+msgstr "Λευκορωσία"
+
+#: ../includes/class-wpcm-countries.php:53
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+#: ../includes/class-wpcm-countries.php:54
+msgid "Belize"
+msgstr "Μπελίζ"
+
+#: ../includes/class-wpcm-countries.php:55
+msgid "Benin"
+msgstr "Μπενίν"
+
+#: ../includes/class-wpcm-countries.php:56
+msgid "Bermuda"
+msgstr "Βερμούδα"
+
+#: ../includes/class-wpcm-countries.php:57
+msgid "Bhutan"
+msgstr "Μπουτάν"
+
+#: ../includes/class-wpcm-countries.php:58
+msgid "Bolivia"
+msgstr "Βολιβία"
+
+#: ../includes/class-wpcm-countries.php:59
+msgid "Bosnia and Herzegovina"
+msgstr "Βοσνία και Ερζεγοβίνη"
+
+#: ../includes/class-wpcm-countries.php:60
+msgid "Botswana"
+msgstr "Μποτσουάνα"
+
+#: ../includes/class-wpcm-countries.php:61
+msgid "Bouvet Island"
+msgstr "Νήσος Μπουβέ"
+
+#: ../includes/class-wpcm-countries.php:62
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+#: ../includes/class-wpcm-countries.php:63
+msgid "British Indian Ocean Territory"
+msgstr "Βρετανικό Έδαφος του Ινδικού Ωκεανού"
+
+#: ../includes/class-wpcm-countries.php:64
+msgid "Brunei Darussalam"
+msgstr "Μπρουνέι Νταρουσαλάμ"
+
+#: ../includes/class-wpcm-countries.php:65
+msgid "Bulgaria"
+msgstr "Βουλγαρία"
+
+#: ../includes/class-wpcm-countries.php:66
+msgid "Burkina Faso"
+msgstr "Μπουρκίνα Φάσο"
+
+#: ../includes/class-wpcm-countries.php:67
+msgid "Burundi"
+msgstr "Μπουρούντι"
+
+#: ../includes/class-wpcm-countries.php:68
+msgid "Cambodia"
+msgstr "Καμπότζη"
+
+#: ../includes/class-wpcm-countries.php:69
+msgid "Cameroon"
+msgstr "Καμερούν"
+
+#: ../includes/class-wpcm-countries.php:70
+msgid "Canada"
+msgstr "Καναδάς"
+
+#: ../includes/class-wpcm-countries.php:71
+msgid "Cape Verde"
+msgstr "Πράσινο Ακρωτήριο"
+
+#: ../includes/class-wpcm-countries.php:72
+msgid "Catalonia"
+msgstr "Καταλονία"
+
+#: ../includes/class-wpcm-countries.php:73
+msgid "Cayman Islands"
+msgstr "Νησιά Καϊμάν"
+
+#: ../includes/class-wpcm-countries.php:74
+msgid "Central African Republic"
+msgstr "Κεντρική Αφρικανική Δημοκρατία"
+
+#: ../includes/class-wpcm-countries.php:75
+msgid "Chad"
+msgstr "Τσαντ"
+
+#: ../includes/class-wpcm-countries.php:76
+msgid "Chile"
+msgstr "Χιλή"
+
+#: ../includes/class-wpcm-countries.php:77
+msgid "China"
+msgstr "Κίνα"
+
+#: ../includes/class-wpcm-countries.php:78
+msgid "Christmas Island"
+msgstr "Νήσος των Χριστουγέννων"
+
+#: ../includes/class-wpcm-countries.php:79
+msgid "Cocos (Keeling) Islands"
+msgstr "Νήσοι Κόκος"
+
+#: ../includes/class-wpcm-countries.php:80
+msgid "Colombia"
+msgstr "Κολομβία"
+
+#: ../includes/class-wpcm-countries.php:81
+msgid "Comoros"
+msgstr "Κομόρες"
+
+#: ../includes/class-wpcm-countries.php:82
+msgid "Congo"
+msgstr "Κογκό"
+
+#: ../includes/class-wpcm-countries.php:83
+msgid "Congo DR"
+msgstr "Λαοκρατική Δημοκρατία του Κονγκό"
+
+#: ../includes/class-wpcm-countries.php:84
+msgid "Cook Islands"
+msgstr "Νήσοι Κουκ"
+
+#: ../includes/class-wpcm-countries.php:85
+msgid "Costa Rica"
+msgstr "Κόστα Ρίκα"
+
+#: ../includes/class-wpcm-countries.php:86
+msgid "Croatia"
+msgstr "Κροατία"
+
+#: ../includes/class-wpcm-countries.php:87
+msgid "Cuba"
+msgstr "Κούβα"
+
+#: ../includes/class-wpcm-countries.php:88
+msgid "Cyprus"
+msgstr "Κύπρος"
+
+#: ../includes/class-wpcm-countries.php:89
+msgid "Czech Republic"
+msgstr "Δημοκρατία της Τσεχίας"
+
+#: ../includes/class-wpcm-countries.php:90
+msgid "Denmark"
+msgstr "Δανία"
+
+#: ../includes/class-wpcm-countries.php:91
+msgid "Djibouti"
+msgstr "Τζιμπουτί"
+
+#: ../includes/class-wpcm-countries.php:92
+msgid "Dominica"
+msgstr "Ντομίνικα"
+
+#: ../includes/class-wpcm-countries.php:93
+msgid "Dominican Republic"
+msgstr "Δομινικανή Δημοκρατία"
+
+#: ../includes/class-wpcm-countries.php:94
+msgid "Ecuador"
+msgstr "Εκουαδόρ"
+
+#: ../includes/class-wpcm-countries.php:95
+msgid "Egypt"
+msgstr "Αίγυπτος"
+
+#: ../includes/class-wpcm-countries.php:96
+msgid "El Salvador"
+msgstr "Ελ Σαλβαδόρ"
+
+#: ../includes/class-wpcm-countries.php:97
+msgid "England"
+msgstr "Αγγλία"
+
+#: ../includes/class-wpcm-countries.php:98
+msgid "Equatorial Guinea"
+msgstr "Ισημερινή Γουινέα"
+
+#: ../includes/class-wpcm-countries.php:99
+msgid "Eritrea"
+msgstr "Ερυθραία"
+
+#: ../includes/class-wpcm-countries.php:100
+msgid "Estonia"
+msgstr "Εσθονία"
+
+#: ../includes/class-wpcm-countries.php:101
+msgid "Ethiopia"
+msgstr "Αιθιοπία"
+
+#: ../includes/class-wpcm-countries.php:102
+msgid "Falkland Islands"
+msgstr "Νησιά Φώκλαντ"
+
+#: ../includes/class-wpcm-countries.php:103
+msgid "Faroe Islands"
+msgstr "Νησιά Φερόε"
+
+#: ../includes/class-wpcm-countries.php:104
+msgid "Fiji"
+msgstr "Φίτζι"
+
+#: ../includes/class-wpcm-countries.php:105
+msgid "Finland"
+msgstr "Φινλανδία"
+
+#: ../includes/class-wpcm-countries.php:106
+msgid "France"
+msgstr "Γαλλία"
+
+#: ../includes/class-wpcm-countries.php:107
+msgid "French Guiana"
+msgstr "Γαλλική Γουιάνα"
+
+#: ../includes/class-wpcm-countries.php:108
+msgid "French Polynesia"
+msgstr "Γαλλική Πολυνησία"
+
+#: ../includes/class-wpcm-countries.php:109
+msgid "French Southern Territories"
+msgstr "Γαλλικά Νότια Εδάφη"
+
+#: ../includes/class-wpcm-countries.php:110
+msgid "Gabon"
+msgstr "Γκαμπόν"
+
+#: ../includes/class-wpcm-countries.php:111
+msgid "Gambia"
+msgstr "Γκάμπια"
+
+#: ../includes/class-wpcm-countries.php:112
+msgid "Georgia"
+msgstr "Γεωργία"
+
+#: ../includes/class-wpcm-countries.php:113
+msgid "Germany"
+msgstr "Γερμανία"
+
+#: ../includes/class-wpcm-countries.php:114
+msgid "Ghana"
+msgstr "Γκάνα"
+
+#: ../includes/class-wpcm-countries.php:115
+msgid "Gibraltar"
+msgstr "Γιβραλτάρ"
+
+#: ../includes/class-wpcm-countries.php:116
+msgid "Greece"
+msgstr "Ελλάδα"
+
+#: ../includes/class-wpcm-countries.php:117
+msgid "Greenland"
+msgstr "Γροιλανδία"
+
+#: ../includes/class-wpcm-countries.php:118
+msgid "Grenada"
+msgstr "Γρενάδα"
+
+#: ../includes/class-wpcm-countries.php:119
+msgid "Guadeloupe"
+msgstr "Γουαδελούπη"
+
+#: ../includes/class-wpcm-countries.php:120
+msgid "Guam"
+msgstr "Γκουάμ"
+
+#: ../includes/class-wpcm-countries.php:121
+msgid "Guatemala"
+msgstr "Γουατεμάλα"
+
+#: ../includes/class-wpcm-countries.php:122
+msgid "Guernsey"
+msgstr "Γκέρνσεϋ"
+
+#: ../includes/class-wpcm-countries.php:123
+msgid "Guinea"
+msgstr "Γουινέα"
+
+#: ../includes/class-wpcm-countries.php:124
+msgid "Guinea-Bissau"
+msgstr "Γουινέα-Μπισάου"
+
+#: ../includes/class-wpcm-countries.php:125
+msgid "Guyana"
+msgstr "Γουιάνα"
+
+#: ../includes/class-wpcm-countries.php:126
+msgid "Haiti"
+msgstr "Αϊτή"
+
+#: ../includes/class-wpcm-countries.php:127
+msgid "Heard Island and McDonald Islands"
+msgstr "Νήσοι Χερντ και Νησιά Μακντόναλντ"
+
+#: ../includes/class-wpcm-countries.php:128
+msgid "Holy See (Vatican City State)"
+msgstr "Αγία Έδρα (Πόλη του Βατικανού)"
+
+#: ../includes/class-wpcm-countries.php:129
+msgid "Honduras"
+msgstr "Ονδούρα"
+
+#: ../includes/class-wpcm-countries.php:130
+msgid "Hong Kong"
+msgstr "Χονγκ Κονγκ"
+
+#: ../includes/class-wpcm-countries.php:131
+msgid "Hungary"
+msgstr "Ουγγαρία"
+
+#: ../includes/class-wpcm-countries.php:132
+msgid "Iceland"
+msgstr "Ισλανδία"
+
+#: ../includes/class-wpcm-countries.php:133
+msgid "India"
+msgstr "Ινδία"
+
+#: ../includes/class-wpcm-countries.php:134
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+#: ../includes/class-wpcm-countries.php:135
+msgid "Iran"
+msgstr "Ιράν"
+
+#: ../includes/class-wpcm-countries.php:136
+msgid "Iraq"
+msgstr "Ιράκ"
+
+#: ../includes/class-wpcm-countries.php:137
+msgid "Ireland"
+msgstr "Ιρλανδία"
+
+#: ../includes/class-wpcm-countries.php:138
+msgid "Isle of Man"
+msgstr "Νήσος του Μαν"
+
+#: ../includes/class-wpcm-countries.php:139
+msgid "Israel"
+msgstr "Ισραήλ"
+
+#: ../includes/class-wpcm-countries.php:140
+msgid "Italy"
+msgstr "Ιταλία"
+
+#: ../includes/class-wpcm-countries.php:141
+msgid "Ivory Coast"
+msgstr "Ακτή Ελεφαντοστού"
+
+#: ../includes/class-wpcm-countries.php:142
+msgid "Jamaica"
+msgstr "Τζαμάικα"
+
+#: ../includes/class-wpcm-countries.php:143
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+#: ../includes/class-wpcm-countries.php:144
+msgid "Jersey"
+msgstr "Τζέρσεϋ"
+
+#: ../includes/class-wpcm-countries.php:145
+msgid "Jordan"
+msgstr "Ιορδανία"
+
+#: ../includes/class-wpcm-countries.php:146
+msgid "Kazakhstan"
+msgstr "Καζακστάν"
+
+#: ../includes/class-wpcm-countries.php:147
+msgid "Kenya"
+msgstr "Κένυα"
+
+#: ../includes/class-wpcm-countries.php:148
+msgid "Kiribati"
+msgstr "Κιριμπάτι"
+
+#: ../includes/class-wpcm-countries.php:149
+msgid "Kosovo"
+msgstr "Κόσοβο"
+
+#: ../includes/class-wpcm-countries.php:150
+msgid "Kuwait"
+msgstr "Κουβέιτ"
+
+#: ../includes/class-wpcm-countries.php:151
+msgid "Kyrgyzstan"
+msgstr "Κιργιστάν"
+
+#: ../includes/class-wpcm-countries.php:152
+msgid "Laos"
+msgstr "Λάος"
+
+#: ../includes/class-wpcm-countries.php:153
+msgid "Latvia"
+msgstr "Λετονία"
+
+#: ../includes/class-wpcm-countries.php:154
+msgid "Lebanon"
+msgstr "Λίβανος"
+
+#: ../includes/class-wpcm-countries.php:155
+msgid "Lesotho"
+msgstr "Λεσόθο"
+
+#: ../includes/class-wpcm-countries.php:156
+msgid "Liberia"
+msgstr "Λιβερία"
+
+#: ../includes/class-wpcm-countries.php:157
+msgid "Libya"
+msgstr "Λιβύη"
+
+#: ../includes/class-wpcm-countries.php:158
+msgid "Liechtenstein"
+msgstr "Λιχτενστάιν"
+
+#: ../includes/class-wpcm-countries.php:159
+msgid "Lithuania"
+msgstr "Λιθουανία"
+
+#: ../includes/class-wpcm-countries.php:160
+msgid "Luxembourg"
+msgstr "Λουξεμβούργο"
+
+#: ../includes/class-wpcm-countries.php:161
+msgid "Macao"
+msgstr "Μακάο"
+
+#: ../includes/class-wpcm-countries.php:162
+msgid "Macedonia"
+msgstr "ΠΓΔΜ"
+
+#: ../includes/class-wpcm-countries.php:163
+msgid "Madagascar"
+msgstr "Μαδαγασκάρη"
+
+#: ../includes/class-wpcm-countries.php:164
+msgid "Malawi"
+msgstr "Μαλάουι"
+
+#: ../includes/class-wpcm-countries.php:165
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+#: ../includes/class-wpcm-countries.php:166
+msgid "Maldives"
+msgstr "Μαλδίβες"
+
+#: ../includes/class-wpcm-countries.php:167
+msgid "Mali"
+msgstr "Μάλι"
+
+#: ../includes/class-wpcm-countries.php:168
+msgid "Malta"
+msgstr "Μάλτα"
+
+#: ../includes/class-wpcm-countries.php:169
+msgid "Marshall Islands"
+msgstr "Νησιά Μάρσαλ"
+
+#: ../includes/class-wpcm-countries.php:170
+msgid "Martinique"
+msgstr "Μαρτινίκα"
+
+#: ../includes/class-wpcm-countries.php:171
+msgid "Mauritania"
+msgstr "Μαυριτανία"
+
+#: ../includes/class-wpcm-countries.php:172
+msgid "Mauritius"
+msgstr "Μαυρίκιος"
+
+#: ../includes/class-wpcm-countries.php:173
+msgid "Mayotte"
+msgstr "Μαγιότ"
+
+#: ../includes/class-wpcm-countries.php:174
+msgid "Mexico"
+msgstr "Μεξικό"
+
+#: ../includes/class-wpcm-countries.php:175
+msgid "Micronesia, Federal States of"
+msgstr "Ομόσπονδες Πολιτείες της Μικρονησίας"
+
+#: ../includes/class-wpcm-countries.php:176
+msgid "Moldova, Republic of"
+msgstr "Δημοκρατία της Μολδαβίας"
+
+#: ../includes/class-wpcm-countries.php:177
+msgid "Monaco"
+msgstr "Μονακό"
+
+#: ../includes/class-wpcm-countries.php:178
+msgid "Mongolia"
+msgstr "Μογγολία"
+
+#: ../includes/class-wpcm-countries.php:179
+msgid "Monserrat"
+msgstr "Μονσεράτ"
+
+#: ../includes/class-wpcm-countries.php:180
+msgid "Montenegro"
+msgstr "Μαυροβούνιο"
+
+#: ../includes/class-wpcm-countries.php:181
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+#: ../includes/class-wpcm-countries.php:182
+msgid "North Korea"
+msgstr "Βόρεια Κορέα"
+
+#: ../includes/class-wpcm-countries.php:183
+msgid "Mozambique"
+msgstr "Μοζαμβίκη"
+
+#: ../includes/class-wpcm-countries.php:184
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+#: ../includes/class-wpcm-countries.php:185
+msgid "Namibia"
+msgstr "Ναμίμπια"
+
+#: ../includes/class-wpcm-countries.php:186
+msgid "Nauru"
+msgstr "Ναουρού"
+
+#: ../includes/class-wpcm-countries.php:187
+msgid "Nepal"
+msgstr "Νεπάλ"
+
+#: ../includes/class-wpcm-countries.php:188
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+#: ../includes/class-wpcm-countries.php:189
+msgid "New Caledonia"
+msgstr "Νέα Καληδονία"
+
+#: ../includes/class-wpcm-countries.php:190
+msgid "New Zealand"
+msgstr "Νέα Ζηλανδία"
+
+#: ../includes/class-wpcm-countries.php:191
+msgid "Nicaragua"
+msgstr "Νικαράγουα"
+
+#: ../includes/class-wpcm-countries.php:192
+msgid "Niger"
+msgstr "Νίγηρας"
+
+#: ../includes/class-wpcm-countries.php:193
+msgid "Nigeria"
+msgstr "Νιγηρία"
+
+#: ../includes/class-wpcm-countries.php:194
+msgid "Niue"
+msgstr "Νιούε"
+
+#: ../includes/class-wpcm-countries.php:195
+msgid "Norfolk Island"
+msgstr "Νησί Νόρφολκ"
+
+#: ../includes/class-wpcm-countries.php:196
+msgid "Northern Ireland"
+msgstr "Βόρεια Ιρλανδία"
+
+#: ../includes/class-wpcm-countries.php:197
+msgid "Northern Mariana Islands"
+msgstr "Νησιά Βόρειες Μαριάνες"
+
+#: ../includes/class-wpcm-countries.php:198
+msgid "Norway"
+msgstr "Νορβηγία"
+
+#: ../includes/class-wpcm-countries.php:199
+msgid "Oman"
+msgstr "Ομάν"
+
+#: ../includes/class-wpcm-countries.php:200
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+#: ../includes/class-wpcm-countries.php:201
+msgid "Palau"
+msgstr "Παλάου"
+
+#: ../includes/class-wpcm-countries.php:202
+msgid "Palestine, State of"
+msgstr "Μέλους της Παλαιστίνης"
+
+#: ../includes/class-wpcm-countries.php:203
+msgid "Panama"
+msgstr "Παναμάς"
+
+#: ../includes/class-wpcm-countries.php:204
+msgid "Papua New Guinea"
+msgstr "Παπούα Νέα Γουινέα"
+
+#: ../includes/class-wpcm-countries.php:205
+msgid "Paraguay"
+msgstr "Παραγουάη"
+
+#: ../includes/class-wpcm-countries.php:206
+msgid "Peru"
+msgstr "Περού"
+
+#: ../includes/class-wpcm-countries.php:207
+msgid "Philippines"
+msgstr "Φιλιππίνες"
+
+#: ../includes/class-wpcm-countries.php:208
+msgid "Pitcairn"
+msgstr "Νήσοι Πίτκαιρν"
+
+#: ../includes/class-wpcm-countries.php:209
+msgid "Poland"
+msgstr "Πολωνία"
+
+#: ../includes/class-wpcm-countries.php:210
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+#: ../includes/class-wpcm-countries.php:211
+msgid "Puerto Rico"
+msgstr "Πουέρτο Ρίκο"
+
+#: ../includes/class-wpcm-countries.php:212
+msgid "Qatar"
+msgstr "Κατάρ"
+
+#: ../includes/class-wpcm-countries.php:213
+msgid "Reunion"
+msgstr "Ρεϋνιόν"
+
+#: ../includes/class-wpcm-countries.php:214
+msgid "Romania"
+msgstr "Ρουμανία"
+
+#: ../includes/class-wpcm-countries.php:215
+msgid "Russian Federation"
+msgstr "Ρωσική Ομοσπονδία"
+
+#: ../includes/class-wpcm-countries.php:216
+msgid "Rwanda"
+msgstr "Ρουάντα"
+
+#: ../includes/class-wpcm-countries.php:217
+msgid "Saint Helena"
+msgstr "Αγία Ελένη"
+
+#: ../includes/class-wpcm-countries.php:218
+msgid "Saint Kitts and Nevis"
+msgstr "Άγιος Χριστόφορος και Νέβις"
+
+#: ../includes/class-wpcm-countries.php:219
+msgid "Saint Lucia"
+msgstr "Αγία Λουκία"
+
+#: ../includes/class-wpcm-countries.php:220
+msgid "Saint Pierre & Miquelon"
+msgstr "Σαιν Πιερ και Μικελόν"
+
+#: ../includes/class-wpcm-countries.php:221
+msgid "Saint Vincent and the Grenadines"
+msgstr "Άγιος Βικέντιος και Γρεναδίνες"
+
+#: ../includes/class-wpcm-countries.php:222
+msgid "Samoa"
+msgstr "Σαμόα"
+
+#: ../includes/class-wpcm-countries.php:223
+msgid "San Marino"
+msgstr "Σαν Μαρίνο"
+
+#: ../includes/class-wpcm-countries.php:224
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "Ο Άγιος Θωμάς και Πρίγκιπας"
+
+#: ../includes/class-wpcm-countries.php:225
+msgid "Saudi Arabia"
+msgstr "Σαουδική Αραβία"
+
+#: ../includes/class-wpcm-countries.php:226
+msgid "Scotland"
+msgstr "Σκωτία"
+
+#: ../includes/class-wpcm-countries.php:227
+msgid "Senegal"
+msgstr "Σενεγάλη"
+
+#: ../includes/class-wpcm-countries.php:228
+msgid "Serbia"
+msgstr "Σερβία"
+
+#: ../includes/class-wpcm-countries.php:229
+msgid "Seychelles"
+msgstr "Σεϋχέλλες"
+
+#: ../includes/class-wpcm-countries.php:230
+msgid "Sierre Leone"
+msgstr "Σιέρα Λεόνε"
+
+#: ../includes/class-wpcm-countries.php:231
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+#: ../includes/class-wpcm-countries.php:232
+msgid "Slovakia"
+msgstr "Σλοβακία"
+
+#: ../includes/class-wpcm-countries.php:233
+msgid "Slovenia"
+msgstr "Σλοβενία"
+
+#: ../includes/class-wpcm-countries.php:234
+msgid "Solomon Islands"
+msgstr "Νησιά Σολομώντα"
+
+#: ../includes/class-wpcm-countries.php:235
+msgid "Somalia"
+msgstr "Σομαλία"
+
+#: ../includes/class-wpcm-countries.php:236
+msgid "South Africa"
+msgstr "Νότια Αφρική"
+
+#: ../includes/class-wpcm-countries.php:237
+msgid "South Georgia / Sandwich Islands"
+msgstr "Νότια Γεωργία και Νήσοι Σάντουιτς"
+
+#: ../includes/class-wpcm-countries.php:238
+msgid "South Korea"
+msgstr "Νότια Κορέα"
+
+#: ../includes/class-wpcm-countries.php:239
+msgid "Spain"
+msgstr "Ισπανία"
+
+#: ../includes/class-wpcm-countries.php:240
+msgid "Sri Lanka"
+msgstr "Σρι Λάνκα"
+
+#: ../includes/class-wpcm-countries.php:241
+msgid "Svalbard and Jan Mayen"
+msgstr "Σβάλμπαρντ και Γιαν Μαγιέν"
+
+#: ../includes/class-wpcm-countries.php:242
+msgid "Sudan"
+msgstr "Σουδάν"
+
+#: ../includes/class-wpcm-countries.php:243
+msgid "Suriname"
+msgstr "Σουρινάμ"
+
+#: ../includes/class-wpcm-countries.php:244
+msgid "Swaziland"
+msgstr "Σουαζιλάνδη"
+
+#: ../includes/class-wpcm-countries.php:245
+msgid "Sweden"
+msgstr "Σουηδία"
+
+#: ../includes/class-wpcm-countries.php:246
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+#: ../includes/class-wpcm-countries.php:247
+msgid "Syrian Arab Republic"
+msgstr "Αραβική Δημοκρατία της Συρίας"
+
+#: ../includes/class-wpcm-countries.php:248
+msgid "Taiwan, Province of China"
+msgstr "Ταϊβάν, Επαρχία της Κίνας"
+
+#: ../includes/class-wpcm-countries.php:249
+msgid "Tajikstan"
+msgstr "Τατζικιστάν"
+
+#: ../includes/class-wpcm-countries.php:250
+msgid "Tanzania, United Republic of"
+msgstr "Ενωμένη Δημοκρατία της Τανζανίας"
+
+#: ../includes/class-wpcm-countries.php:251
+msgid "Thailand"
+msgstr "Ταϊλάνδη"
+
+#: ../includes/class-wpcm-countries.php:252
+msgid "Timor-Leste"
+msgstr "Τιμόρ-Λέστε"
+
+#: ../includes/class-wpcm-countries.php:253
+msgid "Togo"
+msgstr "Τόγκο"
+
+#: ../includes/class-wpcm-countries.php:254
+msgid "Tokelau"
+msgstr "Τοκελάου"
+
+#: ../includes/class-wpcm-countries.php:255
+msgid "Tonga"
+msgstr "Τόνγκα"
+
+#: ../includes/class-wpcm-countries.php:256
+msgid "Trinidad and Tobago"
+msgstr "Τρινιντάντ και Τομπάγκο"
+
+#: ../includes/class-wpcm-countries.php:257
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+#: ../includes/class-wpcm-countries.php:258
+msgid "Turkey"
+msgstr "Τουρκία"
+
+#: ../includes/class-wpcm-countries.php:259
+msgid "Turkmenistan"
+msgstr "Τουρκμενιστάν"
+
+#: ../includes/class-wpcm-countries.php:260
+msgid "Turks and Caicos Islands"
+msgstr "Νήσοι Τερκς και Κάικος"
+
+#: ../includes/class-wpcm-countries.php:261
+msgid "Tuvalu"
+msgstr "Τουβαλού"
+
+#: ../includes/class-wpcm-countries.php:262
+msgid "Uganda"
+msgstr "Ουγκάντα"
+
+#: ../includes/class-wpcm-countries.php:263
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+#: ../includes/class-wpcm-countries.php:264
+msgid "United Arab Emirates"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+#: ../includes/class-wpcm-countries.php:265
+msgid "United Kingdom (UK)"
+msgstr "Ηνωμένο Βασίλειο (UK)"
+
+#: ../includes/class-wpcm-countries.php:266
+msgid "United States (US)"
+msgstr "Ηνωμένες Πολιτείες (ΗΠΑ)"
+
+#: ../includes/class-wpcm-countries.php:267
+msgid "Uruguay"
+msgstr "Ουρουγουάη"
+
+#: ../includes/class-wpcm-countries.php:268
+msgid "US Minor Outlying Islands"
+msgstr "ΗΠΑ Μικρά απομονωμένα νησιά"
+
+#: ../includes/class-wpcm-countries.php:269
+msgid "Uzbekistan"
+msgstr "Ουζμπεκιστάν"
+
+#: ../includes/class-wpcm-countries.php:270
+msgid "Vanuata"
+msgstr "Βανουάτου"
+
+#: ../includes/class-wpcm-countries.php:271
+msgid "Venezuala"
+msgstr "Βενεζουέλα"
+
+#: ../includes/class-wpcm-countries.php:272
+msgid "Vietnam"
+msgstr "Βιετνάμ"
+
+#: ../includes/class-wpcm-countries.php:273
+msgid "Virgin Islands, British"
+msgstr "Βρετανικές Παρθένοι Νήσοι"
+
+#: ../includes/class-wpcm-countries.php:274
+msgid "Virgin Islands, U.S."
+msgstr "Παρθένοι Νήσοι, ΗΠΑ"
+
+#: ../includes/class-wpcm-countries.php:275
+msgid "Wales"
+msgstr "Ουαλία"
+
+#: ../includes/class-wpcm-countries.php:276
+msgid "Wallis and Futuna"
+msgstr "Οι νήσοι Ουαλίς και Φουτουνά"
+
+#: ../includes/class-wpcm-countries.php:277
+msgid "Western Sahara"
+msgstr "Δυτική Σαχάρα"
+
+#: ../includes/class-wpcm-countries.php:278
+msgid "Yemen"
+msgstr "Υεμένη"
+
+#: ../includes/class-wpcm-countries.php:279
+msgid "Yugoslavia"
+msgstr "Γιουγκοσλαβία"
+
+#: ../includes/class-wpcm-countries.php:280
+msgid "Zambia"
+msgstr "Ζάμπια"
+
+#: ../includes/class-wpcm-countries.php:281
+msgid "Zimbabwe"
+msgstr "Ζιμπάμπουε"
+
+#: ../includes/class-wpcm-install.php:163
+#: ../includes/class-wpcm-post-types.php:223
+msgid "Player"
+msgstr "Παίχτης"
+
+#: ../includes/class-wpcm-install.php:237
+msgid "Team Manager"
+msgstr "Διαχειριστής ομάδας"
+
+#: ../includes/class-wpcm-install.php:428
+msgid "View WP Club Manager Settings"
+msgstr ""
+
+#: ../includes/class-wpcm-install.php:428
+#: ../includes/admin/class-wpcm-admin-menus.php:65
+#: ../includes/admin/class-wpcm-admin-welcome.php:242
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: ../includes/class-wpcm-install.php:444
+msgid "View WP Club Manager Documentation"
+msgstr ""
+
+#: ../includes/class-wpcm-install.php:444
+#: ../includes/admin/class-wpcm-admin-welcome.php:243
+msgid "Docs"
+msgstr "Έγγραφα"
+
+#: ../includes/class-wpcm-install.php:445
+msgid "Visit Support Forum"
+msgstr ""
+
+#: ../includes/class-wpcm-install.php:445
+msgid "Support"
+msgstr ""
+
+#: ../includes/class-wpcm-license-handler.php:128
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: ../includes/class-wpcm-license-handler.php:160
+#: ../includes/class-wpcm-license-handler.php:223
+msgid "Nonce verification failed"
+msgstr ""
+
+#: ../includes/class-wpcm-license-handler.php:160
+#: ../includes/class-wpcm-license-handler.php:223
+msgid "Error"
+msgstr ""
+
+#: ../includes/class-wpcm-license-handler.php:292
+msgid "This license does not belong to the product you have entered it for."
+msgstr ""
+
+#: ../includes/class-wpcm-license-handler.php:297
+msgid "This license does not have any activations left"
+msgstr ""
+
+#: ../includes/class-wpcm-license-handler.php:302
+msgid "This license key is expired. Please renew it."
+msgstr ""
+
+#: ../includes/class-wpcm-license-handler.php:307
+#, php-format
+msgid ""
+"There was a problem activating your license key, please try again or contact "
+"support. Error code: %s"
+msgstr ""
+
+#: ../includes/class-wpcm-post-types.php:43
+#: ../includes/admin/importers/class-wpcm-club-importer.php:26
+#: ../includes/admin/views/html-admin-page-status.php:239
+msgid "Competitions"
+msgstr "Διοργανώσεις"
+
+#: ../includes/class-wpcm-post-types.php:45
+msgid "Search Competitions"
+msgstr "Αναζήτηση Διοργανώσεων"
+
+#: ../includes/class-wpcm-post-types.php:46
+msgid "All Competitions"
+msgstr "Όλες οι Διοργανώσεις"
+
+#: ../includes/class-wpcm-post-types.php:47
+msgid "Parent Competition"
+msgstr "καρτέλα Διοργάνωσεις"
+
+#: ../includes/class-wpcm-post-types.php:48
+msgid "Parent Competition:"
+msgstr "Καρτέλα Διοργάνωσεις:"
+
+#: ../includes/class-wpcm-post-types.php:49
+msgid "Edit Competition"
+msgstr "Επεξεργασία Διοργάνωσεις"
+
+#: ../includes/class-wpcm-post-types.php:50
+msgid "Update Competition"
+msgstr "Ενημέρωση Διοργανώσεων"
+
+#: ../includes/class-wpcm-post-types.php:51
+msgid "Add New Competition"
+msgstr "Προσθήκη νέας Διοργάνωσεις"
+
+#: ../includes/class-wpcm-post-types.php:67
+msgid "Search Jobs"
+msgstr "Αναζήτηση θέσεις εργασίας"
+
+#: ../includes/class-wpcm-post-types.php:68
+msgid "All Jobs"
+msgstr "Όλες οι θέσεις εργασίας"
+
+#: ../includes/class-wpcm-post-types.php:69
+msgid "Parent Job"
+msgstr "Μητρική εταιρεία εργασίας"
+
+#: ../includes/class-wpcm-post-types.php:70
+msgid "Parent Job:"
+msgstr "Μητρική εταιρεία εργασίας:"
+
+#: ../includes/class-wpcm-post-types.php:71
+msgid "Edit Job"
+msgstr "Επεξεργασία θέσεις εργασίας"
+
+#: ../includes/class-wpcm-post-types.php:72
+msgid "Update Job"
+msgstr "Ενημέρωση θέσεις εργασίας"
+
+#: ../includes/class-wpcm-post-types.php:73
+msgid "Add New Job"
+msgstr "Προσθήκη νέας θέσεις εργασίας"
+
+#: ../includes/class-wpcm-post-types.php:74
+msgid "New Job Title"
+msgstr "Νέος Τίτλος Εργασίας"
+
+#: ../includes/class-wpcm-post-types.php:87
+#: ../includes/admin/importers/class-wpcm-player-importer.php:27
+msgid "Positions"
+msgstr "Θέσεις"
+
+#: ../includes/class-wpcm-post-types.php:89
+msgid "Search Positions"
+msgstr "Αναζήτηση θέσεων"
+
+#: ../includes/class-wpcm-post-types.php:90
+msgid "All Positions"
+msgstr "Όλες οι Θέσεις"
+
+#: ../includes/class-wpcm-post-types.php:91
+msgid "Parent Position"
+msgstr "Μητρική εταιρεία θέσης"
+
+#: ../includes/class-wpcm-post-types.php:92
+msgid "Parent Position:"
+msgstr "Μητρική εταιρεία θέσης:"
+
+#: ../includes/class-wpcm-post-types.php:93
+msgid "Edit Position"
+msgstr "Επεξεργασία θέσεων"
+
+#: ../includes/class-wpcm-post-types.php:94
+msgid "Update Position"
+msgstr "Ενημέρωση θέσεων"
+
+#: ../includes/class-wpcm-post-types.php:95
+msgid "Add New Position"
+msgstr "Προσθήκη νέας θέσης"
+
+#: ../includes/class-wpcm-post-types.php:96
+msgid "New Position Name"
+msgstr "Νέα Θέση Όνομα"
+
+#: ../includes/class-wpcm-post-types.php:109
+#: ../includes/admin/importers/class-wpcm-club-importer.php:28
+#: ../includes/admin/importers/class-wpcm-player-importer.php:29
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:28
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-stats.php:52
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-stats.php:148
+#: ../includes/admin/views/html-admin-page-status.php:227
+#: ../templates/single-player/stats.php:38
+#: ../templates/single-player/stats.php:89
+msgid "Seasons"
+msgstr "Αγωνιστικές Περίοδοι"
+
+#: ../includes/class-wpcm-post-types.php:111
+msgid "Search Seasons"
+msgstr "Αναζήτηση Αγωνιστικών Περιόδων"
+
+#: ../includes/class-wpcm-post-types.php:112
+msgid "All Seasons"
+msgstr "Όλες οι Αγωνιστικές Περίοδοι"
+
+#: ../includes/class-wpcm-post-types.php:113
+msgid "Parent Season"
+msgstr "Μητρική εταιρεία σεζόν"
+
+#: ../includes/class-wpcm-post-types.php:114
+msgid "Parent Season:"
+msgstr "Μητρική εταιρεία σεζόν:"
+
+#: ../includes/class-wpcm-post-types.php:115
+msgid "Edit Season"
+msgstr "Επεξεργασία Αγωνιστικών Περιόδων"
+
+#: ../includes/class-wpcm-post-types.php:116
+msgid "Update Season"
+msgstr "Ενημέρωση Αγωνιστικών Περιόδων"
+
+#: ../includes/class-wpcm-post-types.php:117
+msgid "Add New Season"
+msgstr "Προσθήκη νέας σεζόν"
+
+#: ../includes/class-wpcm-post-types.php:131
+#: ../includes/admin/importers/class-wpcm-club-importer.php:27
+#: ../includes/admin/importers/class-wpcm-player-importer.php:28
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:27
+#: ../includes/admin/views/html-admin-page-status.php:215
+msgid "Teams"
+msgstr "Ομάδες"
+
+#: ../includes/class-wpcm-post-types.php:133
+msgid "Search Teams"
+msgstr "Αναζήτηση ομάδων"
+
+#: ../includes/class-wpcm-post-types.php:134
+msgid "All Teams"
+msgstr "Όλες οι ομάδες"
+
+#: ../includes/class-wpcm-post-types.php:135
+msgid "Parent Team"
+msgstr "Μητρική εταιρεία ομάδας"
+
+#: ../includes/class-wpcm-post-types.php:136
+msgid "Parent Team:"
+msgstr "Μητρική εταιρεία ομάδας:"
+
+#: ../includes/class-wpcm-post-types.php:137
+msgid "Edit Team"
+msgstr "Επεξεργασία ομάδας"
+
+#: ../includes/class-wpcm-post-types.php:138
+msgid "Update Team"
+msgstr "Ενημέρωση ομάδας"
+
+#: ../includes/class-wpcm-post-types.php:139
+msgid "Add New Team"
+msgstr "Προσθήκη Νέα ομάδας"
+
+#: ../includes/class-wpcm-post-types.php:153
+msgid "Venues"
+msgstr "Χώροι Εκδηλώσεων"
+
+#: ../includes/class-wpcm-post-types.php:155
+msgid "Search Venues"
+msgstr "Αναζήτηση χώρων εκδηλώσεων"
+
+#: ../includes/class-wpcm-post-types.php:156
+msgid "All Venues"
+msgstr "Όλοι οι χώροι εκδηλώσεων"
+
+#: ../includes/class-wpcm-post-types.php:157
+msgid "Parent Venue"
+msgstr "Μητρική εταιρεία περιοχής"
+
+#: ../includes/class-wpcm-post-types.php:158
+msgid "Parent Venue:"
+msgstr "Μητρική εταιρεία περιοχής:"
+
+#: ../includes/class-wpcm-post-types.php:159
+msgid "Edit Venue"
+msgstr "Επεξεργασία χώρων εκδηλώσεων"
+
+#: ../includes/class-wpcm-post-types.php:160
+msgid "Update Venue"
+msgstr "Ενημέρωση χώρων εκδηλώσεων"
+
+#: ../includes/class-wpcm-post-types.php:161
+msgid "Add New Venue"
+msgstr "Προσθήκη νέου χώρου εκδηλώσεων"
+
+#: ../includes/class-wpcm-post-types.php:186
+#: ../includes/class-wpcm-post-types.php:198
+#: ../includes/admin/class-wpcm-admin-permalink-settings.php:27
+msgid "Clubs"
+msgstr "Σύλλογοι"
+
+#: ../includes/class-wpcm-post-types.php:187
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:96
+msgid "Club"
+msgstr "Σύλλογος"
+
+#: ../includes/class-wpcm-post-types.php:188
+#: ../includes/class-wpcm-post-types.php:224
+#: ../includes/class-wpcm-post-types.php:260
+#: ../includes/class-wpcm-post-types.php:296
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: ../includes/class-wpcm-post-types.php:189
+msgid "All Clubs"
+msgstr "Όλοι οι Σύλλογοι"
+
+#: ../includes/class-wpcm-post-types.php:190
+msgid "Add New Club"
+msgstr "Προσθέστε νέο σύλλογο"
+
+#: ../includes/class-wpcm-post-types.php:191
+msgid "Edit Club"
+msgstr "Επεξεργασία συλλόγου"
+
+#: ../includes/class-wpcm-post-types.php:192
+msgid "New Club"
+msgstr "Νέα συλλόγου"
+
+#: ../includes/class-wpcm-post-types.php:193
+msgid "View Club"
+msgstr "Προβολή συλλόγου"
+
+#: ../includes/class-wpcm-post-types.php:194
+msgid "Search Clubs"
+msgstr "Αναζήτηση συλλόγου"
+
+#: ../includes/class-wpcm-post-types.php:195
+msgid "No clubs found"
+msgstr "Δεν βρέθηκαν σύλλογοι"
+
+#: ../includes/class-wpcm-post-types.php:196
+msgid "No clubs found in trash"
+msgstr "Δεν βρέθηκαν στα σκουπίδια σύλλογοι"
+
+#: ../includes/class-wpcm-post-types.php:197
+msgid "Parent Club:"
+msgstr "Καρτέλα του συλλόγου:"
+
+#: ../includes/class-wpcm-post-types.php:225
+msgid "All Players"
+msgstr "Όλοι οι παίκτες"
+
+#: ../includes/class-wpcm-post-types.php:226
+msgid "Add New Player"
+msgstr "Προσθήκη Νέου Παίκτη"
+
+#: ../includes/class-wpcm-post-types.php:227
+msgid "Edit Player"
+msgstr "Επεξεργασία παίκτη"
+
+#: ../includes/class-wpcm-post-types.php:228
+msgid "New Player"
+msgstr "Νέος Παίκτης"
+
+#: ../includes/class-wpcm-post-types.php:229
+msgid "View Player"
+msgstr "Προβολή παίκτη"
+
+#: ../includes/class-wpcm-post-types.php:230
+msgid "Search Players"
+msgstr "Αναζήτηση παίκτες"
+
+#: ../includes/class-wpcm-post-types.php:231
+msgid "No players found"
+msgstr "Δεν βρέθηκαν παίκτες"
+
+#: ../includes/class-wpcm-post-types.php:232
+msgid "No players found in trash"
+msgstr "Δεν βρέθηκαν παίκτες στα διαγραφέντα "
+
+#: ../includes/class-wpcm-post-types.php:233
+msgid "Parent Player:"
+msgstr "Κάρτα παίκτη:"
+
+#: ../includes/class-wpcm-post-types.php:261
+msgid "All Staff"
+msgstr "Όλο το προσωπικό"
+
+#: ../includes/class-wpcm-post-types.php:262
+msgid "Add New Staff"
+msgstr "Προσθήκη νέου προσωπικού"
+
+#: ../includes/class-wpcm-post-types.php:263
+msgid "Edit Staff"
+msgstr "Επεξεργασία του προσωπικού"
+
+#: ../includes/class-wpcm-post-types.php:264
+msgid "New Staff"
+msgstr "Νέο Προσωπικό"
+
+#: ../includes/class-wpcm-post-types.php:265
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:119
+msgid "View Staff"
+msgstr "Προβολή του προσωπικού"
+
+#: ../includes/class-wpcm-post-types.php:266
+msgid "Search Staff"
+msgstr "Αναζήτηση του προσωπικού"
+
+#: ../includes/class-wpcm-post-types.php:267
+msgid "No staff found"
+msgstr "Δεν βρέθηκε κανένα μέλος του προσωπικού."
+
+#: ../includes/class-wpcm-post-types.php:268
+msgid "No staff found in trash"
+msgstr "Δεν βρέθηκε στον κάδο κάνενα μέλος του προσωπικού"
+
+#: ../includes/class-wpcm-post-types.php:269
+msgid "Parent Staff:"
+msgstr "Κάρτα προσωπικού:"
+
+#: ../includes/class-wpcm-post-types.php:294
+#: ../includes/class-wpcm-post-types.php:306
+#: ../includes/admin/class-wpcm-admin-permalink-settings.php:30
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:22
+msgid "Matches"
+msgstr "Αγώνες"
+
+#: ../includes/class-wpcm-post-types.php:295
+msgid "Match"
+msgstr "Αγώνας"
+
+#: ../includes/class-wpcm-post-types.php:297
+msgid "All Matches"
+msgstr "Όλοι οι Αγώνες"
+
+#: ../includes/class-wpcm-post-types.php:298
+#: ../includes/admin/class-wpcm-admin-dashboard.php:213
+msgid "Add New Match"
+msgstr "Προσθήκη νέου Αγώνα"
+
+#: ../includes/class-wpcm-post-types.php:299
+msgid "Edit Match"
+msgstr "Επεξεργασία Αγώνα"
+
+#: ../includes/class-wpcm-post-types.php:300
+msgid "New Match"
+msgstr "Νέα αγώνα"
+
+#: ../includes/class-wpcm-post-types.php:301
+msgid "View Match"
+msgstr "Προβολή Αγώνα"
+
+#: ../includes/class-wpcm-post-types.php:302
+msgid "Search Matches"
+msgstr "Αναζήτηση Αγώνων"
+
+#: ../includes/class-wpcm-post-types.php:303
+msgid "No matches found"
+msgstr "Δεν βρέθηκαν αγώνες"
+
+#: ../includes/class-wpcm-post-types.php:304
+msgid "No matches found in trash"
+msgstr "Δεν βρέθηκε στον κάδο κάνενα αγώνας"
+
+#: ../includes/class-wpcm-post-types.php:305
+msgid "Parent Match:"
+msgstr "Καρτέλα του αγώνα:"
+
+#: ../includes/class-wpcm-post-types.php:330
+#: ../includes/class-wpcm-post-types.php:342
+#: ../includes/widgets/class-wpcm-widget-sponsors.php:32
+msgid "Sponsors"
+msgstr "Χορηγοί"
+
+#: ../includes/class-wpcm-post-types.php:331
+msgid "Sponsor"
+msgstr "Χορηγός"
+
+#: ../includes/class-wpcm-post-types.php:332
+#: ../includes/class-wpcm-post-types.php:334
+msgid "Add New Sponsor"
+msgstr "Προσθήκη νέου χορηγού"
+
+#: ../includes/class-wpcm-post-types.php:333
+msgid "All Sponsors"
+msgstr "Όλοι οι Χορηγοί"
+
+#: ../includes/class-wpcm-post-types.php:335
+msgid "Edit Sponsor"
+msgstr "Επεξεργασία χορηγού"
+
+#: ../includes/class-wpcm-post-types.php:336
+msgid "New Sponsor"
+msgstr "Νέα χορηγού"
+
+#: ../includes/class-wpcm-post-types.php:337
+msgid "View Sponsor"
+msgstr "Προβολή χορηγού"
+
+#: ../includes/class-wpcm-post-types.php:338
+msgid "Search Sponsors"
+msgstr "Αναζήτηση χορηγών"
+
+#: ../includes/class-wpcm-post-types.php:339
+msgid "No sponsors found"
+msgstr "Δεν βρέθηκαν χορηγοί"
+
+#: ../includes/class-wpcm-post-types.php:340
+msgid "No sponsors found in trash"
+msgstr "Δεν βρέθηκe στον κάδο κάνενας χορηγός"
+
+#: ../includes/class-wpcm-post-types.php:341
+msgid "Parent Sponsor:"
+msgstr "Καρτέλα χορηγών"
+
+#: ../includes/wpcm-club-functions.php:374
+msgid "Total"
+msgstr ""
+
+#: ../includes/wpcm-club-functions.php:382
+#: ../includes/wpcm-player-functions.php:439
+msgid "Auto"
+msgstr "Αυτόματα"
+
+#: ../includes/wpcm-club-functions.php:388
+#: ../includes/wpcm-player-functions.php:447
+msgid "Manual"
+msgstr "Χειροκίνητα"
+
+#: ../includes/wpcm-core-functions.php:462
+msgid "No location found for the entered address."
+msgstr "Δεν βρέθηκε τοποθεσία  για την καταχωρημένη διεύθυνση."
+
+#: ../includes/wpcm-core-functions.php:464
+msgid "Invalid request. Address is missing"
+msgstr "Μη έγκυρο αίτημα. Η διεύθυνση λείπει"
+
+#: ../includes/wpcm-core-functions.php:466
+msgid "Something went wrong while retrieving your map."
+msgstr "Κάτι πήγε στραβά κατά την ανάκτηση του χάρτη σας."
+
+#: ../includes/wpcm-core-functions.php:469
+msgid "Unable to contact Google API service."
+msgstr "Δεν είναι δυνατή η επικοινωνία με την υπηρεσία Google API."
+
+#: ../includes/wpcm-match-functions.php:219
+msgid "No players found!"
+msgstr "Δεν βρέθηκαν παίκτες!"
+
+#: ../includes/wpcm-match-functions.php:232
+msgid "Click and drag players to reorder"
+msgstr "Κάντε κλικ και σύρετε τους παίχτες για να τους διατάξετε"
+
+#: ../includes/wpcm-match-functions.php:249
+msgid "Player Off"
+msgstr "Παίκτης εκτός"
+
+#: ../includes/wpcm-match-functions.php:408
+msgid "Man of Match"
+msgstr "Παίκτης του αγώνα"
+
+#: ../includes/wpcm-match-functions.php:449
+msgid "Green Card"
+msgstr "Πράσινη Κάρτα"
+
+#: ../includes/wpcm-match-functions.php:454
+msgid "Yellow Card"
+msgstr "Κίτρινη Κάρτα"
+
+#: ../includes/wpcm-match-functions.php:459
+msgid "Black Card"
+msgstr "Μαύρη κάρτα"
+
+#: ../includes/wpcm-match-functions.php:463
+msgid "Red Card"
+msgstr "Κόκκινη Κάρτα"
+
+#: ../includes/wpcm-player-functions.php:413
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-stats.php:28
+#: ../templates/shortcodes/players.php:29
+#: ../templates/single-player/stats.php:18
+msgid "Apps"
+msgstr "Εφαρμογή για"
+
+#: ../includes/wpcm-player-functions.php:483
+#: ../includes/admin/settings/class-wpcm-settings-players.php:175
+msgid "Games Played"
+msgstr "Παιχνίδια που έπαιξε"
+
+#: ../includes/wpcm-player-functions.php:483
+msgid "GP"
+msgstr "Παιχνίδια που έπαιξε"
+
+#: ../includes/wpcm-preset-functions.php:22
+msgid "Baseball"
+msgstr "Μπέιζμπολ"
+
+#: ../includes/wpcm-preset-functions.php:33
+msgid "At Bats"
+msgstr "At Bats"
+
+#: ../includes/wpcm-preset-functions.php:33
+msgid "AB"
+msgstr "AB"
+
+#: ../includes/wpcm-preset-functions.php:34
+#: ../includes/wpcm-preset-functions.php:437
+msgid "Hits"
+msgstr "Χτυπήματα"
+
+#: ../includes/wpcm-preset-functions.php:34
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:216
+msgid "H"
+msgstr "Εντός έδρας"
+
+#: ../includes/wpcm-preset-functions.php:35
+msgid "Runs"
+msgstr "Τρέξιμο"
+
+#: ../includes/wpcm-preset-functions.php:35
+msgid "R"
+msgstr "R"
+
+#: ../includes/wpcm-preset-functions.php:36
+msgid "Earned Runs"
+msgstr "Κερδισμένες Πίστες"
+
+#: ../includes/wpcm-preset-functions.php:36
+msgid "ER"
+msgstr "Κ.Π."
+
+#: ../includes/wpcm-preset-functions.php:37
+msgid "Home Runs"
+msgstr "Αρχική Πίστα"
+
+#: ../includes/wpcm-preset-functions.php:37
+msgid "HR"
+msgstr "Α.Π."
+
+#: ../includes/wpcm-preset-functions.php:38
+msgid "Doubles"
+msgstr "Διπλό"
+
+#: ../includes/wpcm-preset-functions.php:38
+msgid "2B"
+msgstr "2B"
+
+#: ../includes/wpcm-preset-functions.php:39
+msgid "Triples"
+msgstr "Τριπλά"
+
+#: ../includes/wpcm-preset-functions.php:39
+msgid "3B"
+msgstr "3B"
+
+#: ../includes/wpcm-preset-functions.php:40
+msgid "Runs Batted In"
+msgstr "Τρεξίματα που κτυπιούνται μέσα"
+
+#: ../includes/wpcm-preset-functions.php:40
+msgid "RBI"
+msgstr "RBI"
+
+#: ../includes/wpcm-preset-functions.php:41
+msgid "Bases on Bulk"
+msgstr "Βάσεις για το μαζικό"
+
+#: ../includes/wpcm-preset-functions.php:41
+msgid "BB"
+msgstr "BB"
+
+#: ../includes/wpcm-preset-functions.php:42
+msgid "Strike Outs"
+msgstr "τρόποι χτυπήματος"
+
+#: ../includes/wpcm-preset-functions.php:42
+msgid "SO"
+msgstr "SO"
+
+#: ../includes/wpcm-preset-functions.php:43
+msgid "Stolen Bases"
+msgstr "Κλεμμένες Βάσεις"
+
+#: ../includes/wpcm-preset-functions.php:43
+msgid "SB"
+msgstr "SB"
+
+#: ../includes/wpcm-preset-functions.php:44
+msgid "Caught Stealing"
+msgstr "Πιάστηκες να κλέβεις"
+
+#: ../includes/wpcm-preset-functions.php:44
+#: ../includes/wpcm-preset-functions.php:580
+msgid "CS"
+msgstr "CS"
+
+#: ../includes/wpcm-preset-functions.php:45
+msgid "Total Chances"
+msgstr "Σύνολο πιθανότητες"
+
+#: ../includes/wpcm-preset-functions.php:45
+msgid "TC"
+msgstr "Σ.Π."
+
+#: ../includes/wpcm-preset-functions.php:46
+msgid "Putouts"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:46
+msgid "PO"
+msgstr "PO"
+
+#: ../includes/wpcm-preset-functions.php:47
+#: ../includes/wpcm-preset-functions.php:92
+#: ../includes/wpcm-preset-functions.php:123
+#: ../includes/wpcm-preset-functions.php:391
+#: ../includes/wpcm-preset-functions.php:431
+#: ../includes/wpcm-preset-functions.php:577
+msgid "Assists"
+msgstr "Ασίστ"
+
+#: ../includes/wpcm-preset-functions.php:47
+#: ../includes/wpcm-preset-functions.php:123
+#: ../includes/wpcm-preset-functions.php:391
+#: ../includes/wpcm-preset-functions.php:431
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:226
+msgid "A"
+msgstr "Εκτός έδρας"
+
+#: ../includes/wpcm-preset-functions.php:48
+msgid "Errors"
+msgstr "Λάθη"
+
+#: ../includes/wpcm-preset-functions.php:48
+msgid "E"
+msgstr "Λαθ."
+
+#: ../includes/wpcm-preset-functions.php:49
+msgid "Double Plays"
+msgstr "διπλά παιχνίδια"
+
+#: ../includes/wpcm-preset-functions.php:49
+msgid "DP"
+msgstr "Δ.Π."
+
+#: ../includes/wpcm-preset-functions.php:50
+#: ../includes/wpcm-preset-functions.php:98
+#: ../includes/wpcm-preset-functions.php:130
+#: ../includes/wpcm-preset-functions.php:209
+#: ../includes/wpcm-preset-functions.php:283
+#: ../includes/wpcm-preset-functions.php:318
+#: ../includes/wpcm-preset-functions.php:362
+#: ../includes/wpcm-preset-functions.php:398
+#: ../includes/wpcm-preset-functions.php:441
+#: ../includes/wpcm-preset-functions.php:490
+#: ../includes/wpcm-preset-functions.php:548
+#: ../includes/wpcm-preset-functions.php:583
+#: ../includes/wpcm-preset-functions.php:625
+msgid "Rating"
+msgstr "Βαθμολογία"
+
+#: ../includes/wpcm-preset-functions.php:50
+#: ../includes/wpcm-preset-functions.php:98
+#: ../includes/wpcm-preset-functions.php:130
+#: ../includes/wpcm-preset-functions.php:209
+#: ../includes/wpcm-preset-functions.php:283
+#: ../includes/wpcm-preset-functions.php:318
+#: ../includes/wpcm-preset-functions.php:362
+#: ../includes/wpcm-preset-functions.php:398
+#: ../includes/wpcm-preset-functions.php:441
+#: ../includes/wpcm-preset-functions.php:490
+#: ../includes/wpcm-preset-functions.php:548
+#: ../includes/wpcm-preset-functions.php:583
+#: ../includes/wpcm-preset-functions.php:625
+msgid "RAT"
+msgstr "Βαθμ."
+
+#: ../includes/wpcm-preset-functions.php:51
+#: ../includes/wpcm-preset-functions.php:99
+#: ../includes/wpcm-preset-functions.php:131
+#: ../includes/wpcm-preset-functions.php:210
+#: ../includes/wpcm-preset-functions.php:284
+#: ../includes/wpcm-preset-functions.php:319
+#: ../includes/wpcm-preset-functions.php:363
+#: ../includes/wpcm-preset-functions.php:399
+#: ../includes/wpcm-preset-functions.php:442
+#: ../includes/wpcm-preset-functions.php:491
+#: ../includes/wpcm-preset-functions.php:549
+#: ../includes/wpcm-preset-functions.php:584
+#: ../includes/wpcm-preset-functions.php:626
+msgid "Player of Match"
+msgstr "Παίκτης του Αγώνα"
+
+#: ../includes/wpcm-preset-functions.php:51
+#: ../includes/wpcm-preset-functions.php:99
+#: ../includes/wpcm-preset-functions.php:131
+#: ../includes/wpcm-preset-functions.php:210
+#: ../includes/wpcm-preset-functions.php:284
+#: ../includes/wpcm-preset-functions.php:319
+#: ../includes/wpcm-preset-functions.php:363
+#: ../includes/wpcm-preset-functions.php:399
+#: ../includes/wpcm-preset-functions.php:442
+#: ../includes/wpcm-preset-functions.php:491
+#: ../includes/wpcm-preset-functions.php:549
+#: ../includes/wpcm-preset-functions.php:584
+#: ../includes/wpcm-preset-functions.php:626
+msgid "POM"
+msgstr "Παικτ. του Αγ."
+
+#: ../includes/wpcm-preset-functions.php:55
+msgid "Basketball"
+msgstr "Μπάσκετ"
+
+#: ../includes/wpcm-preset-functions.php:82
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: ../includes/wpcm-preset-functions.php:82
+msgid "MIN"
+msgstr "Λεπτ."
+
+#: ../includes/wpcm-preset-functions.php:83
+msgid "Field Goals Made"
+msgstr "Φτιαγμένο Γκολ τομέα "
+
+#: ../includes/wpcm-preset-functions.php:83
+msgid "FGM"
+msgstr "FGM"
+
+#: ../includes/wpcm-preset-functions.php:84
+msgid "Field Goals Attempted"
+msgstr " Απόπειρα Γκολ τομέα"
+
+#: ../includes/wpcm-preset-functions.php:84
+msgid "FGA"
+msgstr "FGA"
+
+#: ../includes/wpcm-preset-functions.php:85
+msgid "3 Points Made"
+msgstr "Εύστοχα Τρίποντα"
+
+#: ../includes/wpcm-preset-functions.php:85
+msgid "3PM"
+msgstr "3PM"
+
+#: ../includes/wpcm-preset-functions.php:86
+msgid "3 Ponits Attempted"
+msgstr "Προσπάθειες για Τρίποντα"
+
+#: ../includes/wpcm-preset-functions.php:86
+msgid "3PA"
+msgstr "3PA"
+
+#: ../includes/wpcm-preset-functions.php:87
+msgid "Free Throws Made"
+msgstr "Εύστοχες Ελεύθερες Βολές"
+
+#: ../includes/wpcm-preset-functions.php:87
+msgid "FTM"
+msgstr "FTM"
+
+#: ../includes/wpcm-preset-functions.php:88
+msgid "Free Throws Attempted"
+msgstr "Προσπάθειες Ελεύθερων Βολών"
+
+#: ../includes/wpcm-preset-functions.php:88
+msgid "FTA"
+msgstr "FTA"
+
+#: ../includes/wpcm-preset-functions.php:89
+msgid "Offensive Rebounds"
+msgstr "Επιθετικά Ριμπάουντ"
+
+#: ../includes/wpcm-preset-functions.php:89
+msgid "OR"
+msgstr "Ε.Ρ."
+
+#: ../includes/wpcm-preset-functions.php:90
+msgid "Defensive Rebounds"
+msgstr "Αμυντικά Ριμπάουντ"
+
+#: ../includes/wpcm-preset-functions.php:90
+msgid "DR"
+msgstr "Α.Ρ."
+
+#: ../includes/wpcm-preset-functions.php:91
+#: ../includes/wpcm-preset-functions.php:484
+msgid "Rebounds"
+msgstr "Ριμπάουντ"
+
+#: ../includes/wpcm-preset-functions.php:91
+#: ../includes/wpcm-preset-functions.php:484
+msgid "REB"
+msgstr "Ριμπ."
+
+#: ../includes/wpcm-preset-functions.php:92
+#: ../includes/wpcm-preset-functions.php:483
+#: ../includes/wpcm-preset-functions.php:577
+msgid "AST"
+msgstr "Ασσ."
+
+#: ../includes/wpcm-preset-functions.php:93
+#: ../includes/wpcm-preset-functions.php:621
+msgid "Blocks"
+msgstr "μπλοκ"
+
+#: ../includes/wpcm-preset-functions.php:93
+#: ../includes/wpcm-preset-functions.php:621
+msgid "BLK"
+msgstr "Μπλ."
+
+#: ../includes/wpcm-preset-functions.php:94
+msgid "Steals"
+msgstr "Κλεψίματα"
+
+#: ../includes/wpcm-preset-functions.php:94
+msgid "STL"
+msgstr "Κλεψ."
+
+#: ../includes/wpcm-preset-functions.php:95
+msgid "Personal Fouls"
+msgstr "Προσωπικά Φάουλ"
+
+#: ../includes/wpcm-preset-functions.php:95
+msgid "PF"
+msgstr "Πρ. Φ."
+
+#: ../includes/wpcm-preset-functions.php:96
+#: ../includes/wpcm-preset-functions.php:489
+msgid "Turnovers"
+msgstr "Λάθη"
+
+#: ../includes/wpcm-preset-functions.php:96
+#: ../includes/wpcm-preset-functions.php:489
+msgid "TO"
+msgstr "Λαθ."
+
+#: ../includes/wpcm-preset-functions.php:97
+#: ../includes/wpcm-preset-functions.php:312
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:96
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:203
+msgid "Points"
+msgstr "Βαθμοί"
+
+#: ../includes/wpcm-preset-functions.php:97
+#: ../includes/wpcm-preset-functions.php:208
+msgid "PTS"
+msgstr "Βαθ."
+
+#: ../includes/wpcm-preset-functions.php:103
+msgid "Floorball"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:122
+#: ../includes/wpcm-preset-functions.php:279
+#: ../includes/wpcm-preset-functions.php:311
+#: ../includes/wpcm-preset-functions.php:358
+#: ../includes/wpcm-preset-functions.php:390
+#: ../includes/wpcm-preset-functions.php:430
+#: ../includes/wpcm-preset-functions.php:481
+#: ../includes/wpcm-preset-functions.php:576
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:91
+msgid "Goals"
+msgstr "Γκολ"
+
+#: ../includes/wpcm-preset-functions.php:122
+#: ../includes/wpcm-preset-functions.php:279
+#: ../includes/wpcm-preset-functions.php:311
+#: ../includes/wpcm-preset-functions.php:390
+#: ../includes/wpcm-preset-functions.php:430
+msgid "G"
+msgstr "Γκ."
+
+#: ../includes/wpcm-preset-functions.php:124
+#: ../includes/wpcm-preset-functions.php:432
+msgid "Plus/Minus Rating"
+msgstr "Θετική/Αρνητική Βαθμολογία"
+
+#: ../includes/wpcm-preset-functions.php:124
+#: ../includes/wpcm-preset-functions.php:432
+msgid "+/-"
+msgstr "+/-"
+
+#: ../includes/wpcm-preset-functions.php:125
+#: ../includes/wpcm-preset-functions.php:393
+#: ../includes/wpcm-preset-functions.php:433
+msgid "Shots on Goal"
+msgstr "Σουτ στην εστία"
+
+#: ../includes/wpcm-preset-functions.php:125
+#: ../includes/wpcm-preset-functions.php:393
+#: ../includes/wpcm-preset-functions.php:433
+msgid "SOG"
+msgstr "Σουτ στην Εστ."
+
+#: ../includes/wpcm-preset-functions.php:126
+#: ../includes/wpcm-preset-functions.php:436
+msgid "Penalty Minutes"
+msgstr "Λεπτά ποινής"
+
+#: ../includes/wpcm-preset-functions.php:126
+#: ../includes/wpcm-preset-functions.php:436
+msgid "PIM"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:127
+#: ../includes/wpcm-preset-functions.php:282
+#: ../includes/wpcm-preset-functions.php:317
+#: ../includes/wpcm-preset-functions.php:361
+#: ../includes/wpcm-preset-functions.php:397
+#: ../includes/wpcm-preset-functions.php:547
+#: ../includes/wpcm-preset-functions.php:582
+msgid "Red Cards"
+msgstr "Κόκκινη Κάρτα"
+
+#: ../includes/wpcm-preset-functions.php:127
+#: ../includes/wpcm-preset-functions.php:282
+#: ../includes/wpcm-preset-functions.php:317
+#: ../includes/wpcm-preset-functions.php:361
+#: ../includes/wpcm-preset-functions.php:397
+#: ../includes/wpcm-preset-functions.php:547
+#: ../includes/wpcm-preset-functions.php:582
+msgid "RC"
+msgstr "Κοκ. κάρτ."
+
+#: ../includes/wpcm-preset-functions.php:128
+#: ../includes/wpcm-preset-functions.php:394
+#: ../includes/wpcm-preset-functions.php:440
+msgid "Saves"
+msgstr "Σώζει"
+
+#: ../includes/wpcm-preset-functions.php:128
+#: ../includes/wpcm-preset-functions.php:394
+#: ../includes/wpcm-preset-functions.php:440
+msgid "SAV"
+msgstr "Σώζει"
+
+#: ../includes/wpcm-preset-functions.php:129
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:176
+msgid "Goals Against"
+msgstr "Γκολ κατά"
+
+#: ../includes/wpcm-preset-functions.php:129
+msgid "GA"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:135
+msgid "American Football"
+msgstr "Αμερικάνικο ποδόσφαιρο"
+
+#: ../includes/wpcm-preset-functions.php:190
+msgid "Pass Completions"
+msgstr "Ολοκληρωμένες πάσες"
+
+#: ../includes/wpcm-preset-functions.php:190
+msgid "CMP"
+msgstr "Ολ. Πασ."
+
+#: ../includes/wpcm-preset-functions.php:191
+msgid "Passing Yards"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:191
+#: ../includes/wpcm-preset-functions.php:194
+#: ../includes/wpcm-preset-functions.php:197
+msgid "YDS"
+msgstr "YDS"
+
+#: ../includes/wpcm-preset-functions.php:192
+msgid "Passing Touchdowns"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:192
+msgid "PASS"
+msgstr "Πασ."
+
+#: ../includes/wpcm-preset-functions.php:193
+msgid "Passing Interceptions"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:193
+#: ../includes/wpcm-preset-functions.php:202
+#: ../includes/wpcm-preset-functions.php:486
+msgid "INT"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:194
+msgid "Rushing Yards"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:195
+msgid "Rushing Touchdowns"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:195
+msgid "RUSH"
+msgstr "ΕΣΠΕΥΣΜΕΝΟ"
+
+#: ../includes/wpcm-preset-functions.php:196
+msgid "Receptions"
+msgstr "Υποδοχές"
+
+#: ../includes/wpcm-preset-functions.php:196
+#: ../includes/wpcm-preset-functions.php:198
+msgid "REC"
+msgstr "Υποδ."
+
+#: ../includes/wpcm-preset-functions.php:197
+msgid "Receiving Yards"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:198
+msgid "Receiving Touchdowns"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:199
+msgid "Total Tackles"
+msgstr "Σύνολο Τάκλιν"
+
+#: ../includes/wpcm-preset-functions.php:199
+msgid "TOTAL"
+msgstr "ΣΥΝΟΛΟ"
+
+#: ../includes/wpcm-preset-functions.php:200
+msgid "Sacks"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:200
+msgid "SACK"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:201
+msgid "Fumbles"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:201
+#: ../includes/wpcm-preset-functions.php:271
+msgid "FF"
+msgstr "FF"
+
+#: ../includes/wpcm-preset-functions.php:202
+#: ../includes/wpcm-preset-functions.php:486
+msgid "Interceptions"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:203
+msgid "Blocked Kicks"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:203
+msgid "KB"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:204
+msgid "Touchdowns"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:204
+msgid "TD"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:205
+msgid "2 Point Conversions"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:205
+msgid "2PT"
+msgstr "2Π"
+
+#: ../includes/wpcm-preset-functions.php:206
+msgid "Field Goals"
+msgstr "Γκολ πεδίου"
+
+#: ../includes/wpcm-preset-functions.php:206
+msgid "FG"
+msgstr "Γκ. Π."
+
+#: ../includes/wpcm-preset-functions.php:207
+msgid "Extra Points"
+msgstr "Έξτρα βαθμοί"
+
+#: ../includes/wpcm-preset-functions.php:207
+msgid "PAT"
+msgstr "Παικ. του Αγ."
+
+#: ../includes/wpcm-preset-functions.php:208
+msgid "Total Points"
+msgstr "Σύνολο Πόντων"
+
+#: ../includes/wpcm-preset-functions.php:214
+msgid "Australian Rules Football"
+msgstr "Αυστραλιανό ποδόσφαιρο"
+
+#: ../includes/wpcm-preset-functions.php:265
+msgid "Kicks"
+msgstr "Λακτίσματα"
+
+#: ../includes/wpcm-preset-functions.php:265
+msgid "K"
+msgstr "Κ"
+
+#: ../includes/wpcm-preset-functions.php:266
+msgid "Handballs"
+msgstr "Χάντμπολ"
+
+#: ../includes/wpcm-preset-functions.php:266
+msgid "HB"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:267
+msgid "Disposals"
+msgstr "Αποβολές"
+
+#: ../includes/wpcm-preset-functions.php:267
+msgid "D"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:268
+msgid "Contested Possesion"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:268
+msgid "CP"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:269
+msgid "Marks"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:269
+msgid "M"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:270
+msgid "Contested Marks"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:270
+msgid "CM"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:271
+msgid "Frees For"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:272
+msgid "Frees Against"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:272
+msgid "FA"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:273
+msgid "Clangers"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:273
+msgid "C"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:274
+msgid "Tackles"
+msgstr "Τάκλιν"
+
+#: ../includes/wpcm-preset-functions.php:274
+msgid "T"
+msgstr "Τακ."
+
+#: ../includes/wpcm-preset-functions.php:275
+msgid "Inside 50s"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:275
+msgid "I50"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:276
+msgid "Rebound 50s"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:276
+msgid "R50"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:277
+msgid "One-Percenters"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:277
+msgid "1PCT"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:278
+msgid "Hit-Outs"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:278
+msgid "HO"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:280
+msgid "Behinds"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:280
+msgid "B"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:281
+#: ../includes/wpcm-preset-functions.php:315
+#: ../includes/wpcm-preset-functions.php:360
+#: ../includes/wpcm-preset-functions.php:396
+#: ../includes/wpcm-preset-functions.php:546
+#: ../includes/wpcm-preset-functions.php:581
+msgid "Yellow Cards"
+msgstr "Κίτρινη Κάρτα"
+
+#: ../includes/wpcm-preset-functions.php:281
+#: ../includes/wpcm-preset-functions.php:315
+#: ../includes/wpcm-preset-functions.php:360
+#: ../includes/wpcm-preset-functions.php:396
+#: ../includes/wpcm-preset-functions.php:546
+#: ../includes/wpcm-preset-functions.php:581
+msgid "YC"
+msgstr "Κιτρ. κάρτ."
+
+#: ../includes/wpcm-preset-functions.php:288
+msgid "Gaelic Football / Hurling"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:312
+msgid "P"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:313
+msgid "Goals from Frees"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:313
+msgid "GFF"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:314
+msgid "Points from Frees"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:314
+msgid "PFF"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:316
+msgid "Black Cards"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:316
+msgid "BC"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:323
+msgid "Handball"
+msgstr "Χειροσφαίριση"
+
+#: ../includes/wpcm-preset-functions.php:358
+#: ../includes/wpcm-preset-functions.php:481
+#: ../includes/wpcm-preset-functions.php:576
+msgid "GLS"
+msgstr "Γκόλ"
+
+#: ../includes/wpcm-preset-functions.php:359
+msgid "2 Minute Suspension"
+msgstr "Αποβολή 2 λεπτών"
+
+#: ../includes/wpcm-preset-functions.php:359
+msgid "2MIN"
+msgstr "2ΛΕΠ"
+
+#: ../includes/wpcm-preset-functions.php:367
+msgid "Field Hockey"
+msgstr "Χόκεϊ επί χόρτου"
+
+#: ../includes/wpcm-preset-functions.php:392
+msgid "Shots"
+msgstr "Σουτ"
+
+#: ../includes/wpcm-preset-functions.php:392
+msgid "SH"
+msgstr "Σουτ"
+
+#: ../includes/wpcm-preset-functions.php:395
+msgid "Green Cards"
+msgstr "Πράσινη Κάρτα"
+
+#: ../includes/wpcm-preset-functions.php:395
+msgid "GC"
+msgstr "Πρασ. κάρτ."
+
+#: ../includes/wpcm-preset-functions.php:403
+msgid "Ice Hockey"
+msgstr "Χόκεϊ επί πάγου"
+
+#: ../includes/wpcm-preset-functions.php:434
+msgid "Missed Shots"
+msgstr "Χαμένα σουτς"
+
+#: ../includes/wpcm-preset-functions.php:434
+msgid "MS"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:435
+msgid "Blocked Shots"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:435
+msgid "BS"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:437
+msgid "HT"
+msgstr "ΗΜΙ"
+
+#: ../includes/wpcm-preset-functions.php:438
+msgid "Faceoffs Won"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:438
+msgid "FW"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:439
+msgid "Faceoffs Lost"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:439
+msgid "FL"
+msgstr "ΤΕΛ"
+
+#: ../includes/wpcm-preset-functions.php:446
+msgid "Netball"
+msgstr "Δικτυοσφαίρα"
+
+#: ../includes/wpcm-preset-functions.php:482
+msgid "Goal Attempts"
+msgstr "Προσπάθειες για Γκολ"
+
+#: ../includes/wpcm-preset-functions.php:482
+msgid "ATT"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:483
+msgid "Goal Assists"
+msgstr "Ασσίστ για γκολ"
+
+#: ../includes/wpcm-preset-functions.php:485
+msgid "Centre Pass Receives"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:485
+msgid "CPR"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:487
+msgid "Deflections"
+msgstr "Αλλοιώσεις"
+
+#: ../includes/wpcm-preset-functions.php:487
+msgid "DEF"
+msgstr "ΑΜΥ"
+
+#: ../includes/wpcm-preset-functions.php:488
+msgid "Penaties"
+msgstr "Πέναλτυ"
+
+#: ../includes/wpcm-preset-functions.php:488
+#: ../includes/wpcm-preset-functions.php:544
+msgid "PEN"
+msgstr "Πεν."
+
+#: ../includes/wpcm-preset-functions.php:495
+msgid "Rugby"
+msgstr "Ράγκμπι"
+
+#: ../includes/wpcm-preset-functions.php:542
+msgid "Tries"
+msgstr "Προσπάθειες"
+
+#: ../includes/wpcm-preset-functions.php:542
+msgid "TRI"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:543
+msgid "Conversions"
+msgstr "Αλλαγές"
+
+#: ../includes/wpcm-preset-functions.php:543
+msgid "CON"
+msgstr "Αλλ."
+
+#: ../includes/wpcm-preset-functions.php:544
+msgid "Penalties"
+msgstr "Πέναλτι"
+
+#: ../includes/wpcm-preset-functions.php:545
+msgid "Drop Goals"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:545
+msgid "DG"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:553
+msgid "Football (Soccer)"
+msgstr "Ποδόσφαιρο (ποδόσφαιρο)"
+
+#: ../includes/wpcm-preset-functions.php:578
+msgid "Penalty Goals"
+msgstr "Γκολ Πέναλτι"
+
+#: ../includes/wpcm-preset-functions.php:578
+msgid "PENS"
+msgstr "Πεν."
+
+#: ../includes/wpcm-preset-functions.php:579
+msgid "Own Goals"
+msgstr "Αυτογκόλ"
+
+#: ../includes/wpcm-preset-functions.php:579
+msgid "OG"
+msgstr "Αυτογκ."
+
+#: ../includes/wpcm-preset-functions.php:580
+msgid "Clean Sheets"
+msgstr "Νίκες με μηδέν παθητικό"
+
+#: ../includes/wpcm-preset-functions.php:588
+msgid "Volleyball"
+msgstr "Βόλεϊ"
+
+#: ../includes/wpcm-preset-functions.php:619
+msgid "Aces"
+msgstr "Άσσοι"
+
+#: ../includes/wpcm-preset-functions.php:619
+msgid "ACE"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:620
+msgid "Kills"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:620
+msgid "KILL"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:622
+msgid "Block Assists"
+msgstr "Mπλοκ Ασίστ"
+
+#: ../includes/wpcm-preset-functions.php:622
+msgid "BA"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:623
+msgid "Setting Assists"
+msgstr "Ρυθμίσεις ασσίστ"
+
+#: ../includes/wpcm-preset-functions.php:623
+msgid "SA"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:624
+msgid "Digs"
+msgstr ""
+
+#: ../includes/wpcm-preset-functions.php:624
+msgid "DIG"
+msgstr ""
+
+#: ../includes/WPCM_Plugin_Updater.php:175
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: ../includes/WPCM_Plugin_Updater.php:182
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-assets.php:74
+msgid "WPClubManager"
+msgstr "WP Διαχείρηση Συλλόγου"
+
+#: ../includes/admin/class-wpcm-admin-dashboard.php:37
+msgid "This Week's Upcoming Matches"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-dashboard.php:60
+#, php-format
+msgid "%s "
+msgid_plural "%s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/admin/class-wpcm-admin-dashboard.php:205
+msgid "No upcoming matches."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-importers.php:33
+#: ../includes/widgets/class-wpcm-widget-players.php:28
+msgid "WPCM Players"
+msgstr "WPCM παίκτες"
+
+#: ../includes/admin/class-wpcm-admin-importers.php:33
+msgid "Import <strong>players</strong> to your club via a csv file."
+msgstr ""
+"Εισαγωγή <strong>παικτών</strong> στον σύλλογό σας μέσω ενός csv αρχείου."
+
+#: ../includes/admin/class-wpcm-admin-importers.php:34
+msgid "WPCM Staff"
+msgstr "WPCM Προσωπικό"
+
+#: ../includes/admin/class-wpcm-admin-importers.php:34
+msgid "Import <strong>staff</strong> to your club via a csv file."
+msgstr ""
+"Εισαγωγή <strong>προσωπικού</strong> στον σύλλογό σας μέσω ενός csv αρχείου."
+
+#: ../includes/admin/class-wpcm-admin-importers.php:35
+msgid "WPCM Clubs"
+msgstr "WPCM Σύλλογοι"
+
+#: ../includes/admin/class-wpcm-admin-importers.php:35
+msgid "Import <strong>clubs</strong> via a csv file."
+msgstr "Εισαγωγή <strong>ομάδων</strong> από csv αρχείο."
+
+#: ../includes/admin/class-wpcm-admin-importers.php:36
+msgid "WPCM Matches"
+msgstr "WPCM Αγώνες"
+
+#: ../includes/admin/class-wpcm-admin-importers.php:36
+msgid "Import <strong>matches</strong> via a csv file."
+msgstr "Εισαγωγή <strong>αγώνων</strong> από csv αρχείο."
+
+#: ../includes/admin/class-wpcm-admin-menus.php:38
+msgid "Club Manager"
+msgstr "Διαχείρηση Συλλόγου"
+
+#: ../includes/admin/class-wpcm-admin-menus.php:51
+#: ../includes/admin/views/html-admin-page-status.php:14
+msgid "WP Club Manager Status"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-menus.php:51
+msgid "Status"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-menus.php:58
+#: ../includes/admin/views/html-admin-page-extensions.php:8
+msgid "WP Club Manager Extensions"
+msgstr "WP Club Manager Πρόσθετα"
+
+#: ../includes/admin/class-wpcm-admin-menus.php:58
+msgid "Extensions"
+msgstr "Πρόσθετα"
+
+#: ../includes/admin/class-wpcm-admin-notices.php:85
+#: ../includes/admin/class-wpcm-admin-settings.php:50
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Δράση απέτυχε. Παρακαλούμε ανανεώστε τη σελίδα και προσπαθήστε ξανά."
+
+#: ../includes/admin/class-wpcm-admin-permalink-settings.php:42
+#: ../includes/admin/views/html-admin-settings.php:2
+msgid "WP Club Manager Settings"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-permalink-settings.php:70
+msgid ""
+"These settings control the permalinks used for WP Club Manager. These "
+"settings only apply when <strong>not using \"default\" permalinks above</"
+"strong>."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:45
+#, php-format
+msgid "Player updated. <a href=\"%s\">View Player</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:46
+#: ../includes/admin/class-wpcm-admin-post-types.php:60
+#: ../includes/admin/class-wpcm-admin-post-types.php:74
+#: ../includes/admin/class-wpcm-admin-post-types.php:88
+#: ../includes/admin/class-wpcm-admin-post-types.php:102
+msgid "Custom field updated."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:47
+#: ../includes/admin/class-wpcm-admin-post-types.php:61
+#: ../includes/admin/class-wpcm-admin-post-types.php:75
+#: ../includes/admin/class-wpcm-admin-post-types.php:89
+#: ../includes/admin/class-wpcm-admin-post-types.php:103
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:48
+msgid "Player updated."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:49
+#, php-format
+msgid "Player restored to revision from %s"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:50
+#, php-format
+msgid "Player published. <a href=\"%s\">View Player</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:51
+msgid "Player saved."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:52
+#, php-format
+msgid "Player submitted. <a target=\"_blank\" href=\"%s\">Preview Player</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:53
+#, php-format
+msgid ""
+"Player scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Player</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:54
+#: ../includes/admin/class-wpcm-admin-post-types.php:68
+#: ../includes/admin/class-wpcm-admin-post-types.php:82
+#: ../includes/admin/class-wpcm-admin-post-types.php:96
+#: ../includes/admin/class-wpcm-admin-post-types.php:110
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:55
+#, php-format
+msgid ""
+"Player draft updated. <a target=\"_blank\" href=\"%s\">Preview Player</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:59
+#, php-format
+msgid "Staff updated. <a href=\"%s\">View Staff</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:62
+msgid "Staff updated."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:63
+#, php-format
+msgid "Staff restored to revision from %s"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:64
+#, php-format
+msgid "Staff published. <a href=\"%s\">View Staff</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:65
+msgid "Staff saved."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:66
+#, php-format
+msgid "Staff submitted. <a target=\"_blank\" href=\"%s\">Preview Staff</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:67
+#, php-format
+msgid ""
+"Staff scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Staff</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:69
+#, php-format
+msgid "Staff draft updated. <a target=\"_blank\" href=\"%s\">Preview Staff</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:73
+#, php-format
+msgid "Match updated. <a href=\"%s\">View Match</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:76
+msgid "Match updated."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:77
+#, php-format
+msgid "Match restored to revision from %s"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:78
+#, php-format
+msgid "Match published. <a href=\"%s\">View Match</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:79
+msgid "Match saved."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:80
+#, php-format
+msgid "Match submitted. <a target=\"_blank\" href=\"%s\">Preview Match</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:81
+#, php-format
+msgid ""
+"Match scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Match</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:83
+#, php-format
+msgid "Match draft updated. <a target=\"_blank\" href=\"%s\">Preview Match</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:87
+#, php-format
+msgid "Club updated. <a href=\"%s\">View Club</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:90
+msgid "Club updated."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:91
+#, php-format
+msgid "Club restored to revision from %s"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:92
+#, php-format
+msgid "Club published. <a href=\"%s\">View Club</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:93
+msgid "Club saved."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:94
+#, php-format
+msgid "Club submitted. <a target=\"_blank\" href=\"%s\">Preview Club</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:95
+#, php-format
+msgid ""
+"Club scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Club</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:97
+#, php-format
+msgid "Club draft updated. <a target=\"_blank\" href=\"%s\">Preview Club</a>"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:101
+#: ../includes/admin/class-wpcm-admin-post-types.php:104
+msgid "Sponsor updated."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:105
+#, php-format
+msgid "Sponsor restored to revision from %s"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:106
+msgid "Sponsor published."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:107
+msgid "Sponsor saved."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:108
+msgid "Sponsor submitted."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:109
+#, php-format
+msgid "Sponsor scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-post-types.php:111
+msgid "Sponsor draft updated."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-settings.php:61
+#: ../includes/admin/class-wpcm-admin-welcome.php:368
+msgid "Your settings have been saved."
+msgstr "Οι ρυθμίσεις σας έχουν αποθηκευτεί."
+
+#: ../includes/admin/class-wpcm-admin-settings.php:117
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Οι αλλαγές που κάνατε θα χαθούν αν φύγετε από αυτήν τη σελίδα."
+
+#: ../includes/admin/class-wpcm-admin-settings.php:481
+msgid "Hard Crop?"
+msgstr "Σκληρή Περικοπή;"
+
+#: ../includes/admin/class-wpcm-admin-settings.php:532
+msgid "Select a page&hellip;"
+msgstr "Επιλέξτε μια σελίδα ..."
+
+#: ../includes/admin/class-wpcm-admin-settings.php:553
+#: ../includes/admin/wpcm-meta-box-functions.php:227
+msgid "Choose a country&hellip;"
+msgstr "Επιλέξτε μια χώρα ..."
+
+#: ../includes/admin/class-wpcm-admin-settings.php:570
+msgid "Deactivate License"
+msgstr "Απενεργοποίηση Άδειας"
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:58
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:78
+msgid "Display Name"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:60
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:82
+msgid "The team label is used to display a shortened version of the team name."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:119
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:139
+msgid "Competition Label"
+msgstr "Ετικέτα ανταγωνισμού"
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:121
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:143
+msgid ""
+"The competition label is used to display a shortened version of the "
+"competition name."
+msgstr ""
+"Η ετικέτα του ανταγωνισμού χρησιμοποιείται για να εμφανίσει μια συντομευμένη "
+"εκδοχή του ονόματος του ανταγωνισμού."
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:182
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:221
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:240
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:183
+msgid "Label"
+msgstr "Επιγραφή"
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:222
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:241
+msgid "Slug"
+msgstr "Slug"
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:257
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:282
+#: ../templates/single-match/venue-info.php:43
+msgid "Venue Address"
+msgstr "Διεύθυνση τόπου διεξαγωγής "
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:259
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:286
+msgid "The venue address is used to display a map of the venue."
+msgstr ""
+"Η διεύθυνση  χρησιμοποιείται για να εμφανίσει στον χάρτη τοω τόπο διεξαγωγής."
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:262
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:291
+msgid "Venue Capacity"
+msgstr "Τόπος διεξαγωγής. Χωρητικότητα"
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:264
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:295
+msgid ""
+"The venue capacity is not prominent by default; however, some themes may "
+"show it."
+msgstr ""
+"Η χωρητικότητα του χώρου δεν είναι εμφανή από προεπιλογή? Ωστόσο, μερικά "
+"θέματα μπορεί να το δείχνουν."
+
+#: ../includes/admin/class-wpcm-admin-taxonomies.php:335
+#: ../templates/content-single-club.php:63
+msgid "Capacity"
+msgstr "Χωρητικότητα"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:49
+msgid "About WP Club Manager"
+msgstr "Σχετικά με το WP Club Manager"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:50
+msgid "Welcome to WP Club Manager"
+msgstr "Καλώς ήρθατε στο WP Club Manager"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:224
+#, php-format
+msgid "Welcome to WP Club Manager %s"
+msgstr "Καλώς ήρθατε στο WP Club Manager %s"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:229
+msgid "Thanks, all done!"
+msgstr "Ευχαριστώ, όλα γίνονται!"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:231
+msgid "Thank you for updating to the latest version of"
+msgstr "Σας ευχαριστούμε για την ενημέρωση στην τελευταία έκδοση του"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:233
+msgid "Thanks for installing"
+msgstr "Ευχαριστούμε για την εγκατάσταση"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:235
+#, php-format
+msgid ""
+"%s WP Club Manager, the complete solution for managing your sports club "
+"website. Version %s is more powerful and stable than ever before. We hope "
+"you enjoy it."
+msgstr ""
+"%s WP Club Manager, η ολοκληρωμένη λύση για τη διαχείριση της ιστοσελίδας "
+"αθλητικού συλλόγου σας. Έκδοση %s είναι πιο ισχυρή και σταθερή από ποτέ. "
+"Ελπίζουμε να το απολαύσετε."
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:239
+#, php-format
+msgid "Version %s"
+msgstr "Έκδοση %s"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:257
+msgid "What's New"
+msgstr "Τι νέο υπάρχει"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:260
+msgid "Getting Started"
+msgstr "Ξεκινώντας"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:263
+msgid "Translators"
+msgstr "Μεταφραστές"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:266
+msgid "Changelog"
+msgstr "Αρχείο καταγραφής αλλαγών"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:285
+msgid ""
+"This new version of WP Club Manager introduces a few new features, some "
+"minor performance improvements and a couple of bugfixes. Check the changelog "
+"for a full list of changes."
+msgstr ""
+"Αυτή η νέα έκδοση του WP Club Manager εισάγει μερικά νέα χαρακτηριστικά, "
+"κάποιες μικρές βελτιώσεις στην απόδοση και μερικές από διορθώσεις σφαλμάτων. "
+"Ελέγξτε το αρχείο καταγραφής αλλαγών για μια πλήρη λίστα των αλλαγών."
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:289
+msgid "What's New In This Version"
+msgstr "Τί νέο υπάρχει σε αυτή την έκδοση"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:295
+msgid "Display Team Names"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:296
+msgid ""
+"Get more clarity with the new team display names feature which enables you "
+"to set a name for each team in your club that will be displayed throughout "
+"the front-end of your site."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:298
+msgid "New Matches Shortcode List"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:299
+msgid ""
+"More choice to display your fixtures and results with a new matches "
+"shortcode style option. You can choose between the original classic table "
+"layout or a new, modern list style."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:305
+msgid "Head to Head Club Records"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:306
+msgid ""
+"Easily view your clubs match records against your opponents with the new "
+"clubs head-to-head features. See your wins, losses and draws at a glance or "
+"view each match in more detail."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:308
+msgid "Rich Snippets for Matches"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:309
+msgid ""
+"Improve your club websites SERPs with the new Rich Snippets for matches "
+"which allow search engines to gather information about your matches and "
+"display them search results."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:315
+#: ../includes/admin/class-wpcm-admin-welcome.php:468
+msgid "Stay Up to Date"
+msgstr "Μείνετε ενημερωμένοι"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:319
+#: ../includes/admin/class-wpcm-admin-welcome.php:472
+msgid "Get Notified of New Extensions and Plugin Updates"
+msgstr "Να ειδοποιείστε για νέα πρόσθετα και ενημερώσεις των υπάρχοντων"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:320
+#: ../includes/admin/class-wpcm-admin-welcome.php:473
+msgid ""
+"WP Club Manager is getting better every day with new features, extensions "
+"and themes being created. Stay in touch with the latest developments, newest "
+"extensions and get special offers by subscribing to our newsletter."
+msgstr ""
+"Το WP Club Manager γίνεται καλύτερο μέρα με την μέρα με νέα χαρακτηριστικά, "
+"πρόσθετα και θέματα να δημιουργούνται. Μείνετε συντονισμένοι με τις "
+"τελευταίες βελτιώσεις, τα νεότερα πρόσθετα και λάβετε ειδικές προσφορές με "
+"την εγγραφή σας στο newsletter μας. "
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:338
+#: ../includes/admin/class-wpcm-admin-welcome.php:491
+#: ../includes/admin/class-wpcm-admin-welcome.php:532
+#: ../includes/admin/class-wpcm-admin-welcome.php:561
+msgid "Go to WP Club Manager Settings"
+msgstr "Πηγαίνετε στις ρυθμίσεις του WP Club Manager"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:365
+msgid ""
+"WP Club Manager has been built with the focus on simplicity and ease of use "
+"so it won't be long before your club website is up and ready for action."
+msgstr ""
+"To WP Club Manager έχει χτιστεί με επίκεντρο την απλότητα και την ευκολία "
+"χρήσης και έτσι δεν θα πάρει πολύ μέχρι ο ιστότοπος του συλλόγου σας  να "
+"είναι διαθέσιμος και έτοιμος για δράση."
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:373
+msgid "Quick and Easy Setup"
+msgstr "Γρήγορη και εύκολη εγκατάσταση"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:379
+msgid "1. Choose Your Sport"
+msgstr "1. Επιλέξτε το άθλημα σας"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:380
+#, php-format
+msgid ""
+"Take your pick from 13 supported team sports. Each sport has preset player "
+"positions and statistics so it's a good idea to set this up before anything "
+"else. To select your default sport goto <a href=\"%s\">General Settings</a> "
+"or use the form below."
+msgstr ""
+"Κάντε την επιλογή σας από 13 υποστηριζόμενα ομαδικά αθλήματα. Κάθε άθλημα "
+"έχει προκαθορίσει τις θέσεις των παικτών και τα στατιστικά στοιχεία γι 'αυτό "
+"είναι μια καλή ιδέα να κάνετε τις ρυθμίσεις σας πριν από οτιδήποτε άλλο. Για "
+"να επιλέξετε τις προεπιλεγμένες άθλημα σας goto <a href=\"%s\"> Γενικές "
+"Ρυθμίσεις </a> ή χρησιμοποιήστε την παρακάτω φόρμα."
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:394
+#: ../includes/admin/class-wpcm-admin-welcome.php:429
+#: ../includes/admin/views/html-admin-settings.php:25
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:399
+msgid "2. Create Your Club"
+msgstr "2.Δημιουργήστε τον σύλλογο σας"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:400
+#, php-format
+msgid ""
+"The Clubs menu is where you create and edit clubs, including your own and "
+"create Competitions, Seasons, Teams and Venues. To create a club, click "
+"<em><a href=\"%s\">Add New</a></em> and then fill out the club details. "
+"<strong>Your club will need to be set as the Default Club in <a href=\"%s"
+"\">General Settings</a>.</strong> Alternatively, you can enter your default "
+"club in the box below."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:436
+msgid "3. Seasons, Competitions and Teams"
+msgstr "3.Αγωνιστικές Περίοδοι, Διοργανώσεις και ομάδες"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:437
+#, php-format
+msgid ""
+"Before adding your players and opposition clubs you should create <a href="
+"\"%s\">Competitions</a> and <a href=\"%s\">Seasons</a>. If your club has "
+"more than one team, for example, firsts, reserves, youth team etc. you will "
+"need to create <a href=\"%s\">Teams</a> for each one. When creating players "
+"or adding more clubs you will need to choose the competitions, seasons and "
+"teams which they compete in."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:438
+msgid ""
+"<strong>If you have already created your default club you will need to edit "
+"your club to add competitions, seasons and teams.</strong>"
+msgstr ""
+"<strong>Αν έχετε ήδη δημιουργήσει τον προεπιλεγμένο σύλλογό σας, θα "
+"χρειαστεί να επεξεργαστείτε συλλόγου σας, να προσθέσετε διοργανώσεις, τις "
+"σεζόν και τις ομάδες. </ strong>"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:442
+msgid "4. Add Your Players"
+msgstr "4.Προσθέσετε παίκτες"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:443
+#: ../includes/admin/class-wpcm-admin-welcome.php:446
+#, php-format
+msgid ""
+"Now you should be ready to add your clubs players. The Players Menu is where "
+"you can create and edit your clubs players and player positions. To create a "
+"player, simply click <em><a href=\"%s\">Add New</a></em> and then fill out "
+"the player details, including competitions, seasons and teams."
+msgstr ""
+"Τώρα είστε έτοιμος να προσθέσετε παίκτες στον σύλλογο. Στο μενού των παικτών "
+"μπορείτε να δημιουργήσετε και να επεξεργαστείτε τους παίκτες του συλλόγου "
+"και τις θέσεις τους. Για να δημιουργήσετε έναν παίκτη, απλά κάντε κλικ στο "
+"<em><a href=\"%s\"> Προσθήκη νέου</a></em> και στη συνέχεια να συμπληρώσετε "
+"τις λεπτομέρειες του παίκτη, συμπεριλαμβανομένων των διοργανώσεων, τις σεζόν "
+"και τις ομάδες."
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:445
+msgid "5. Play A Match"
+msgstr "5. Παίξτε έναν αγώνα"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:447
+#, php-format
+msgid ""
+"Don't forget to run through the <a href=\"%s\">WP Club Manager settings</a> "
+"where you can set visibility options for player stats, set league standing "
+"options and loads more."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:454
+msgid "Need Help?"
+msgstr "Χρειάζεστε βοήθεια;"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:458
+msgid "Plugin Documentation"
+msgstr "Εγχειρίδιο προσθέτου"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:459
+msgid ""
+"If you need more help setting up WP Club Manager, using the shortcodes and "
+"widgets or customizing the plugin templates then visit our <a href=\"https://"
+"wpclubmanager.com/docs/\">documentation</a>."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:461
+msgid "Friendly Support"
+msgstr "Φιλική Υποστήριξη"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:462
+msgid ""
+"We do our best to provide the best support we can. If you encounter a "
+"problem or have a question, post a question in the <a href=\"https://"
+"wpclubmanager.com/support\">support forums</a>."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:508
+msgid ""
+"WP Club Manager has been translated by our generous translation teams, "
+"listed below. If you can help translate WPCM please sign up for a free "
+"account on <a href=\"https://www.transifex.com/\">Transifex</a> and visit "
+"the <a href=\"https://www.transifex.com/projects/p/wp-club-manager/\">WP "
+"Club Manager project</a>."
+msgstr ""
+"Εμείς θέλουμε να κάνουμε το WP Club Manager διαθέσιμο σε όσο το δυνατόν "
+"περισσότερες γλώσσες. Αν μπορείτε να βοηθήσετε να μεταφράσετε και θέλετε να "
+"ενταχθείτε στην ομάδα μετάφρασης μας, εγγραφείτε σε ένα δωρεάν λογαριασμό "
+"στο <a href=\"https://www.transifex.com/\">Transifex</a> και επισκεφθείτε το "
+"<a href=\"https://www.transifex.com/projects/p/wp-club-manager/\">WP Club "
+"Manager πρόγραμμα</a>."
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:512
+msgid "A Massive Thanks to the Following Translators"
+msgstr "Ένα τεράστιο ευχαριστώ στους ακόλουθους μεταφραστές"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:553
+msgid "Full Changelog"
+msgstr "Πλήρες αρχείο καταγραφής αλλαγών"
+
+#: ../includes/admin/class-wpcm-admin-welcome.php:577
+msgid "No valid changlog was found."
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin.php:114
+#, php-format
+msgid ""
+"If you like <strong>WP Club Manager</strong> please leave us a %s&#9733;"
+"&#9733;&#9733;&#9733;&#9733;%s rating. A huge thank you in advance!"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin.php:114
+msgid "Many thanks :)"
+msgstr ""
+
+#: ../includes/admin/class-wpcm-admin.php:122
+msgid ""
+"Thank you for managing your club with WP Club Manager, your support is much "
+"appreciated."
+msgstr ""
+
+#: ../includes/admin/wpcm-admin-functions.php:19
+msgid "wpcm-settings"
+msgstr "wpcm-ρυθμίσεις"
+
+#: ../includes/admin/importers/class-wpcm-club-importer.php:23
+#: ../includes/admin/importers/class-wpcm-club-importer.php:115
+msgid "Import Clubs"
+msgstr "Εισαγωγή συλλόγων"
+
+#: ../includes/admin/importers/class-wpcm-club-importer.php:96
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> clubs and skipped <strong>%s</"
+"strong>."
+msgstr ""
+"Η εισαγωγή ολοκληρώθηκε - εισήχθησαν <strong>%s</strong> σύλλογοι και "
+"παραλήφθηκαν <strong>%s</strong>."
+
+#: ../includes/admin/importers/class-wpcm-club-importer.php:106
+#: ../includes/admin/importers/class-wpcm-match-importer.php:178
+#: ../includes/admin/importers/class-wpcm-player-importer.php:131
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:119
+msgid "All done!"
+msgstr "Όλα έτοιμα!"
+
+#: ../includes/admin/importers/class-wpcm-club-importer.php:106
+msgid "View Clubs"
+msgstr "Προβολή συλλόγων"
+
+#: ../includes/admin/importers/class-wpcm-club-importer.php:123
+#: ../includes/admin/importers/class-wpcm-match-importer.php:195
+#: ../includes/admin/importers/class-wpcm-player-importer.php:148
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:136
+msgid "Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr ""
+"Επιλέξτε ένα .csv αρχείο για να ανεβάσετε, και μετά κάντε κλικ στο "
+"\"Ανέβασμα αρχείου και εισαγωγή\"."
+
+#: ../includes/admin/importers/class-wpcm-club-importer.php:124
+#, php-format
+msgid ""
+"Clubs need to be defined with columns in a specific order (5 columns). <a "
+"href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Οι σύλλογοι πρέπει να οριστούν με στήλες με συγκεκριμένη σειρά (5 στήλες).  "
+"<a href=\"%s\">Πατήστε εδώ για να κατεβάσετε ένα δείγμα</a>."
+
+#: ../includes/admin/importers/class-wpcm-importers.php:96
+msgid "Disable"
+msgstr "Απενεργοποιήση"
+
+#: ../includes/admin/importers/class-wpcm-importers.php:119
+#: ../includes/admin/importers/class-wpcm-importers.php:178
+#: ../includes/admin/importers/class-wpcm-importers.php:215
+#: ../includes/admin/importers/class-wpcm-importers.php:230
+msgid "Sorry, there has been an error."
+msgstr "Συγγνώμη, υπήρξε κάποιο σφάλμα."
+
+#: ../includes/admin/importers/class-wpcm-importers.php:120
+msgid "The file does not exist, please try again."
+msgstr "Το αρχείο δεν υπάρχει, παρακαλούμε προσπαθήστε ξανά."
+
+#: ../includes/admin/importers/class-wpcm-importers.php:169
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Εμφάνιση %s&#8211;%s από %s"
+
+#: ../includes/admin/importers/class-wpcm-importers.php:179
+msgid "The CSV is invalid."
+msgstr "Το CSV δεν είναι έγκυρο."
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:23
+#: ../includes/admin/importers/class-wpcm-match-importer.php:187
+msgid "Import Matches"
+msgstr "Εισαγωγή αγώνων"
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:25
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:126
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:124
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:75
+#: ../includes/widgets/class-wpcm-widget-results.php:75
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:26
+msgid "Kickoff"
+msgstr "Έναρξη"
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:27
+msgid "Home Club"
+msgstr "Γηπεδούχος"
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:28
+msgid "Away Club"
+msgstr "Φιλοξενούμενος"
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:29
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:40
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:131
+msgid "Result"
+msgstr "Αποτελέσμα"
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:168
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> matches and skipped <strong>"
+"%s</strong>."
+msgstr ""
+"Η εισαγωγή ολοκληρώθηκε - εισήχθησαν <strong>%s</strong> αγώνες και "
+"παραλήφθηκαν <strong>%s</strong>."
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:178
+msgid "View Matches"
+msgstr "Προβολή Αγώνων"
+
+#: ../includes/admin/importers/class-wpcm-match-importer.php:196
+#, php-format
+msgid ""
+"Matches need to be defined with columns in a specific order (9 columns). <a "
+"href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Οι αγώνες πρέπει να οριστούν με στήλες με συγκεκριμένη σειρά (9 στήλες). <a "
+"href=\"%s\">Πατήστε εδώ για να κατεβάσετε ένα δείγμα</a>."
+
+#: ../includes/admin/importers/class-wpcm-player-importer.php:23
+#: ../includes/admin/importers/class-wpcm-player-importer.php:140
+msgid "Import Players"
+msgstr "Εισαγωγή παικτών"
+
+#: ../includes/admin/importers/class-wpcm-player-importer.php:33
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:93
+#: ../includes/admin/settings/class-wpcm-settings-players.php:121
+#: ../templates/single-player/meta.php:170
+msgid "Birthplace"
+msgstr "Τόπος Γέννησης"
+
+#: ../includes/admin/importers/class-wpcm-player-importer.php:34
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:30
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:95
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-staff-details.php:88
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:97
+#: ../templates/content-single-staff.php:180
+msgid "Nationality"
+msgstr "Εθνικότητα"
+
+#: ../includes/admin/importers/class-wpcm-player-importer.php:35
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:97
+#: ../includes/admin/settings/class-wpcm-settings-players.php:129
+#: ../templates/single-player/meta.php:211
+msgid "Previous Clubs"
+msgstr "Προηγούμενες Ομάδες"
+
+#: ../includes/admin/importers/class-wpcm-player-importer.php:121
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> players and skipped <strong>"
+"%s</strong>."
+msgstr ""
+"Η εισαγωγή ολοκληρώθηκε - εισήχθησαν <strong>%s</strong> παίκτες και "
+"παραλήφθηκαν <strong>%s</strong>."
+
+#: ../includes/admin/importers/class-wpcm-player-importer.php:131
+msgid "View Players"
+msgstr "Προβολή παικτών"
+
+#: ../includes/admin/importers/class-wpcm-player-importer.php:149
+#, php-format
+msgid ""
+"Players need to be defined with columns in a specific order (11 columns). <a "
+"href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Οι παίκτες πρέπει να οριστούν με στήλες με συγκεκριμένη σειρά (11 στήλες). "
+"<a href=\"%s\">Πατήστε εδώ για να κατεβάσετε ένα δείγμα</a>."
+
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:23
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:128
+msgid "Import Staff"
+msgstr "Εισαγωγή προσωπικού"
+
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:109
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> staff and skipped <strong>%s</"
+"strong>."
+msgstr ""
+"Η εισαγωγή ολοκληρώθηκε - εισήχθησαν <strong>%s</strong> άτομα προσωπικού "
+"και παραλήφθηκαν <strong>%s</strong>."
+
+#: ../includes/admin/importers/class-wpcm-staff-importer.php:137
+#, php-format
+msgid ""
+"Staff need to be defined with columns in a specific order (8 columns). <a "
+"href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Τα άτομα προσωπικού πρέπει να οριστούν με στήλες με συγκεκριμένη σειρά (8 "
+"στήλες). <a href=\"%s\">Πατήστε εδώ για να κατεβάσετε ένα δείγμα</a>."
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:55
+msgid "Enter club name"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:65
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:96
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-sponsor.php:56
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:94
+msgid "Set featured image"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:65
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:82
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:83
+msgid "Set club badge"
+msgstr "Ρυθμίστε το σήμα του συλλόγου"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:66
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:97
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-sponsor.php:57
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:95
+msgid "Remove featured image"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:66
+msgid "Remove club badge"
+msgstr "Κατάργηστε το σήμα του συλλόγου"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:136
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:146
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:178
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:188
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:198
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:197
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:207
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:217
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:177
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:187
+#, php-format
+msgid "Show all %s"
+msgstr "Εμφάνιση όλων %s"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:136
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:178
+msgid "competitions"
+msgstr "διοργανώσεις"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-club.php:146
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:188
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:217
+msgid "seasons"
+msgstr "σεζόν"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:108
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:110
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:112
+#, php-format
+msgid "Kick-off: <b>%1$s</b>"
+msgstr "Έναρξη: <b>%1$s</b>"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:122
+msgid "Fixture"
+msgstr "Πρόγραμμα "
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:127
+msgid "Kick-off"
+msgstr "Έναρξη"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:128
+#: ../includes/widgets/class-wpcm-widget-results.php:32
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-match.php:198
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:207
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:187
+msgid "teams"
+msgstr "ομάδες"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:72
+msgid "Enter players name"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:81
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:79
+#, php-format
+msgid "Joins on: <b>%1$s</b>"
+msgstr "Ενώνει τη για: <b>%1$s</b>"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:83
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:85
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:81
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:83
+#, php-format
+msgid "Joined on: <b>%1$s</b>"
+msgstr "Εντάχθηκαν σε: <b>%1$s</b>"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:96
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:113
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:114
+msgid "Set player image"
+msgstr "Ρυθμίστε την εικόνα παίκτη"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:97
+msgid "Remove player image"
+msgstr "Αφαιρέστε την εικόνα του παίκτη"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-player.php:197
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:61
+msgid "positions"
+msgstr "θέσεις"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-sponsor.php:46
+msgid "Enter sponsor name"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-sponsor.php:56
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-sponsor.php:73
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-sponsor.php:74
+msgid "Set sponsor logo"
+msgstr "Ρυθμίστε το λογότυπο του χορηγού"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-sponsor.php:57
+msgid "Remove sponsor logo"
+msgstr "Κατάργηση το λογότυπου του χορηγού"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:70
+msgid "Enter staff name"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:94
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:111
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:112
+msgid "Set staff image"
+msgstr "Ρυθμίστε την εικόνα του προσωπικού"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:95
+msgid "Remove staff image"
+msgstr "Αφαιρέστε την εικόνα του προσωπικού"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:125
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-staff-details.php:49
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:73
+msgid "Job Title"
+msgstr "Τίτλος Θέσης"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt-staff.php:177
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-staff-details.php:56
+msgid "jobs"
+msgstr "Θέσεις εργασίας"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt.php:40
+#, php-format
+msgid "Insert into %s"
+msgstr "Εισαγωγή στο %s"
+
+#: ../includes/admin/post-types/class-wpcm-admin-cpt.php:41
+#, php-format
+msgid "Uploaded to this %s"
+msgstr "Ανέβηκαν σε αυτήν %s"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:95
+msgid "Club Statistics"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:96
+msgid "Club Badge"
+msgstr "Σήμα συλλόγου"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:98
+msgid "Match Result"
+msgstr "Αποτέλεσμα αγώνα"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:99
+msgid "Match Video"
+msgstr "Βίντεο αγώνα"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:100
+msgid "Match Fixture"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:101
+#: ../templates/single-match/report.php:39
+msgid "Match Preview"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:102
+#: ../includes/admin/views/html-bulk-edit-match.php:15
+#: ../includes/admin/views/html-quick-edit-match.php:15
+msgid "Match Details"
+msgstr "Οι λεπτομέρειες του αγώνα"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:103
+msgid "Select Players"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:105
+msgid "Player Information"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:106
+msgid "Player Statistics"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:107
+msgid "Player Order"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:108
+msgid "Player Image"
+msgstr "Εικόνα παίκτη"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:110
+msgid "Sponsor Details"
+msgstr "Πληροφοριές υποστηρικτή"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:111
+msgid "Sponsor Logo"
+msgstr "Λογότυπο τπυ χορηγού"
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:113
+msgid "Staff Information"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:114
+msgid "Staff Order"
+msgstr ""
+
+#: ../includes/admin/post-types/class-wpcm-admin-meta-boxes.php:115
+msgid "Staff Image"
+msgstr "Εικόνα προσωπικού"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-club-stats.php:30
+msgid "Choose a competition and season to edit the manual stats."
+msgstr ""
+"Επιλέξτε μία διοργάνωση και την περίοδο για να επεξεργαστείτε χειροκίνητα τα "
+"στατιστικά."
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:121
+msgid "Neutral?"
+msgstr "Ουδέτερος;"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:125
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:110
+#: ../templates/single-match/attendance.php:24
+msgid "Attendance"
+msgstr "Παρουσία"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-details.php:127
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:90
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:118
+#: ../templates/single-match/referee.php:21
+msgid "Referee"
+msgstr "Διαιτητής"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-fixture.php:28
+msgid "Home"
+msgstr "Γηπεδούχος"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-fixture.php:35
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-fixture.php:51
+msgid "Choose club"
+msgstr ""
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-fixture.php:44
+msgid "Away"
+msgstr "Φιλοξενούμενος"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-players.php:31
+msgid "Starting Lineup"
+msgstr "Αρχική ενδεκάδα"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-players.php:32
+msgid "Substitutes Used"
+msgstr ""
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-players.php:36
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-players.php:40
+msgid "You have selected"
+msgstr "Έχετε επιλέξει"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-players.php:36
+msgid "players"
+msgstr "Παίκτες"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-players.php:40
+msgid "substitutes"
+msgstr "Αναπληρωματικοί"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:48
+msgctxt "team"
+msgid "Home"
+msgstr "Γηπεδούχος"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:49
+msgctxt "team"
+msgid "Away"
+msgstr "Φιλοξενούμενος"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:55
+#: ../includes/widgets/class-wpcm-widget-results.php:85
+msgid "Score"
+msgstr "Σκορ"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:66
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:194
+msgid "Bonus Points"
+msgstr "Βαθμοί μπόνους"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:77
+msgid "Overtime"
+msgstr "Παράταση"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:83
+msgid "Shootout"
+msgstr "πέναλτι"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-result.php:107
+msgid "Friendly"
+msgstr "Φιλικός"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-video.php:28
+msgid "Remove video"
+msgstr "Κατάργηση βίντεο"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-video.php:32
+msgid "URL"
+msgstr "διεύθυνση URL"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-video.php:34
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-match-video.php:37
+msgid "Add video"
+msgstr "Προσθήκη βίντεο"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:51
+msgid "Squad Number"
+msgstr "Νο. Φανέλας"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-details.php:61
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-staff-details.php:56
+#, php-format
+msgid "Choose %s"
+msgstr "Επιλογή %s"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-stats.php:33
+msgid "Choose a team and season to edit the manual stats."
+msgstr ""
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-stats.php:52
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-player-stats.php:148
+#: ../templates/single-player/stats.php:38
+#: ../templates/single-player/stats.php:89
+#, php-format
+msgid "All %s"
+msgstr "Όλες %s"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-sponsor-url.php:31
+msgid "Link URL"
+msgstr "URL σύνδεσμος"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-sponsor-url.php:34
+msgid "Open link in new window?"
+msgstr "Άνοιγμα συνδέσμου σε νέο παράθυρο;"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-staff-details.php:65
+msgid "Email Address"
+msgstr "Ηλεκτρονική διεύθυνση"
+
+#: ../includes/admin/post-types/meta-boxes/class-wpcm-meta-box-staff-details.php:67
+msgid "Contact Number"
+msgstr "Τηλέφωνο επικοινωνίας"
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:22
+msgid "General"
+msgstr "Γενικά"
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:40
+msgid "General Options"
+msgstr "Γενικές Επιλογές"
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:43
+msgid "Sport"
+msgstr "Άθλημα"
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:44
+msgid ""
+"Choose your sport. Your choice will determine the player stats that are "
+"available."
+msgstr ""
+"Επιλέξτε άθλημα. Η επιλογή σας θα καθορίσει τα στατιστικά του παίκτη που "
+"είναι διαθέσιμες."
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:55
+msgid "Default Club"
+msgstr "Προεπιλεγμένος  Σύλλογος"
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:56
+msgid "This is the default club."
+msgstr "Αυτή είναι η προεπιλεγμένη ομάδα."
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:65
+msgid "Base Location"
+msgstr "Τοποθεσία βάσης"
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:66
+msgid ""
+"This is the base country for your club. Players nationality will default to "
+"this country."
+msgstr ""
+"Αυτή η χώρα είναι η βάση για την ομάδα σας. Οι παίκτες εθνικότητας θα "
+"προκαθοριστούν σε αυτή τη χώρα."
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:75
+msgid "Hide Scores"
+msgstr ""
+
+#: ../includes/admin/settings/class-wpcm-settings-general.php:76
+msgid "Check this box to hide scores from guests."
+msgstr ""
+
+#: ../includes/admin/settings/class-wpcm-settings-licenses.php:22
+msgid "Licenses"
+msgstr "Άδειες"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:38
+msgid "Title Format Options"
+msgstr "Επιλογές Μορφοποίησης Τίτλου"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:41
+msgid "Choose the format to display matches"
+msgstr "Επιλέξτε τη μορφή εμφάνισης αγώνων"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:47
+msgid "Default - <code>%home% v %away%</code>"
+msgstr "Προεπιλογή - <code>%Γηπεδούχοι% v %Φιλοξενούμενοι%</code>"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:48
+msgid "Reverse - <code>%away% v %home%</code>"
+msgstr "Αντίστροφα - <code>%Φιλοξενούμενοι% v %Γηπεδούχοι%</code>"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:55
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:69
+#: ../includes/widgets/class-wpcm-widget-results.php:69
+#: ../includes/widgets/class-wpcm-widget-standings.php:67
+msgid "Display Options"
+msgstr "Επιλογές εμφάνισης"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:58
+msgid "Clubs Separator"
+msgstr "Διαχωριστικό Ομάδων"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:59
+msgid "This sets the separator of clubs."
+msgstr "Αυτό θέτει το διαχωριστικό των συλλόγων."
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:68
+msgid "Goals Delimiter"
+msgstr "Γκολ Οριοθέτης"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:69
+msgid "This sets the separator of results."
+msgstr "Αυτό θέτει το διαχωριστικό των αποτελεσμάτων."
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:79
+msgid "Pre Match Display Options"
+msgstr "Προ Επιλογές εμφάνισης Αγώνα"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:99
+msgid "Post Match Display Options"
+msgstr "Δημοσίευση Αγώνα Επιλογές εμφάνισης"
+
+#: ../includes/admin/settings/class-wpcm-settings-matches.php:126
+msgid "Show Player Thumbnails"
+msgstr "Εμφάνιση παίκτη μικρογραφίες"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:38
+msgid "Player Profile Options"
+msgstr "Προφίλ Παίκτη Επιλογές"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:38
+msgid "<p>Choose which fields to display on player profile pages.</p>"
+msgstr ""
+"<p>Επιλέξτε ποια πεδία θα εμφανιστούν στις σελίδες προφίλ του παίκτη.</p>"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:105
+msgid "Date Joined"
+msgstr "Ημερομηνία εγγραφής"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:113
+#: ../templates/single-player/meta.php:196
+msgid "Experience"
+msgstr "Εμπειρία"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:138
+msgid "Player Image Sizes"
+msgstr "Διαστάσεις εικόνας παίκτη"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:138
+#, php-format
+msgid ""
+"<p>These settings affect the actual dimensions of images in player and staff "
+"profiles - the display on the front-end will still be affected by CSS "
+"styles. After changing these settings you may need to <a href=\"%s"
+"\">regenerate your thumbnails</a>.</p>"
+msgstr ""
+"<p>Αυτές οι ρυθμίσεις επηρεάζουν τις πραγματικές διαστάσεις των εικόνων στον "
+"παίκτη και του προσωπικού προφίλ - η οθόνη του εμπρόσθιου άκρου θα "
+"εξακολουθεί να επηρεάζεται από στυλ CSS. Μετά την αλλαγή αυτών των ρυθμίσεων "
+"ίσως χρειαστεί να <a href=\"%s\">αναβαθμίσετε τις μικρογραφίες</a>.</p>"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:141
+msgid "Player Profile Image"
+msgstr "Εικόνα Προφίλ Παίκτη"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:155
+msgid "Player Thumbnails"
+msgstr "Μικρογραφία παίκτη"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:170
+msgid "Display Player Stats"
+msgstr "Εμφανίστε Στατιστικά παιχτών"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:170
+msgid "<p>Choose which player stats to display throughout the site.</p>"
+msgstr ""
+"<p>Επιλέξτε ποια στατιστικά του παίκτη να εμφανίσετε σε όλη την περιοχή.</p>"
+
+#: ../includes/admin/settings/class-wpcm-settings-players.php:175
+msgid "Substitute Appearances"
+msgstr ""
+
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:38
+msgid "Staff Profile Options"
+msgstr "Προφίλ Προσωπικού Επιλογές "
+
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:38
+msgid "<p>Choose which fields to display on staff profile pages.</p>"
+msgstr ""
+"<p> Επιλέξτε ποια πεδία θα εμφανιστούν στις σελίδες προφίλ του προσωπικού.</"
+"p>"
+
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:41
+#: ../templates/content-single-staff.php:49
+#: ../templates/single-player/meta.php:38
+msgid "Birthday"
+msgstr "Γενέθλια"
+
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:114
+msgid "Staff Image Sizes"
+msgstr "Διαστάσεις  Εικόνας Προσωπικού"
+
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:114
+#, php-format
+msgid ""
+"These settings affect the actual dimensions of images in player and staff "
+"profiles - the display on the front-end will still be affected by CSS "
+"styles. After changing these settings you may need to <a href=\"%s"
+"\">regenerate your thumbnails</a>."
+msgstr ""
+"Αυτές οι ρυθμίσεις επηρεάζουν τις πραγματικές διαστάσεις των εικόνων στο  "
+"προφίλ του παίκτη και του προσωπικού -  η οθόνη του εμπρόσθιου άκρου θα "
+"εξακολουθεί να επηρεάζεται από στυλ CSS.  Μετά την αλλαγή αυτών των "
+"ρυθμίσεων ίσως χρειαστεί να <a href=\"%s\"> αναβαθμίσετε τις μικρογραφίες </"
+"a>."
+
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:117
+msgid "Staff Profile Image"
+msgstr "Προφίλ προσωπικού Εικόνα"
+
+#: ../includes/admin/settings/class-wpcm-settings-staff.php:131
+msgid "Staff Thumbnails"
+msgstr "Μικρογραφίες προσωπικού"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:38
+msgid "Scoring System"
+msgstr "Σύστημα βαθμολόγησης"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:41
+msgid "Points for win"
+msgstr "Βαθμοί για τη νίκη"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:42
+msgid "This sets the points for won matches."
+msgstr "Αυτό θέτει τα σημεία για τους κερδισμένους αγώνες."
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:51
+msgid "Points for draw"
+msgstr "Βαθμοί για ισοπαλία"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:52
+msgid "This sets the points for drawn matches."
+msgstr "Αυτό θέτει τα σημεία  για τους ισόπαλους αγώνες."
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:61
+msgid "Points for loss"
+msgstr "Βαθμοί για την ήττα"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:62
+msgid "This sets the points for lost matches."
+msgstr "Αυτό θέτει τα σημεία για τα χαμένα παιχνίδια."
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:71
+msgid "Points for overtime win"
+msgstr "Πόντοι στην παράταση"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:72
+msgid ""
+"This sets the points for win in overtime matches. Often used in Ice Hockey"
+msgstr ""
+"Αυτό θέτει τους πόντους της νίκης σε ματς που έχουν οδηγηθεί σε παράταση. "
+"Συνήθως χρησιμοποιείται στο Χόκεϋ στον πάγο"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:81
+msgid "Points for overtime loss"
+msgstr "Βαθμούς για απώλεια παράτασης"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:82
+msgid ""
+"This sets the points for lost in overtime matches. Often used in Ice Hockey"
+msgstr ""
+"Αυτό θέτει τα σημεία για την απώλεια στους αγώνες με παράταση. Συχνά "
+"χρησιμοποιείται σε Χόκεϊ επί πάγου."
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:92
+msgid "Standings Labels"
+msgstr "Βαθμολογία Ετικέτες"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:104
+msgid "Played"
+msgstr "Αγώνες"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:113
+msgid "Win"
+msgstr "Νίκες"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:122
+msgid "Draw"
+msgstr "Ισσοπαλία"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:131
+msgid "Lost"
+msgstr "Ήττα"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:140
+msgid "Won in Overtime"
+msgstr "Νίκη στην παράταση"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:149
+msgid "Lost in Overtime"
+msgstr "Ήττα στην παράταση"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:158
+msgid "Win Percentage"
+msgstr "Νίκη Ποσοστό"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:167
+msgid "Goals For"
+msgstr "Γκολ υπέρ"
+
+#: ../includes/admin/settings/class-wpcm-settings-standings.php:185
+msgid "Goal Difference"
+msgstr "Γκολ Διαφορά"
+
+#: ../includes/admin/views/html-admin-page-extensions.php:9
+msgid "Browse all extensions"
+msgstr "Αναζήτηση όλων των επεκτάσεων"
+
+#: ../includes/admin/views/html-admin-page-extensions.php:10
+msgid "Browse themes"
+msgstr "Περιήγηση στα θέματα"
+
+#: ../includes/admin/views/html-admin-page-extensions.php:13
+msgid "These add-ons extend the functionality of WP Club Manager."
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-extensions.php:39
+#, php-format
+msgid ""
+"Our catalog of WP Club Manager Extensions can be found on wpclubmanager.com "
+"here: <a href=\"%s\">WP Club Manager Extensions Catalog</a>"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:18
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:19
+msgid "Get System Report"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:23
+msgid "Copied!"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:23
+msgid "Copy for Support"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:36
+msgid "WordPress Environment"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:41
+msgid "Home URL"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:46
+msgid "Site URL"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:51
+msgid "WPCM Version"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:56
+msgid "WP Version"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:61
+msgid "WP Multisite"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:66
+msgid "WP Memory Limit"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:72
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 64MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:79
+msgid "WP Debug Mode"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:84
+msgid "Language"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:93
+msgid "Server Environment"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:98
+msgid "Server Info"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:103
+msgid "PHP Version"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:111
+#, php-format
+msgid ""
+"%s - We recommend a minimum PHP version of 5.4. See: <a href=\"%s\" target="
+"\"_blank\">How to update your PHP version</a>"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:116
+msgid "Couldn't determine PHP version because phpversion() doesn't exist."
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:122
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:127
+msgid "PHP Time Limit"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:132
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:138
+msgid "MySQL Version"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:149
+msgid "Max Upload Size"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:154
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:159
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:170
+msgid "Active Plugins"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:194
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:199
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:210
+msgid "Taxonomies"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:255
+msgid "Theme"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:266
+msgid "Version"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:271
+msgid "Author URL"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:276
+msgid "Child Theme"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:287
+msgid "Parent Theme Name"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:292
+msgid "Parent Theme Version"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:297
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:303
+msgid "WP Club Manager Support"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:307
+msgid "Not Declared"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:318
+msgid "Templates"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:355
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: ../includes/admin/views/html-admin-page-status.php:367
+#: ../includes/admin/views/html-admin-page-status.php:376
+msgid "Overrides"
+msgstr ""
+
+#: ../includes/admin/views/html-bulk-edit-match.php:23
+msgid "— No Change —"
+msgstr ""
+
+#: ../includes/admin/views/html-notice-install.php:13
+msgid "<strong>Welcome to WP Club Manager</strong> &#8211; Enjoy :)"
+msgstr ""
+
+#: ../includes/admin/views/html-notice-install.php:14
+msgid "Skip setup"
+msgstr ""
+
+#: ../includes/admin/views/html-notice-template-check.php:13
+msgid ""
+"<strong>Your theme has bundled outdated copies of WP Club Manager template "
+"files.</strong> If you notice an issue on your site, this could be the "
+"reason. Please contact your theme developer for further assistance. You can "
+"review the System Status report for full details or <a href=\"https://"
+"wpclubmanager.com/docs/\" target=\"_blank\">learn more about WP Club Manager "
+"Template Structure here</a>."
+msgstr ""
+
+#: ../includes/admin/views/html-notice-template-check.php:14
+msgid "System Status"
+msgstr ""
+
+#: ../includes/admin/views/html-notice-template-check.php:14
+#: ../includes/admin/views/html-notice-theme-support.php:16
+msgid "Hide this notice"
+msgstr "Απόκρυψη αυτής της ανακοίνωσης"
+
+#: ../includes/admin/views/html-notice-theme-support.php:13
+msgid ""
+"<strong>Your theme does not declare WP Club Manager support</strong> &#8211; "
+"if you encounter layout issues please read our integration guide or choose a "
+"WP Club Manager theme :)"
+msgstr ""
+"<strong>Το θέμα σας δεν έχει δηλώσει την υποστήριξη του WP Club Manager</"
+"strong> &#8211; αν αντιμετωπίζετε προβλήματα διάταξης παρακαλώ διαβάστε τις "
+"οδηγίες ολοκλήρωσης μας ή να επιλέξετε ένα θέμα του WP Club Manager theme :)"
+
+#: ../includes/admin/views/html-notice-theme-support.php:15
+msgid "Theme integration guide"
+msgstr ""
+
+#: ../includes/admin/views/html-notice-update.php:13
+msgid ""
+"<strong>WP Club Manager Data Update Required</strong> &#8211; We just need "
+"to update your install to the latest version"
+msgstr ""
+
+#: ../includes/admin/views/html-notice-update.php:14
+msgid "Run the updater"
+msgstr ""
+
+#: ../includes/admin/views/html-notice-update.php:18
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:129
+msgid "Opponent"
+msgstr "Αντίπαλη ομάδα"
+
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:139
+#: ../includes/widgets/class-wpcm-widget-results.php:235
+msgid "No matches played yet."
+msgstr "Δεν υπάρχουν αγώνες που διεξήχθησαν ακόμα."
+
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:214
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:224
+msgid "N"
+msgstr ""
+
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:249
+#: ../includes/shortcodes/class-wpcm-shortcode-matches.php:262
+msgid "x"
+msgstr ""
+
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:26
+msgid "Display upcoming fixtures."
+msgstr "Εμφανίστε επερχόμενο πρόγραμμα."
+
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:28
+msgid "WPCM Fixtures"
+msgstr "WPCM Πρόγραμμα"
+
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:32
+msgid "Fixtures"
+msgstr "Πρόγραμμα"
+
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:80
+#: ../includes/widgets/class-wpcm-widget-results.php:80
+msgid "Kick Off"
+msgstr "Έναρξη"
+
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:94
+#: ../includes/widgets/class-wpcm-widget-results.php:99
+#: ../includes/widgets/class-wpcm-widget-standings.php:87
+msgid "Link Options"
+msgstr ""
+
+#: ../includes/widgets/class-wpcm-widget-fixtures.php:230
+msgid "No more matches scheduled."
+msgstr "Δεν υπάρχουν περισσότεροι προγραμματισμένοι αγώνες."
+
+#: ../includes/widgets/class-wpcm-widget-players.php:26
+msgid "Display a table of players details."
+msgstr "Εμφανίσει ένα πίνακα των παικτών λεπτομέρειες."
+
+#: ../includes/widgets/class-wpcm-widget-players.php:128
+msgid "Image"
+msgstr "Εικόνα"
+
+#: ../includes/widgets/class-wpcm-widget-players.php:243
+#: ../includes/widgets/class-wpcm-widget-standings.php:83
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: ../includes/widgets/class-wpcm-widget-results.php:26
+msgid "Display most recent results."
+msgstr "Εμφανίστε πιο πρόσφατα αποτελέσματα."
+
+#: ../includes/widgets/class-wpcm-widget-results.php:28
+msgid "WPCM Results"
+msgstr "WPCM Αποτελέσματα"
+
+#: ../includes/widgets/class-wpcm-widget-sponsors.php:26
+msgid "Display a sponsors logo."
+msgstr "Εμφανίστε ένα λογότυπο των χορηγών."
+
+#: ../includes/widgets/class-wpcm-widget-sponsors.php:28
+msgid "WPCM Sponsors"
+msgstr "WPCM Χορηγοί"
+
+#: ../includes/widgets/class-wpcm-widget-sponsors.php:39
+msgid "Choose a sponsor"
+msgstr "Επιλέξτε έναν χορηγό"
+
+#: ../includes/widgets/class-wpcm-widget-standings.php:26
+msgid "Display your clubs league standings."
+msgstr "Εμφανίστε την βαθμολογία των συλλόγων του πρωταθλήματος σας."
+
+#: ../includes/widgets/class-wpcm-widget-standings.php:28
+msgid "WPCM Standings"
+msgstr "WPCM Βαθμολογίες"
+
+#: ../includes/widgets/class-wpcm-widget-standings.php:57
+msgid "pts"
+msgstr ""
+
+#: ../includes/widgets/class-wpcm-widget-standings.php:58
+msgid "Orderby"
+msgstr ""
+
+#: ../includes/widgets/class-wpcm-widget-standings.php:62
+msgid "DESC"
+msgstr ""
+
+#: ../includes/widgets/class-wpcm-widget-standings.php:73
+msgid "Show club badge"
+msgstr ""
+
+#: ../includes/widgets/class-wpcm-widget-standings.php:78
+msgid "Link to club pages"
+msgstr ""
+
+#: ../templates/content-single-club.php:56
+msgid "Ground"
+msgstr "Έδρα"
+
+#: ../templates/content-single-club.php:79
+msgid "More Info"
+msgstr "Περισσότερες πληροφορίες"
+
+#: ../templates/content-single-club.php:101
+#, php-format
+msgid "Matches against %s"
+msgstr ""
+
+#: ../templates/content-widget-results.php:51
+#: ../templates/content-widget-results.php:52
+#: ../templates/single-match/score.php:52
+#: ../templates/single-match/score.php:64
+msgid "X"
+msgstr ""
+
+#: ../templates/single-match/lineup.php:31
+msgid "Lineup"
+msgstr "Ενδεκάδα"
+
+#: ../templates/single-match/lineup.php:61
+#: ../templates/single-match/lineup.php:123
+msgid "Cards"
+msgstr "Κάρτες"
+
+#: ../templates/single-match/lineup.php:93
+msgid "Subs"
+msgstr "Αλλαγές"
+
+#: ../templates/single-match/report.php:22
+msgid "Match Report"
+msgstr "Ρεπορτάζ Αγώνα"
+
+#: ../templates/single-player/meta.php:25
+msgid "Squad No."
+msgstr "Νο. Φανέλας"

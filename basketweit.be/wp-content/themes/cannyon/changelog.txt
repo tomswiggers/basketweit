@@ -1,0 +1,66 @@
+version 0.0.9 ( December 8, 2015 )
+-------------------------------------------------------
+
+- fixed small css bugs ( blockquote icon )
+- Header Image Size for cropping changed to 9999x960
+- Added option to enable / disable - number of views ( Appearance > Customize > Additional )
+
+version 0.0.8 ( November 12, 2015 )
+-------------------------------------------------------
+
+- fixed small css bugs
+- fixed small js bugs ( parallax header image )
+- fixed grammatical errors
+- prefixed the icons with "mythemes"
+- update fontello icons to latest version
+
+version 0.0.7 ( October 16, 2015 )
+-------------------------------------------------------
+
+- fixed small css bugs
+- fixed small js bugs
+- changed default value to true for Enable Google Fonts Option
+
+version 0.0.6 ( October 6, 2015 )
+-------------------------------------------------------
+
+- fixed bug with header image ( also IE9 )
+- fixed load layout bug WP Customize
+- fixed show / hide header on different templates
+- fixed display top meta for single templates WP Customize
+- fixed small css issues.
+- added First Site custom Color ( menu highlight and other )
+- added Second Site custom Color ( menu collapse button and other )
+- added counter for range input WP Customize
+- added class main-content to content ( small fix for IE )
+- added options enable / disable google fonts ( if disable the fonts will be like in version 0.0.3 )
+
+version 0.0.5 ( September 26, 2015 )
+-------------------------------------------------------
+
+- removed advertising from Appearance > Cannyon FAQ
+- include scripts with version
+
+version 0.0.4 ( September 21, 2015 )
+-------------------------------------------------------
+
+- fixed menu for Small Device
+- fixed css for post thumbnails with caption
+- fixed another's small HTML and CSS issues
+- added color option for Header Headline
+- added color option for Header Description
+- added colors options for Header Buttons
+- added parallax efect for header Image
+- added support for WordPress Header Image
+- block options "Show Header Text"
+- block options "Header Text Color"
+- range panels on WP Customize
+
+version 0.0.3 ( August 18, 2015 )
+-------------------------------------------------------
+
+- added instructions.txt
+- escaped social links from footer.php
+- change mythemes.scripts.class.php line 60 from get_template_directory_uri() to get_stylesheet_directory_uri()
+- fixed CSS for blockquote
+- fixed another's small HTML and CSS issues

@@ -1,0 +1,212 @@
+.btn,
+.button,
+.mythemes-button,
+button,
+input[type="submit"],
+input[type="button"],
+div#comments  p.form-submit input[type="submit"],
+div.widget_newsletter form button[type="submit"],
+.hentry input[type="button"],
+.hentry input[type="submit"],
+.hentry button{
+    background-color: #636363;
+    border: 0px;
+
+    color: rgba( 255, 255, 255, 0.8 );
+
+    font-family: sans-serif, Arial, serif;
+    font-size: 13px;
+
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+
+    line-height: 20px;
+
+    padding: 5px 17px;
+    margin: 0px;
+
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+.mythemes-button{
+    display: inline-block;
+}
+.mythemes-button.small{
+    font-size: 12px;
+
+    color: #ffffff;
+
+    padding: 6px 15px;
+    margin: 0px;
+}
+.mythemes-button.big,
+.mythemes-button.large{
+    font-size: 16px;
+
+    color: #ffffff;
+
+    padding: 10px 25px;
+    margin: 0px;
+}
+
+.mythemes-button.second{
+    background-color: #26ad60;
+}
+.mythemes-button.second:hover{
+    background-color: #00aeef;   
+}
+.btn:hover,
+.button:hover,
+.mythemes-button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+div#comments  p.form-submit input[type="submit"]:hover,
+div.widget_newsletter form button[type="submit"]:hover,
+.hentry input[type="button"]:hover,
+.hentry input[type="submit"]:hover,
+.hentry button:hover{
+    background-color: #424242;
+    color: rgba( 255, 255, 255, 1.0 );
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="phone"],
+input[type="tel"],
+select,
+textarea{
+    background-color: #f3f3f3;
+    border: none;
+    
+    color: #cacaca;
+
+    font-family: Helvetica, Arial, sans-serif, serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+
+    line-height: 19px;
+
+    padding: 5px 8px 6px 8px;
+    margin: 10px 0px;
+
+    width: 100%;
+
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+
+    -webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+       -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+        -ms-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+         -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+select{
+    height: 32px;
+}
+
+button:focus,
+input:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="phone"]:focus,
+select:focus,
+textarea:focus{
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+        -ms-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+
+    outline: 0;
+    outline: none;
+    outline: thin dotted \9;
+    filter: -;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="phone"]:focus,
+select:focus,
+textarea:focus{
+    background-color: #fafafa;
+    color: #333333;
+
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+       -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+        -ms-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+         -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+section.col-lg-12 div.mythemes-page form{
+    background: #ffffff;
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+section.col-lg-12 div.mythemes-page > form:first-child{
+    margin-top: 0px;
+}
+section.col-lg-12 div.mythemes-page > form:last-child{
+    margin-bottom: 0px;
+}
+form p,
+section form p
+article form p{
+    color: #454545;
+}
+
+/* CONTACT FORM 7 */
+div.wpcf7-response-output{
+    border: none;
+
+    padding: 13px 18px;
+    margin: 0px;
+
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+div.wpcf7-response-output.wpcf7-validation-errors{
+    background-color: #fbecb1;
+    color: #d5a042;
+    border: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.wpcf7-response-output.wpcf7-mail-sent-ok{
+    background-color: #e4ffba;
+    color: #92c522;
+}

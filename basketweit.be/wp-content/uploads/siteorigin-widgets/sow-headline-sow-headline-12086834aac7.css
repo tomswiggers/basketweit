@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+.so-widget-sow-headline-sow-headline-12086834aac7 #sow-headline-container.sow-headline h1 {
+  font-family: Open Sans;
+  font-weight: 300;
+  text-align: center;
+  color: #dd3333;
+  line-height: 1.4;
+}
+.so-widget-sow-headline-sow-headline-12086834aac7 #sow-headline-container.sow-headline h3 {
+  font-family: Open Sans;
+  font-weight: 300;
+  text-align: center;
+  color: #3c3c3c;
+  line-height: 1.4;
+}
+.so-widget-sow-headline-sow-headline-12086834aac7 #sow-headline-container.sow-headline .decoration {
+  border-top: thin none #5c5c5c;
+  position: relative;
+  height: 1px;
+  margin: 20px 60px;
+}

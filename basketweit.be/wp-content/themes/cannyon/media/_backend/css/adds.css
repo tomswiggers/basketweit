@@ -1,0 +1,219 @@
+.mythemes-social a.btn{
+    display: block;
+
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+    float: left;
+
+    width: 38px;
+    height: 38px;
+
+    margin-left: 5px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    text-align: center;
+}
+
+.mythemes-social a i,
+.mythemes-social a i:before{
+    color: #ffffff;
+    font-size: 16px;
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.mythemes-social a.facebook{
+    background: #265999;
+    border-bottom: 1px solid #002767;
+    margin-left: 0px;
+}
+.mythemes-social a.gplus{
+    border-bottom: 1px solid #c10000;
+    background: #f32e31;
+}
+.mythemes-social a.twitter{
+    border-bottom: 1px solid #007ebd;
+    background: #00b0ef;
+}
+.mythemes-social a.pinterest{
+    border-bottom: 1px solid #9a0000;
+    background: #ef0021;
+}
+.mythemes-social a.mail{
+    border-bottom: 1px solid #2d6700;
+    background: #5f992f;
+}
+
+.mythemes-headline {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 782px) {
+  .mythemes-headline {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+.mythemes-headline h1 {
+  color: #000000;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 782px) {
+  .mythemes-headline h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+.mythemes-headline p {
+  color: #888888;
+  margin-top: 10px;
+}
+.mythemes-headline span {
+  display: inline-block;
+  background: #ffffff;
+  padding: 10px 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.mythemes-addvertising-wrapper {
+  margin-right: 0px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 782px) {
+  .mythemes-addvertising-wrapper {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+.mythemes-addvertising-wrapper .mythemes-addvertising {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.mythemes-addvertising-wrapper .mythemes-addvertising .mythemes-adds-item {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  width: 25%;
+  max-width: 450px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mythemes-addvertising-wrapper .mythemes-addvertising .mythemes-adds-item .mythemes-adds-content {
+  background: #ffffff;
+
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.mythemes-addvertising-wrapper .mythemes-addvertising .mythemes-adds-item .mythemes-adds-content img {
+  max-width: 100%;
+}
+.mythemes-addvertising-wrapper .mythemes-addvertising .mythemes-adds-item .mythemes-adds-content .mythemes-title {
+  font-family: Roboto, sans-serif, Arial, serif;
+  padding: 8px;
+}
+.mythemes-addvertising-wrapper .mythemes-addvertising .mythemes-adds-item .mythemes-adds-content .mythemes-title span {
+  color: #454545;
+  font-family: Montserrat, sans-serif, Arial, serif;
+  font-weight: bold;
+  float: right;
+}
+@media screen and (max-width: 991px) {
+  .mythemes-addvertising-wrapper .mythemes-addvertising .mythemes-adds-item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mythemes-addvertising-wrapper .mythemes-addvertising .mythemes-adds-item {
+    width: 100%;
+  }
+}
+.mythemes-features-diff-wrapper {
+  margin-right: 0px;
+}
+@media screen and (max-width: 782px) {
+  .mythemes-features-diff-wrapper {
+    margin-right: 10px;
+  }
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-collapse: collapse;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff th {
+  font-family: Montserrat, sans-serif, Arial, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff th small {
+  font-family: Roboto, sans-serif, Arial, serif;
+  font-size: 11px;
+  color: #999999;
+  font-weight: normal;
+  text-transform: none;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff th a small {
+  color: #0074a2;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff th a small:hover {
+  color: #2ea2cc;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff td,
+.mythemes-features-diff-wrapper .mythemes-features-diff th {
+  padding: 8px 15px;
+  border: 1px solid #f0f0f0;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff tr:hover td {
+  background: #f9f9f9;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-free,
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-premium {
+  width: 25%;
+  text-align: center;
+  color: #666666;
+  font-size: 13px;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-free i.mythemes-icon-ok-circle-1,
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-premium i.mythemes-icon-ok-circle-1 {
+  color: #8ac13c;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-free i.mythemes-icon-ok-circle-1:before,
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-premium i.mythemes-icon-ok-circle-1:before {
+  font-size: 14px;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-free i.mythemes-icon-cancel-circled-2,
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-premium i.mythemes-icon-cancel-circled-2 {
+  color: red;
+}
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-free i.mythemes-icon-cancel-circled-2:before,
+.mythemes-features-diff-wrapper .mythemes-features-diff .mythemes-premium i.mythemes-icon-cancel-circled-2:before {
+  font-size: 16px;
+}

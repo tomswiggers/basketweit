@@ -1,0 +1,140 @@
+/*
+Theme Name: Cannyon
+Theme URI: http://mythem.es/item/cannyon-free-wordpress-theme/
+Description: Cannyon is an white, clean, elegant, modern, beautiful and creative freemium WordPress theme built with HTML5 and CSS3. The clean, modern design can be used for any type of website: business, corporate, portfolio, products, creative, arts, design, construction, transport, manufacturing, ecology, cosmetics, beauty, hygiene, sports, culture, presentations, food business, restaurants, drink, bar, pub, club, radio, tv, television, music, movies, live style, garden, cuisine, chemical, pharmaceutical, medicine, travel, sample blog, agriculture, science, politics and more others. Theme comes with nice flat design concept and responsive layout. This theme is suitable for all type of devices: desktop, notebook, iPhone, tablete and others. Responsive design and grid system is based on twitter bootstrap framework. Theme is developed by myThem.es and it comes with nice header parallax effect. We carefully handcrafted this theme with a strong focus on typography, usability and overall user-experience. This beautiful and easy to customize WordPress theme come with live preview changes integrated with wp customize. It’s very quick to setup and easy to customize and it comes with free support. Theme features: custom header, parallax header, header buttons, custom logo, custom favicon, header custom colors, custom background color, custom background image, custom footer, custom copyright, custom social links, custom css, custom layout, left sidebar, right sidebar, full width layout, additional sidebars, custom widgets, support for jetpack plugin, styled contact form 7 plugin. Please read the FAQ: Admin Dashboard > Appearances > Cannyon FAQ.
+Version: 0.0.9
+Tags:  black, silver, light, white, blue, green, three-columns, two-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, flexible-header, featured-images, sticky-post, theme-options, translation-ready, custom-colors, custom-menu, featured-image-header, threaded-comments, custom-background, custom-header
+Text Domain: cannyon
+Author: myThem.es
+Author URI: http://mythem.es/
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+
+    Cannyon, Copyright 2015 myThem.es
+    Cannyon is distributed under the terms of the GNU GPL
+
+
+                     ________________
+                    |_____    _______|
+     ___ ___ ___   __ __  |  |  __       ____   ___ ___ ___       ____   ____ 
+    |   |   |   | |_ |  | |  | |  |___  |  __| |   |   |   |     |  __| |  __|
+    |   |   |   |  | |  | |  | |  __  | |  __| |   |   |   |  _  |  __| |__  |
+    |___|___|___|   |  |  |__| |_ ||_ | |____| |___|___|___| |_| |____| |____|   
+                    |_|
+
+
+                         myThem.es Marketplace provides WordPress themes with
+                                    the best quality and the smallest prices.
+
+
+
+
+*/
+/* ALIGN TEXT */
+.align-none{
+    text-align: none;
+}
+.align-left{
+    text-align: left;
+}
+.align-center{
+    text-align: center;
+}
+.align-justify{
+    text-align: justify;
+}
+.align-right{
+    text-align: right;
+}
+
+/* WORDPRESS */
+.alignleft,
+.alignright{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.alignnone,
+.aligncenter{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.alignleft{
+    float:left;
+    margin-right: 15px;
+}
+.alignright{
+    float:right;
+    margin-left: 15px;
+}
+.aligncenter{
+    clear:both;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.sticky,
+.gallery-caption,
+.screen-reader-text,
+.bypostauthor{}
+
+.wp-caption{
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+       -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.wp-caption,
+.wp-caption p,
+.wp-caption a{
+    font-style: italic;
+}
+.wp-caption,
+.wp-caption p{
+    color: #454545;
+}
+section .wp-caption p,
+section .wp-caption p.wp-caption-text{
+    background: rgba( 100, 100, 100, 0.01 );
+    color: #454545;
+    padding: 10px;
+    margin: 0px;
+}
+section .post-thumbnail .valign-bottom-cell-wrapper{
+    height: auto;
+}
+.single-portfolio .thumbnail-content footer,
+section .post-thumbnail footer{
+    background: rgba( 0,0,0, 0.4 );
+    color: #ffffff;
+    font-style: italic;
+    padding: 10px;
+}
+.wp-caption img{
+    display: block;
+    margin: 0px auto;
+}
+
+.mythemes-round-corners{
+  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+        border-radius: 5px;  
+}
+
+code {
+    background: #e9e9e9;
+    font-size: 12px;
+    padding: 2px 8px;
+  
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+}
+code {
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-weight: 400;
+    color: #333;
+}

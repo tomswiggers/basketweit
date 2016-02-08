@@ -1,0 +1,106 @@
+li.customize-control{
+	padding: 12px 0px;
+}
+li.customize-control input[type="range"],
+li.customize-control select{
+	width: 100%;
+}
+div#customize-theme-controls li#accordion-section-themes{
+	padding-bottom: 20px;
+}
+div#customize-theme-controls li#accordion-section-themes a.mythemes-button{
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 14px;
+
+	text-transform: uppercase;
+}
+div#customize-theme-controls li#accordion-section-themes a.mythemes-button i{
+	margin-right: 15px;
+}
+div#customize-theme-controls li#accordion-section-themes a.mythemes-button small{
+	color: rgba( 255, 255, 255, 0.7 );
+	display: block;
+	font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    letter-spacing: 0.05em;
+}
+#customize-controls span.description.customize-control-description{
+	color: #999999;
+}
+#customize-controls div.thumbnail.thumbnail-image{
+	text-align: center;
+}
+#customize-controls img{
+	max-width: 100%;
+	width: initial;
+}
+
+div.accordion-section-content.description,
+li.customize-section-description-container div.description.customize-section-description{
+	background: #fcfcfc;
+	font-family: "Open Sans", sans-serif, Arial, serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #999999;
+	padding: 8px 12px;
+
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		-ms-border-radius: 3px;
+		 -o-border-radius: 3px;
+			border-radius: 3px;
+
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+		-ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+		 -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+			box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+#customize-theme-controls div.accordion-section-content.description{
+	margin: 10px;
+}
+div.accordion-section-content.description p,
+li.customize-section-description-container div.description.customize-section-description p{
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+}
+div.accordion-section-content.description a,
+li.customize-section-description-container div.description.customize-section-description a{
+  	text-decoration: none;
+}
+
+li.customize-section-description-container div.description.customize-section-description{
+  	border-left: 5px solid #dddddd;
+}
+div.accordion-section-content.description{
+	border-left: 5px solid #8ac13c;
+}
+div.accordion-section-content.description p br + a,
+li.customize-section-description-container div.description.customize-section-description p br + a{
+  	display: block;
+  	margin-top: 8px;
+}
+
+li.customize-control.customize-control-range span.customize-control-title span.mythemes-range-counter{
+	color: #999999;
+	position: relative;
+	float: right;
+	margin-left: 10px;
+}
+li.customize-control.customize-control-range a.hint{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+li.customize-control.customize-control-range span.customize-control-title span.mythemes-range-counter:hover span.hint{
+	display: block;
+}
+
+

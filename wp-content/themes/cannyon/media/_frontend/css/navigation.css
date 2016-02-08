@@ -1,0 +1,108 @@
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li:hover > a,
+div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul > li:hover > a,
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li a:hover,
+div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul > li a:hover{
+    color: #ffffff;
+}
+
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li.current-menu-ancestor > a,
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li.current-menu-item > a {
+    color: #ffffff;
+}
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li:hover > a,
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li a:hover {
+    color: #ffffff;
+}
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-ancestor > a,
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-item > a,
+div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul li ul li.current-menu-item > a,
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-ancestor > a,
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-item > a,
+div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul li ul li.current-menu-item > a {
+color: #ffffff;
+}
+div.mythemes-topper div.mythemes-header-antet button.btn-collapse{
+    color: rgba( 255,255,255 , 1 );
+}
+
+@media ( max-width: 1024px ){
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper ul.mythemes-menu-list li.menu-item-has-children span.menu-arrow:before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper div.mythemes-menu-list > ul li.menu-item-has-children span.menu-arrow:before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper ul.mythemes-menu-list li.menu-item-has-children span.menu-arrow::before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper div.mythemes-menu-list > ul li.menu-item-has-children span.menu-arrow::before{
+        color: rgba( 255,255,255 , 0.65 );
+    }
+
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper ul.mythemes-menu-list li.menu-item-has-children.collapsed > span.menu-arrow:before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper div.mythemes-menu-list > ul li.menu-item-has-children.collapsed > span.menu-arrow:before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper ul.mythemes-menu-list li.menu-item-has-children.collapsed > span.menu-arrow::before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper div.mythemes-menu-list > ul li.menu-item-has-children.collapsed > span.menu-arrow::before{
+        color: rgba( 255,255,255 , 0.85 );
+    }
+
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper ul.mythemes-menu-list li.menu-item-has-children:hover > span.menu-arrow:before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper div.mythemes-menu-list > ul li.menu-item-has-children:hover > span.menu-arrow:before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper ul.mythemes-menu-list li.menu-item-has-children:hover > span.menu-arrow::before,
+    div.mythemes-topper nav.header-menu div.menu-list-pre-wrapper div.menu-list-wrapper div.mythemes-menu-list > ul li.menu-item-has-children:hover > span.menu-arrow::before{
+        color: rgba( 255,255,255 , 1 );
+    }
+}
+
+
+.mythemes-navigation ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+.mythemes-navigation ul li {
+  font-size: 13px;
+  display: inline-block;
+}
+ul.mythemes-navigation {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+ul.mythemes-navigation li {
+  font-size: 13px;
+  display: inline-block;
+}
+ul.mythemes-navigation ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+ul.mythemes-navigation ul li {
+  font-size: 13px;
+  display: inline-block;
+}
+
+div.mythemes-topper nav.header-menu ul.mythemes-menu-list li a {
+    font-family: sans-serif, Arial, serif;
+}
+@media ( min-width: 1025px ) {
+    div.mythemes-topper nav.header-menu ul.mythemes-menu-list ul li,
+    div.mythemes-topper nav.header-menu ul.mythemes-menu-list ul li a {
+        font-family: sans-serif, Arial, serif;
+    }
+}
+
+/* SHOW LISTS IN LINE */
+nav.mythemes-nav-inline div > ul,
+nav.mythemes-nav-inline > ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav.mythemes-nav-inline div > ul > li,
+nav.mythemes-nav-inline > ul > li{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}

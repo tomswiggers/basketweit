@@ -1,0 +1,359 @@
+.clear,
+.clearfix {
+  clear: both;
+}
+.mythemes-align-vertical {
+  display: table;
+  valign: middle;
+  vertical-align: central;
+  vertical-align: middle;
+  text-align: center;
+  /* align center */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* GENERAL FOR COLUMNS */
+[class^="mythemes-col-"] {
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* COLUMNS SIZES */
+.mythemes-col-3 {
+  width: 25%;
+}
+.mythemes-col-4 {
+  width: 33.33333333%;
+}
+.mythemes-col-5 {
+  width: 41.66666666%;
+}
+.mythemes-col-6 {
+  width: 50%;
+}
+.mythemes-col-7 {
+  width: 58.33333333%;
+}
+.mythemes-col-8 {
+  width: 66.66666666%;
+}
+.mythemes-col-9 {
+  width: 75%;
+}
+/* NAVIGATION, MENU, LISTS */
+nav.mythemes-nav {
+  font-size: 0px;
+  line-height: 0px;
+}
+nav.mythemes-nav ul.mythemes-inline {
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+nav.mythemes-nav ul.mythemes-inline li {
+  display: inline-block;
+  margin: 0px;
+}
+/* PANEL OPTIONS */
+.mythemes-admin-page {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 782px) {
+  .mythemes-admin-page {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+.mythemes-admin-page .mythemes-panel-header {
+  min-height: 65px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-topper {
+  background-color: #047fe3;
+  min-height: 4px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle {
+  background-color: #232323;
+  min-height: 30px;
+  padding: 8px 0px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle [class^="mythemes-col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle h1.mythemes-brand {
+  font-family: Montserrat, sans-serif, Arial, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle h1.mythemes-brand a {
+  color: #ffffff;
+  display: block;
+  padding: 3px 0px;
+  text-decoration: none;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav {
+  text-align: right;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list {
+  display: inline-block;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list li {
+  font-family: Roboto, sans-serif, Arial, serif;
+  font-size: 12px;
+  font-weight: 400;
+  float: left;
+  line-height: 30px;
+  margin: 0px 8px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list li a {
+  color: #7c7c7c;
+  text-decoration: none;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list li a:hover {
+  color: #999999;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special {
+  margin-left: 19px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special li {
+  background-color: #333333;
+  padding: 0px 15px;
+  margin-left: 1px;
+  margin-right: 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special li a {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special li a:hover {
+  color: #ffffff;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special.mythemes-free-theme li:first-child {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special.mythemes-free-theme li:last-child {
+  background-color: #047fe3;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special.mythemes-free-theme li:first-child:last-child {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special.mythemes-free-theme li a i {
+  float: left;
+  margin-right: 7px;
+  margin-top: 2px;
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special.mythemes-free-theme li a i:before {
+  font-size: 130%;
+  line-height: 16px;
+}
+@media screen and (max-width: 480px) {
+  .mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special.mythemes-free-theme li a i {
+    margin-right: 0px;
+  }
+  .mythemes-admin-page .mythemes-panel-header .mythemes-middle nav.mythemes-nav ul.mythemes-list.special.mythemes-free-theme li a span {
+    display: none;
+  }
+}
+.mythemes-admin-page .mythemes-panel-header .mythemes-poor {
+  background-color: #333333;
+  min-height: 15px;
+}
+.mythemes-admin-page .mythemes-blank {
+  text-align: right;
+  padding: 11px 15px;
+}
+.mythemes-admin-page .mythemes-blank .mythemes-author-description {
+  color: #888888;
+  font-size: 12px;
+  line-height: 18px;
+  float: left;
+}
+.mythemes-admin-page .mythemes-blank a {
+  font-family: "Open Sans", sans-serif, Arial, serif;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #454545;
+  text-decoration: none;
+}
+.mythemes-admin-page .mythemes-blank a:hover {
+  color: #000000;
+}
+.mythemes-admin-page .mythemes-blank a strong {
+  font-weight: 600;
+}
+@media screen and (max-width: 992px) {
+  .mythemes-admin-page .mythemes-blank .mythemes-author-description {
+    float: none;
+    display: block;
+    margin: 8px 0px 15px 0px;
+    text-align: left;
+  }
+  .mythemes-admin-page .mythemes-blank a {
+    float: none;
+    display: block;
+    margin: 15px 0px 8px 0px;
+    text-align: left;
+  }
+}
+.mythemes-admin-page .mythemes-content {
+  background-color: #ffffff;
+  padding: 12px 20px 25px 20px;
+  margin-bottom: 30px;
+
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.mythemes-admin-page .mythemes-content p + br{
+  margin: 0px;
+  padding: 0px;
+  size: 0px;
+  height: 0px;
+  line-height: 0px;
+}
+.mythemes-admin-page .mythemes-content br + p{
+    margin-top: 0px;
+}
+@media screen and (max-width: 782px) {
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-col-3,
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-col-4,
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-col-5,
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-col-6,
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-col-7,
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-col-8,
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-col-9 {
+    width: 100%;
+  }
+  .mythemes-admin-page .mythemes-panel-wrapper .mythemes-content {
+    padding: 20px 0px 25px 0px;
+  }
+}
+.mythemes-admin-page .mythemes-footer {
+  border-top: 1px solid #e3e3e3;
+  padding-top: 25px;
+  margin: 15px 15px 0px 15px;
+  text-align: right;
+}
+@media (max-width: 480px) {
+  .mythemes-admin-page .mythemes-footer a.mythemes-button.mythemes-reset-options,
+  .mythemes-admin-page .mythemes-footer input[type="submit"] {
+    width: 100%;
+    margin: 12px 0px 12px 0px;
+    text-align: center;
+  }
+}
+/* ALERT */
+div.mythemes-flat-alert {
+  background: #fcfcfc;
+  font-family: "Open Sans", sans-serif, Arial, serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+  padding: 10px 20px;
+  margin: 20px 0px 40px 0px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+div.mythemes-flat-alert.mythemes-panel-update,
+div.mythemes-flat-alert.mythemes-panel-reset {
+  margin: 0px 0px 15px 0px;
+}
+div.mythemes-flat-alert strong {
+  color: #333333;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+div.mythemes-flat-alert p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div.mythemes-flat-alert strong + p {
+  margin-bottom: 8px;
+}
+div.mythemes-flat-alert a {
+  text-decoration: none;
+}
+div.mythemes-flat-alert.notify {
+  border-left: 5px solid #dddddd;
+}
+div.mythemes-flat-alert.success {
+  border-left: 5px solid #8ac13c;
+}
+div.mythemes-flat-alert.wrong {
+  border-left: 5px solid #ea9431;
+}
+div.mythemes-flat-alert.error {
+  border-left: 5px solid #d32c2c;
+}
+.inside > div.mythemes-flat-alert:last-child {
+  margin-bottom: 10px;
+}
+.inside > div.mythemes-flat-alert p br + a {
+  display: block;
+  margin-top: 8px;
+}

@@ -1,0 +1,14 @@
+/* ADMIN PANEL BOX */
+.mythemes-box .mythemes-box-header {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 25px;
+}
+.mythemes-box .mythemes-box-header h3 {
+  color: #232323;
+  font-family: Montserrat, sans-serif, Arial, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px 0px 10px 3px;
+  padding: 0px;
+}

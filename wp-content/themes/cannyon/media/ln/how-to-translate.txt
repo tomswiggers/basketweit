@@ -1,0 +1,29 @@
+Firstly you'll need a tool allowing you to translate .po file into your language.
+
+You can use Poedit app, or CodeStyling  WordPress Plugin.
+http://www.poedit.net/
+http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en
+
+After you unzip the archive cannyon.zip  you must have folder "cannyon" with theme files.
+
+After this go to cannyon/media/languages/ here you can see file en_US.po. Now here create new file,
+
+for example fr_FR.po and copy content from en_US.po to fr_FR.po ( to copy content use sample text editor ).
+
+After open fr_FR.po ( using poeditor ) and start translating each word to your language.
+
+After you finished, click button "Save Catalog", and it will create a new .mo file in the same folder.
+
+Then you'll need to open wp-config.php file from the root folder of your WordPress install, and replace this line:
+
+define ('WPLANG', '');
+
+with something like:
+
+define ('WPLANG', 'fr_FR');
+
+Then make sure that .mo file from cannyon/media/ln/ folder of our theme has the same name as your language code: "fr_FR.mo"
+
+IMPORTANT: Is need by one .po file for each language, in case you want to use plugin mqTranslate to enable more languages.
+
+More information you can find here: http://www.catswhocode.com/blog/how-to-make-a-translatable-wordpress-theme

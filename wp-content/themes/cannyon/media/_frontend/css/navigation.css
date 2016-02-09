@@ -2,16 +2,20 @@ div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li:hover > a,
 div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul > li:hover > a,
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li a:hover,
 div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul > li a:hover{
-    color: #ffffff;
+    color: #104772;
+    border-bottom: 5px solid #104772;
 }
 
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li.current-menu-ancestor > a,
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list > li.current-menu-item > a {
-    color: #ffffff;
+    color: #104772;
+    border-bottom: 5px solid #104772;
+    
 }
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li:hover > a,
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li a:hover {
-    color: #ffffff;
+    color: #104772;
+    
 }
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-ancestor > a,
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-item > a,
@@ -19,7 +23,9 @@ div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul li ul li.current
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-ancestor > a,
 div.mythemes-topper nav.header-menu ul.mythemes-menu-list li ul li.current-menu-item > a,
 div.mythemes-topper nav.header-menu div.mythemes-menu-list > ul li ul li.current-menu-item > a {
-color: #ffffff;
+    color:#104772;
+    border-bottom: 10px solid #104772;
+    padding-bottom: 25px;
 }
 div.mythemes-topper div.mythemes-header-antet button.btn-collapse{
     color: rgba( 255,255,255 , 1 );

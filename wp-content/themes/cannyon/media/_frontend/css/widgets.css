@@ -29,10 +29,8 @@ aside.mythemes-sidebar div.widget{
             border-radius: 5px;
 }
 div.widget h4.widget-title{
-    background-color: #fafafa;
-
-    color: #121212;
-
+    background-color: #104772;
+    color: #fff;
     font-family: sans-serif, Arial, serif;
     font-size: 14px;
     font-style: normal;

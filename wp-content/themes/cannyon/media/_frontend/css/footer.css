@@ -1,5 +1,5 @@
 footer{
-    background-color: #1b1f23;
+    background-color: #104772;
 }
 footer aside{
     padding: 40px 0px;
@@ -21,10 +21,11 @@ footer div.mythemes-dark-mask{
 
 footer div.mythemes-copyright{
     border-top: 1px solid rgba( 255, 255, 255, 0.02 );
+    background: #092942;
 }
 
 footer .mythemes-copyright p{
-    color: #49555e;
+    color: #fff;
 
     font-family: sans-serif, Arial, serif;
     font-size: 13px;
@@ -36,11 +37,11 @@ footer .mythemes-copyright p{
     text-align: center;
 }
 footer .mythemes-copyright a{
-    color: #f7faff;
+    color: #fff;
 }
 footer .mythemes-copyright a:hover{
-    color: #ffffff;
-    text-decoration: underline;
+    color: #0273BF;
+    font-weight: bold;
 }
 
 footer .mythemes-copyright a.mythemes{
